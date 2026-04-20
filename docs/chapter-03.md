@@ -56,7 +56,7 @@
 | US40 (T) | Rate Limiting | As an admin, I want to implement API request limits, so that I can protect the server from abuse or external attacks. | Given an IP exceeds the request limit, when the threshold is met, then the system temporarily blocks access. | E4 |
 
 ## 3.2. Impact Mapping
-
+<img src="../assets/Impact_mapping.png" alt="Impact Mapping Picture" width="5000"/>
 ---
 
 ## 3.3. Product Backlog
