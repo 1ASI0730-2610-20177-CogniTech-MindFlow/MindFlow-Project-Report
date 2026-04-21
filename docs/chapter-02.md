@@ -1,13 +1,162 @@
 ﻿
 # Capítulo II: Requirements Elicitation & Analysis
-El presente capítulo tiene como objetivo identificar y analizar los requerimientos del sistema MindFlow mediante un enfoque centrado en el usuario. Para ello, se emplean técnicas como el análisis competitivo, entrevistas y needfinding, las cuales permiten comprender las necesidades reales de los usuarios en relación con la gestión del estrés, la ansiedad y los hábitos de bienestar. A través de este proceso, se busca obtener información clave que permita validar los supuestos del proyecto y definir funcionalidades alineadas con el contexto y expectativas del público objetivo. De este modo, se asegura que la solución propuesta sea relevante, diferenciada y orientada a generar valor real en la experiencia del usuario.
+El presente capítulo tiene como objetivo identificar y analizar los requerimientos del sistema MindFlow mediante un enfoque centrado en el usuario. Para ello, se emplean técnicas como el análisis competitivo, entrevistas y needfinding, las cuales permiten comprender las necesidades reales de los usuarios en relación con la gestión del estrés, la ansiedad y los hábitos de bienestar.
+
+A través de este proceso, se busca obtener información clave que permita validar los supuestos del proyecto y definir funcionalidades alineadas con el contexto y expectativas del público objetivo. De este modo, se asegura que la solución propuesta sea relevante, diferenciada y orientada a generar valor real en la experiencia del usuario.
+
 ---
 
 ## 2.1. Competidores
 
+En el contexto actual del mercado digital de bienestar, existen diversas aplicaciones que abordan la gestión emocional y el desarrollo de hábitos desde distintos enfoques. A continuación, se presentan los principales competidores de MindFlow, considerando su propuesta de valor y alcance funcional:
+
+- Daylio: Aplicación enfocada en el registro diario del estado de ánimo mediante interfaces simples y estadísticas visuales. Su principal fortaleza radica en su facilidad de uso, aunque carece de retroalimentación inteligente o análisis profundo.
+
+- Reflectly: Plataforma de journaling digital que utiliza inteligencia artificial básica para guiar reflexiones personales. Destaca por su experiencia de usuario, pero su nivel de personalización es limitado.
+
+- Habitica: Aplicación de seguimiento de hábitos con un enfoque gamificado que incentiva la constancia mediante recompensas. Sin embargo, no considera el estado emocional del usuario en sus recomendaciones.
+
+Estas soluciones representan enfoques parciales del problema, lo que evidencia una oportunidad para MindFlow de integrar análisis emocional, personalización dinámica y acompañamiento en tiempo real.
+
 ---
 
 ### 2.1.1. Análisis competitivo
+
+## 2.1. Competidores y 2.1.1. Análisis competitivo
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th colspan="7">Competitive Analysis Landscape</th>
+  </tr>
+
+  <tr>
+    <td colspan="2" rowspan="2"><b>¿Por qué llevar a cabo este análisis?</b></td>
+    <td colspan="5">
+      Identificar las fortalezas, debilidades y oportunidades de las aplicaciones actuales de bienestar digital, con el fin de comprender el posicionamiento de MindFlow dentro del mercado.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="5">
+      Comparar funcionalidades, estrategias y propuestas de valor para validar el uso de inteligencia artificial como elemento diferenciador en la gestión emocional y de hábitos.
+    </td>
+  </tr>
+
+   <tr>
+    <td colspan="3"></td>
+    <td align="center">
+      <b>MindFlow</b><br>
+      <img src="../assets/MindFlow_logo.png" alt="MindFlow" height="80">
+    </td>
+    <td align="center">
+      <b>Daylio</b><br>
+      <img src="../assets/Daylio.png" alt="Daylio" height="80">
+    </td>
+    <td align="center">
+      <b>Reflectly</b><br>
+      <img src="../assets/Reflectly.png" alt="Reflectly" height="80">
+    </td>
+    <td align="center">
+      <b>Habitica</b><br>
+      <img src="../assets/Habitica.png" alt="Habitica" height="80">
+    </td>
+  </tr>
+
+  <tr>
+    <td rowspan="2"><b>Perfil</b></td>
+    <td colspan="2">Overview</td>
+    <td>Plataforma de salud mental con IA que integra diario emocional, análisis de sentimiento y hábitos dinámicos.</td>
+    <td>Aplicación de registro de emociones con estadísticas simples.</td>
+    <td>Diario digital guiado con inteligencia artificial básica.</td>
+    <td>Aplicación de hábitos basada en gamificación.</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+    <td>Personalización en tiempo real y acompañamiento emocional inteligente basado en IA.</td>
+    <td>Facilidad de uso y rapidez en el registro de emociones.</td>
+    <td>Experiencia de usuario atractiva enfocada en la reflexión personal.</td>
+    <td>Motivación mediante recompensas y mecánicas de juego.</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2"><b>Perfil de Marketing</b></td>
+    <td colspan="2">Mercado objetivo</td>
+    <td>Jóvenes (18–35) con estrés académico o laboral.</td>
+    <td>Público general.</td>
+    <td>Usuarios interesados en journaling y bienestar.</td>
+    <td>Personas orientadas a productividad.</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Estrategias de marketing</td>
+    <td>Modelo freemium, contenido educativo y crecimiento en redes sociales.</td>
+    <td>Posicionamiento como app simple y accesible.</td>
+    <td>Enfoque en diseño emocional y experiencia visual.</td>
+    <td>Gamificación y comunidad activa.</td>
+  </tr>
+
+  <tr>
+    <td rowspan="3"><b>Perfil de Producto</b></td>
+    <td colspan="2">Productos & Servicios</td>
+    <td>Diario emocional IA, hábitos adaptativos, intervenciones inteligentes.</td>
+    <td>Registro de estado de ánimo.</td>
+    <td>Diario guiado.</td>
+    <td>Seguimiento de hábitos.</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Precios & Costos</td>
+    <td>Freemium + funciones premium.</td>
+    <td>Freemium.</td>
+    <td>Suscripción premium.</td>
+    <td>Freemium con compras opcionales.</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Canales de distribución (Web y/o Móvil)</td>
+    <td>Web y aplicación móvil.</td>
+    <td>Aplicación móvil.</td>
+    <td>Aplicación móvil.</td>
+    <td>Web y aplicación móvil.</td>
+  </tr>
+
+  <tr>
+    <td rowspan="5"><b>Análisis SWOT</b></td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Fortalezas</td>
+    <td>IA emocional, personalización dinámica, enfoque integral.</td>
+    <td>Simplicidad y rapidez.</td>
+    <td>Diseño atractivo.</td>
+    <td>Gamificación efectiva.</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Debilidades</td>
+    <td>Dependencia tecnológica, necesidad de generar confianza.</td>
+    <td>Sin inteligencia ni personalización.</td>
+    <td>IA limitada.</td>
+    <td>No aborda salud emocional.</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Oportunidades</td>
+    <td>Crecimiento del mercado de salud mental digital.</td>
+    <td>Usuarios nuevos.</td>
+    <td>Expansión del journaling.</td>
+    <td>Crecimiento del mercado de productividad.</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Amenazas</td>
+    <td>Competidores consolidados y preocupaciones por privacidad.</td>
+    <td>Apps más avanzadas.</td>
+    <td>Competencia con mayor innovación.</td>
+    <td>Integración de funciones en apps más completas.</td>
+  </tr>
+
+</table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
