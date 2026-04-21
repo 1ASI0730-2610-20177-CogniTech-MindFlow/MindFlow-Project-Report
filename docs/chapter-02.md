@@ -160,6 +160,51 @@ Estas soluciones representan enfoques parciales del problema, lo que evidencia u
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+A partir del análisis competitivo y del análisis SWOT realizado, se definen estrategias y tácticas preliminares que permitirán a MindFlow afrontar las fortalezas de sus competidores, aprovechar sus debilidades y capitalizar las oportunidades del entorno, mitigando a su vez las amenazas del mercado.
+
+#### Estrategias
+
+- **Estrategia de diferenciación frente a fortalezas de competidores:**
+  Mientras aplicaciones como Daylio destacan por su simplicidad y Habitica por su gamificación, MindFlow propone una diferenciación basada en inteligencia artificial, integrando análisis emocional y personalización dinámica, lo cual permite ofrecer una experiencia más profunda y significativa.
+
+- **Estrategia de aprovechamiento de debilidades del mercado:**
+  Se identificó que los competidores carecen de retroalimentación en tiempo real y adaptación al estado emocional. MindFlow capitaliza esta debilidad mediante un sistema que responde activamente al usuario, incrementando la retención.
+
+- **Estrategia de explotación de oportunidades:**
+  El crecimiento del mercado de salud mental digital y la aceptación de soluciones basadas en IA representan una oportunidad clave. MindFlow se posiciona como una solución innovadora alineada con estas tendencias.
+
+- **Estrategia de mitigación de amenazas:**
+  Frente a la presencia de competidores consolidados, se prioriza la innovación continua, la experiencia de usuario y la generación de confianza mediante políticas de privacidad y transparencia en el uso de datos.
+
+---
+
+#### Tácticas
+
+- **Frente a fortalezas de competidores:**
+  - Diseñar una interfaz simple e intuitiva similar a Daylio, pero con mayor valor agregado.
+  - Incorporar elementos motivacionales (inspirados en gamificación) sin perder el enfoque emocional.
+
+- **Frente a debilidades de competidores:**
+  - Implementar retroalimentación empática en tiempo real mediante IA.
+  - Desarrollar un sistema de hábitos adaptativos basado en el estado emocional del usuario.
+
+- **Frente a oportunidades del entorno:**
+  - Crear contenido educativo sobre salud mental en redes sociales.
+  - Promover el uso de la app en comunidades universitarias y profesionales jóvenes.
+
+- **Frente a amenazas del mercado:**
+  - Garantizar la seguridad y privacidad de los datos mediante encriptación.
+  - Diferenciar la propuesta mediante innovación constante en funcionalidades.
+  - Generar confianza comunicando claramente que la app no reemplaza terapia profesional.
+
+---
+
+#### Enfoque estratégico
+
+MindFlow adopta una estrategia de diferenciación centrada en la innovación tecnológica y la experiencia del usuario. A diferencia de los competidores que abordan el problema de manera fragmentada, la plataforma integra múltiples funcionalidades en un sistema adaptativo, lo que le permite posicionarse como una solución más completa, inteligente y alineada con las necesidades actuales del usuario.
+
+---
+
 ## 2.2. Entrevistas
 
 ---
