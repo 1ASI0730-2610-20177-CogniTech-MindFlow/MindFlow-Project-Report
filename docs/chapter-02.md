@@ -500,6 +500,12 @@ Los datos evidencian que el problema ocurre varias veces al día, lo que requier
 
 ### 2.3.3. User Journey Mapping
 
+#### Segmento Estudiantes Universitarios:
+  <img src="../assets/User Journey Mapping1.png" alt="MindFlow" height="auto">
+  
+#### Segmento Profesionales jóvenes:
+  <img src="../assets/User Journey Mapping2.png" alt="MindFlow" height="auto">
+
 ### 2.3.4. Empathy Mapping
 
 ## 2.4. Big Picture EventStorming
