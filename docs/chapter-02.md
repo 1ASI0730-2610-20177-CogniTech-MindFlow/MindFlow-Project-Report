@@ -22,8 +22,6 @@ Estas soluciones representan enfoques parciales del problema, lo que evidencia u
 
 ### 2.1.1. Análisis competitivo
 
-## 2.1. Competidores y 2.1.1. Análisis competitivo
-
 <table border="1" cellspacing="0" cellpadding="5">
   <tr>
     <th colspan="7">Competitive Analysis Landscape</th>
@@ -176,8 +174,6 @@ A partir del análisis competitivo y del análisis SWOT realizado, se definen es
 - **Estrategia de mitigación de amenazas:**
   Frente a la presencia de competidores consolidados, se prioriza la innovación continua, la experiencia de usuario y la generación de confianza mediante políticas de privacidad y transparencia en el uso de datos.
 
----
-
 #### Tácticas
 
 - **Frente a fortalezas de competidores:**
@@ -197,7 +193,6 @@ A partir del análisis competitivo y del análisis SWOT realizado, se definen es
   - Diferenciar la propuesta mediante innovación constante en funcionalidades.
   - Generar confianza comunicando claramente que la app no reemplaza terapia profesional.
 
----
 
 #### Enfoque estratégico
 
@@ -207,13 +202,211 @@ MindFlow adopta una estrategia de diferenciación centrada en la innovación tec
 
 ## 2.2. Entrevistas
 
----
+La presente sección aborda la recolección de información cualitativa mediante entrevistas aplicadas a usuarios representativos de los segmentos objetivo definidos para MindFlow. Estas entrevistas tienen como propósito identificar patrones de comportamiento, necesidades emocionales, frustraciones y expectativas relacionadas con la gestión del estrés, la ansiedad y los hábitos de bienestar.
+
+La información obtenida permitirá validar los supuestos planteados en el proyecto y servirá como base para el diseño de una solución centrada en el usuario.
+
 
 ### 2.2.1. Diseño de entrevistas
+
+Se han diseñado dos bloques de preguntas dirigidos a los principales segmentos objetivo: estudiantes universitarios y profesionales jóvenes. Las preguntas han sido estructuradas para recopilar información cualitativa relevante en torno a aspectos demográficos, hábitos digitales, gestión del estrés y percepción sobre el uso de herramientas tecnológicas para el bienestar emocional.
+
+Asimismo, se incluyen preguntas complementarias orientadas a la construcción de arquetipos de usuario (User Personas), considerando variables demográficas, psicográficas y de comportamiento digital.
+
+---
+
+A. Entrevistas a Segmento 1: Estudiantes Universitarios (18–25 años)
+
+Objetivo: Comprender cómo los estudiantes gestionan su estrés académico, qué herramientas utilizan actualmente y cuáles son sus principales dificultades para mantener hábitos de bienestar.
+
+**Preguntas principales:**
+
+- ¿Podrías contarnos un poco sobre ti? (edad, carrera, ciclo, ciudad, etc.)
+- ¿Cómo describirías tu nivel de estrés durante el ciclo académico?
+- ¿En qué momentos sueles sentir más ansiedad o presión?
+- ¿Qué haces actualmente para manejar el estrés o la ansiedad?
+- ¿Has utilizado alguna aplicación para registrar tus emociones o hábitos?
+- ¿Qué dificultades tienes para mantener hábitos saludables?
+- ¿Qué tan cómodo(a) te sientes usando apps para tu bienestar?
+- ¿Con qué dispositivos accedes más a aplicaciones? (móvil, laptop, etc.)
+- ¿Qué aplicaciones usas con mayor frecuencia en tu día a día?
+- ¿Qué redes sociales utilizas más?
+- ¿Cuáles son tus principales objetivos personales o académicos?
+- ¿Qué situaciones te generan mayor frustración actualmente?
+- ¿Cómo describirías tu personalidad? (organizado, impulsivo, etc.)
+- ¿Sueles seguir recomendaciones de influencers o contenido sobre bienestar?
+
+---
+
+B. Entrevistas a Segmento 2: Profesionales Jóvenes (26–35 años)
+
+Objetivo: Identificar los retos relacionados con el estrés laboral, la gestión del tiempo y la adopción de herramientas digitales para el bienestar personal.
+
+**Preguntas principales:**
+
+- ¿Podrías contarnos un poco sobre ti? (edad, profesión, tipo de trabajo, etc.)
+- ¿Cómo describirías tu nivel de estrés laboral?
+- ¿Qué situaciones te generan mayor agotamiento?
+- ¿Qué haces actualmente para reducir el estrés?
+- ¿Has utilizado apps de productividad o bienestar?
+- ¿Qué dificultades tienes para equilibrar trabajo y vida personal?
+- ¿Qué dispositivos utilizas con mayor frecuencia?
+- ¿Qué herramientas digitales usas para organizar tu día?
+- ¿Qué canales digitales utilizas con mayor frecuencia?
+- ¿Cuáles son tus principales objetivos profesionales y personales?
+- ¿Qué factores te generan mayor frustración en tu rutina?
+- ¿Qué valoras más en una aplicación digital?
+- ¿Qué te generaría confianza o desconfianza al usar una app de salud mental?
+
+---
 
 ### 2.2.2. Registro de entrevistas
 
 ### 2.2.3. Análisis de entrevistas
+
+A partir de las entrevistas realizadas a los dos segmentos objetivo, se identificaron patrones de comportamiento, necesidades y frustraciones diferenciadas. Este análisis permite validar los supuestos planteados y orientar el diseño de la solución.
+
+---
+
+### Segmento 1: Estudiantes Universitarios (18–25 años)
+
+**Entrevistados:** Jiss, Lucero, Jimena  
+
+#### Nivel de estrés y comportamiento
+
+- Nivel promedio: 6–7/10  
+- Picos en evaluaciones: 8–9/10  
+
+El estrés en este segmento es situacional, asociado principalmente a exámenes, carga académica y dificultad en cursos.
+
+#### Patrones de comportamiento
+
+1. **Procrastinación como respuesta al estrés**
+   - Uso de redes sociales como mecanismo de escape  
+   - Incremento del estrés posterior por acumulación de tareas  
+
+   > “Me distraigo… pero después me estreso más.” (Jiss)  
+   > “Me bloqueo… y termino dejando todo.” (Jimena)
+
+2. **Baja adherencia a hábitos**
+   - Intentos de organización que no se sostienen en el tiempo  
+   - Uso de apps limitado a corto plazo  
+
+   > “He probado apps… pero las dejo rápido.” (Jimena)
+
+3. **Rechazo a esfuerzo adicional**
+   - Baja disposición a escribir o registrar emociones  
+   - Percepción de apps como una tarea extra  
+
+   > “No usaría una app si tengo que escribir mucho.” (Jiss)
+
+4. **Búsqueda de guía**
+   - Necesidad de orientación clara ante situaciones de estrés  
+
+   > “Que me diga qué hacer en ese momento.” (Jiss)
+
+#### Frustraciones principales
+
+- Aplicaciones centradas solo en registro  
+- Falta de retroalimentación útil  
+- Experiencias repetitivas  
+
+> “Era como hablar sola.” (Jimena)  
+> “Siempre era lo mismo.” (Lucero)
+
+#### Necesidades clave
+
+- Interacción simple y rápida  
+- Bajo esfuerzo cognitivo  
+- Recomendaciones claras  
+- Apoyo en momentos críticos  
+
+#### Insight del segmento
+
+Los estudiantes requieren una herramienta que intervenga en momentos de bloqueo emocional, ofreciendo guía inmediata sin aumentar la carga cognitiva.
+
+---
+
+### Segmento 2: Profesionales Jóvenes (26–35 años)
+
+**Entrevistados:** Alexandra, Luciana, Nordie  
+
+#### Nivel de estrés y comportamiento
+
+- Nivel promedio: 8/10  
+- Picos: 9/10  
+- Presencia de estrés constante en algunos casos  
+
+El estrés es continuo y está vinculado a presión laboral, responsabilidad y cumplimiento de objetivos.
+
+#### Patrones de comportamiento
+
+1. **Fatiga mental**
+   - Reducción de energía al final del día  
+   - Dificultad para sostener hábitos  
+
+   > “No tengo energía para seguir una rutina.” (Alexandra)
+
+2. **Rechazo a pérdida de tiempo**
+   - Evaluación constante del valor de las aplicaciones  
+   - Abandono rápido si no generan impacto  
+
+   > “Las apps me quitaban tiempo.” (Alexandra)
+
+3. **Necesidad de personalización**
+   - Contextos variables que requieren adaptación  
+
+   > “Si no se adapta a mí, la dejo.” (Luciana)
+
+4. **Orientación a resultados**
+   - Búsqueda de soluciones prácticas y eficientes  
+
+   > “Necesito soluciones prácticas.” (Alexandra)
+
+5. **Burnout y automatización**
+   - Rechazo a cualquier esfuerzo adicional en estados de agotamiento  
+
+   > “Cuando ya estás agotada, no quieres hacer más cosas.” (Nordie)  
+   > “Necesito algo que me dé soluciones sin tener que pensar mucho.” (Nordie)
+
+#### Frustraciones principales
+
+- Aplicaciones genéricas  
+- Falta de personalización  
+- Falta de resultados inmediatos  
+
+> “Las apps no se adaptan a tu ritmo.” (Luciana)  
+> “Son muy genéricas.” (Nordie)
+
+#### Necesidades clave
+
+- Personalización en tiempo real  
+- Interacción de bajo esfuerzo  
+- Recomendaciones prácticas  
+- Valor inmediato  
+
+#### Insight del segmento
+
+Los profesionales requieren soluciones que optimicen su bienestar sin demandar tiempo ni esfuerzo adicional, integrándose de forma eficiente en su rutina.
+
+---
+
+### Comparación entre segmentos
+
+| Factor | Estudiantes | Profesionales |
+|--------|------------|--------------|
+| Tipo de estrés | Situacional | Crónico |
+| Nivel promedio | 6–7 | 8–9 |
+| Problema principal | Procrastinación | Fatiga mental |
+| Barrera | Falta de disciplina | Falta de tiempo |
+| Rechazo | Esfuerzo cognitivo | Pérdida de tiempo |
+| Necesidad clave | Guía | Eficiencia |
+
+---
+
+### Insight estratégico general
+
+Ambos segmentos coinciden en que las soluciones actuales fallan por ser pasivas, genéricas y demandar demasiado esfuerzo. Esto evidencia la oportunidad de desarrollar una plataforma que proporcione respuestas en tiempo real, minimice el esfuerzo del usuario y ofrezca recomendaciones personalizadas con impacto inmediato.
 
 ## 2.3. Needfinding
 
