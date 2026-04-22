@@ -432,8 +432,71 @@ El proceso de needfinding evidencia que los usuarios no solo buscan registrar su
 #### Segmento Profesionales jóvenes:
   <img src="../assets/User Persona2.png" alt="MindFlow" height="auto">
 
-
 ### 2.3.2. User Task Matrix
+
+En esta sección se presenta la matriz de tareas de usuario (User Task Matrix), construida a partir de los User Personas definidos: **Jimena** (estudiante universitaria) y **Nordie** (profesional joven).  
+
+La matriz identifica las tareas que ambos segmentos realizan para gestionar su bienestar emocional y productividad en su día a día, independientemente de la existencia de una solución tecnológica.  
+
+Cada tarea se evalúa en función de:  
+- **Frecuencia:** Número aproximado de veces que realiza la tarea (diaria/semanal)  
+- **Importancia:** Nivel de relevancia para el usuario (Alta, Media, Baja)  
+
+---
+
+#### User Task Matrix
+
+| Tareas del Usuario | Jimena (Frecuencia) | Jimena (Importancia) | Nordie (Frecuencia) | Nordie (Importancia) |
+|------------------|---------------------|----------------------|---------------------|----------------------|
+| Identificar que está estresado o abrumado | 2–3 veces al día | Alta | 3–5 veces al día | Alta |
+| Intentar continuar con sus responsabilidades a pesar del estrés | Diario | Alta | Diario | Alta |
+| Buscar distracciones (redes sociales, entretenimiento) | 2–4 veces al día | Media | 1–2 veces al día | Baja |
+| Tomar pausas para despejarse | 1–2 veces al día | Alta | 1–2 veces al día | Alta |
+| Intentar organizar tareas o responsabilidades | 3–4 veces por semana | Alta | Diario | Alta |
+| Reflexionar sobre cómo se siente | 1–2 veces por semana | Media | 1 vez por semana | Media |
+| Buscar soluciones rápidas para reducir el estrés | 1–2 veces al día | Alta | 2–3 veces al día | Alta |
+| Intentar mantener hábitos de bienestar (ejercicio, descanso) | 2–3 veces por semana | Alta | 1–2 veces por semana | Alta |
+| Usar herramientas digitales para organizarse o mejorar su bienestar | 3–4 veces por semana | Media | 2–3 veces por semana | Alta |
+| Abandonar herramientas o rutinas por falta de resultados | 1 vez por semana | Alta | 1 vez por semana | Alta |
+
+---
+
+### Análisis de la matriz
+
+Se observa que las tareas con mayor frecuencia e importancia en ambos segmentos están relacionadas con la **gestión inmediata del estrés**, especialmente:
+
+- Identificación del estrés varias veces al día  
+- Continuación de responsabilidades bajo presión  
+- Búsqueda de soluciones rápidas para aliviar el malestar  
+
+Esto confirma que el problema ocurre en **micro-momentos diarios**, no como eventos aislados.
+
+---
+
+### Coincidencias entre segmentos
+
+- Ambos identifican el estrés múltiples veces al día  
+- Buscan soluciones rápidas de forma recurrente  
+- Presentan abandono semanal de herramientas que no aportan valor  
+- Mantienen baja frecuencia en hábitos de bienestar  
+
+---
+
+### Diferencias clave
+
+- **Jimena (Estudiante):**
+  - Mayor frecuencia en distracciones (hasta 4 veces al día)  
+  - Menor consistencia en organización (no diaria)  
+
+- **Nordie (Profesional):**
+  - Mayor constancia en organización (diaria)  
+  - Menor uso de distracciones, pero mayor carga mental constante  
+
+---
+
+### Conclusión
+
+Los datos evidencian que el problema ocurre varias veces al día, lo que requiere una solución capaz de responder en tiempo real. Además, la alta tasa de abandono semanal confirma que los usuarios priorizan herramientas que generen valor inmediato, sin requerir esfuerzo adicional.
 
 ### 2.3.3. User Journey Mapping
 
