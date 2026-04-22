@@ -508,6 +508,12 @@ Los datos evidencian que el problema ocurre varias veces al día, lo que requier
 
 ### 2.3.4. Empathy Mapping
 
+#### Segmento Estudiantes Universitarios:
+  <img src="../assets/Empathy map1.png" alt="MindFlow" height="auto">
+  
+#### Segmento Profesionales jóvenes:
+  <img src="../assets/Empathy map2.png" alt="MindFlow" height="auto">
+
 ## 2.4. Big Picture EventStorming
 
 ---
