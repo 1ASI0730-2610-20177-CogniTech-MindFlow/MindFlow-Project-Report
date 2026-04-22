@@ -410,9 +410,28 @@ Ambos segmentos coinciden en que las soluciones actuales fallan por ser pasivas,
 
 ## 2.3. Needfinding
 
----
+En esta sección se presentan los artefactos resultantes del proceso de análisis de la información recolectada a través de entrevistas. El objetivo del needfinding es transformar los hallazgos cualitativos en representaciones estructuradas que permitan comprender profundamente a los usuarios, sus necesidades, comportamientos y puntos de dolor.
+
+A partir de los insights obtenidos, se desarrollan los siguientes artefactos:
+
+- User Personas  
+- User Task Matrix  
+- User Journey Mapping  
+- Empathy Mapping  
+- Big Picture EventStorming  
+- Ubiquitous Language  
+
+Estos elementos permiten al equipo alinear la comprensión del problema, identificar oportunidades de diseño y establecer una base sólida para la definición de requerimientos del sistema.
+
+El proceso de needfinding evidencia que los usuarios no solo buscan registrar su estado emocional, sino recibir apoyo activo, personalizado y en tiempo real, lo cual guía directamente la propuesta de valor de la solución MindFlow.
 
 ### 2.3.1. User Personas
+#### Segmento Estudiantes Universitarios:
+  <img src="../assets/User Persona1.png" alt="MindFlow" height="auto">
+  
+#### Segmento Profesionales jóvenes:
+  <img src="../assets/User Persona2.png" alt="MindFlow" height="auto">
+
 
 ### 2.3.2. User Task Matrix
 
