@@ -376,6 +376,20 @@ Esta sección permite cerrar el recorrido del usuario dentro del Landing Page y 
 
 ### 4.3.2. Landing Page Mock-up
 
+El mock-up del Landing Page de MindFlow representa la versión visual final del diseño propuesto a partir de los wireframes previamente definidos. En esta etapa se incorporan los elementos visuales del sistema de diseño, incluyendo tipografía, paleta de colores, iconografía y estilos de componentes, permitiendo visualizar con mayor precisión la experiencia que tendrá el usuario al interactuar con el sitio.
+
+El diseño mantiene una estructura clara y organizada que facilita la lectura progresiva del contenido. La jerarquía visual se establece mediante el uso de tamaños de tipografía diferenciados, contraste de colores y agrupación de componentes, permitiendo que los usuarios identifiquen rápidamente la propuesta de valor de la plataforma y comprendan sus funcionalidades principales.
+
+La sección superior del Landing Page presenta el encabezado principal junto con una breve descripción del propósito de MindFlow y botones de acción que invitan al usuario a comenzar a utilizar la plataforma o conocer más sobre sus funcionalidades. Este primer bloque busca captar la atención del visitante y comunicar de manera inmediata el valor del producto.
+
+Posteriormente se presentan diferentes secciones que explican las capacidades de la plataforma, incluyendo herramientas de registro emocional, análisis mediante inteligencia artificial y visualización de datos relacionados con el bienestar emocional. Estas funcionalidades se muestran mediante tarjetas informativas y componentes visuales que facilitan la comprensión del contenido.
+
+El diseño también incorpora representaciones gráficas que muestran cómo los usuarios pueden visualizar sus patrones emocionales a lo largo del tiempo. Estas visualizaciones permiten comunicar el valor analítico de la plataforma y cómo esta ayuda a los usuarios a comprender mejor su bienestar emocional.
+
+Hacia la parte final del Landing Page se incluye una sección de llamada a la acción que invita a los visitantes a comenzar a utilizar MindFlow. Finalmente, el sitio concluye con un footer que presenta enlaces de navegación adicionales, información del producto y recursos relevantes para el usuario.
+
+![Landing Page Mockup](../assets/mockup.png)
+
 ## 4.4. Web Applications UX/UI Design
 
 ---
