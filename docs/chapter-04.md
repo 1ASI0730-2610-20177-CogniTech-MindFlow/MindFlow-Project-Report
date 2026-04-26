@@ -414,7 +414,7 @@ Para el diseño de estos esquemas se utilizaron los colores neutros definidos en
 
 ![Planes Wireframe](../assets/Planes Wireframe.png)
 ### 4.4.2. Web Applications Wireflow Diagrams
-
+![Wireflow Diagram](../assets/Wireflow Diagram.png)
 ### 4.4.3. Web Applications Mock-ups
 
 ### 4.4.4. Web Applications User Flow Diagrams
