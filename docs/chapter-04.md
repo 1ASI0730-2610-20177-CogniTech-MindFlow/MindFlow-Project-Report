@@ -2,7 +2,11 @@
 
 ---
 ## 4.1. Style Guidelines
+En esta sección se detallan las pautas de estilo para el diseño de la marca y la interfaz de usuario de MindFlow, asegurando una identidad visual coherente y una experiencia de usuario intuitiva.
 
+Link de Figma para la Web Application: https://www.figma.com/design/W8t3VfSTOtEugJ14qkQqzA/Web-Application?node-id=0-1&t=hD8F0b2ut0qpzpiI-1
+
+Link de Figma para la Landing Page: https://www.figma.com/design/t6wSCWYshqMoU1z2OkGxV5/Untitled?node-id=0-1&t=fRy5VIVtScC41BuW-1
 ### 4.1.1. General Style Guidelines
 
 #### Typography
