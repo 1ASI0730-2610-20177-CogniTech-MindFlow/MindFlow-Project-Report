@@ -437,6 +437,11 @@ El diseño busca transmitir calma emocional y confianza tecnológica, reduciendo
 ### 4.4.4. Web Applications User Flow Diagrams
 ![User Flow Diagram](../assets/User%20Flow%20Diagram.png)
 ## 4.5. Web Applications Prototyping
+Para el prototipo de MindFlow se adoptaron los siguientes criterios de interacción. La navegación principal se centraliza en una barra lateral izquierda que otorga acceso directo a las secciones principales: Dashboard, Diario, Hábitos, Analíticas y Configuración. Las acciones críticas, como el registro del estado emocional en el AI Mood Journal, la visualización del feedback empático y la ejecución de intervenciones rápidas, se presentan mediante tarjetas interactivas y paneles dinámicos en la misma vista para no interrumpir el flujo cognitivo ni la contención del usuario.
+
+El acceso al sistema sigue un flujo lineal de Registro → Login → Dashboard, contando con una ruta alternativa de restablecimiento de contraseña y una capa de seguridad adicional a través del bloqueo por PIN. La experiencia y el diseño visual mantienen una estricta consistencia entre la Landing Page y la aplicación web, donde los call-to-action de la página de aterrizaje redirigen fluidamente al usuario hacia el registro mediante OAuth o correo tradicional.
+![WebAppPrototyping](../assets/Web%20Applications%20Prototyping.png)
+A continuación se presenta el flujo de interacción del prototipo elaborado en Figma: https://www.figma.com/design/iIGtOTVpNTMNgyT0om6QyY/Web-Applications-Prototyping?node-id=0-1&t=wQUWGyL6lBhFsmmT-1
 
 ---
 
