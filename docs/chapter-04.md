@@ -435,7 +435,7 @@ El diseño busca transmitir calma emocional y confianza tecnológica, reduciendo
 
 ![Planes Mockup](../assets/Planes%20Mockup.png)
 ### 4.4.4. Web Applications User Flow Diagrams
-
+![User Flow Diagram](../assets/User%20Flow%20Diagram.png)
 ## 4.5. Web Applications Prototyping
 
 ---
