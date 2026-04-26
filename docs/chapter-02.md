@@ -626,7 +626,7 @@ Los datos evidencian que el problema ocurre varias veces al día, lo que requier
 
 El Design-Level EventStorming de MindFlow representa la transición entre los requerimientos del negocio y el diseño técnico de la solución. A través de este modelo, se han mapeado los procesos críticos del sistema —desde el análisis de sentimientos mediante IA hasta la gestión proactiva del estrés— utilizando un lenguaje común entre el equipo de desarrollo y los expertos del dominio. Este diagrama permite visualizar no solo las acciones del usuario, sino también las reglas de negocio, las interacciones con sistemas externos y los cambios de estado en las entidades principales del software.
 
-<img src="assets/Big-Picture-Event-Storming.png" alt="Big Picture Event Storming">
+<img src="../assets/Big-Picture-Event-Storming.png" alt="Big Picture Event Storming">
 
 <br>
 
