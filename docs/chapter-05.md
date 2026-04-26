@@ -114,6 +114,18 @@ En este apartado se definen los estándares de codificación y nomenclatura adop
 - **Gherkin**: Los criterios de aceptación de los User Stories se redactan siguiendo las convenciones de Gherkin Conventions for Readable Specifications para garantizar especificaciones legibles y comprobables.
 
 ### 5.1.4. Software Deployment Configuration
+Esta sección detalla la configuración del despliegue de la solución, permitiendo que los productos digitales sean accesibles de forma continua en un entorno de producción.
+
+- **Hosting & Cloud Platforms**:
+  - **Landing Page**: Se ha desplegado satisfactoriamente en **GitHub Pages**, aprovechando su integración nativa con los repositorios de GitHub y su soporte para sitios estáticos bajo protocolo HTTPS.
+  - **Frontend Web Application**: Se ha definido el despliegue en **GitHub Pages** mediante el *build* de producción generado por Vue.js, publicando el contenido de la carpeta `dist/` en la rama de producción.
+  - **Web Services & API**: Para las fases posteriores del proyecto, se definirá la plataforma PaaS (*Platform as a Service*) para el despliegue de los servicios web desarrollados en **C# y .NET**, garantizando la disponibilidad persistente de la API RESTful para ser consumida por el *frontend*.
+- **Continuous Deployment (CD) Pipeline**:
+  - **Integración**: El repositorio oficial en GitHub (`MindFLow-Landing-Page`) está vinculado directamente a GitHub Pages como plataforma de despliegue.
+  - **Branching Strategy**: La rama `main` actúa como la rama de producción oficial. Cualquier cambio integrado mediante *merge* o *push* en esta rama activa automáticamente un nuevo despliegue hacia la URL pública: [https://github.com/1ASI0730-2610-20177-CogniTech-MindFlow/MindFlow-Landing-Page.git](https://github.com/1ASI0730-2610-20177-CogniTech-MindFlow/MindFlow-Landing-Page.git)
+- **Environment Configuration**:
+  - **Estado Actual (Sprint 1)**: El despliegue actual no requiere el uso de variables de entorno ni claves de API externas, dado que corresponde al despliegue de la Landing Page como prototipo visual e informativo desarrollado con HTML5, CSS3 y JavaScript.
+  - **Planificación Futura**: En los próximos Sprints, se configurarán variables de entorno para gestionar de forma segura las cadenas de conexión a la base de datos relacional y las claves de las APIs de los modelos de lenguaje (LLM/NLP) para la Inteligencia Artificial.
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
