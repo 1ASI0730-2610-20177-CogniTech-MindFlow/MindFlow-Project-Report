@@ -132,9 +132,25 @@ Esta sección detalla la configuración del despliegue de la solución, permitie
 ---
 
 ### 5.2.1. Sprint 1
-
+En este Sprint se desarrolló e implementó la primera versión
+del Landing Page de MindFlow, incluyendo su despliegue
+en un entorno accesible públicamente.
 #### 5.2.1.1. Sprint Planning 1
+A continuación se presenta el resumen del Sprint Planning Meeting
+realizado para el Sprint 1.
 
+| Sprint # | Sprint 1                                                                                                                                                                                                                                                                                                                                                                      |
+|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                                                               |
+| Date | 2026-04-17                                                                                                                                                                                                                                                                                                                                                                    |
+| Time | 06:00 PM                                                                                                                                                                                                                                                                                                                                                                      |
+| Location | Reunión virtual vía Google Meet                                                                                                                                                                                                                                                                                                                                               |
+| Prepared By | Rocca Mariaca, Angel Mathias                                                                                                                                                                                                                                                                                                                                                  |
+| Attendees | Cabrera Sotelo, Camila Celeste/ Caisahuana Osores, Becker Junior/ Díaz De la cruz, Sebastián Gabriel/ Jáuregui Cerna, Jean Franco/ Rocca Mariaca, Angel Mathias                                                                                                                                                                                                               |
+| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                               |
+| Sprint 1 Goal | Our approach focuses on strengthening MindFlow's digital presence by launching its initial landing page. We believe this will effectively communicate our value proposition to university students and young professionals. This will be validated once the site is published on GitHub Pages, integrating strategic sections and calls to action targeted to both audiences. |
+| Sprint 1 Velocity | 18                                                                                                                                                                                                                                                                                                                                                                            |
+| Sum of Story Points | 20                                                                                                                                                                                                                                                                                                                                                                            
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
 #### 5.2.1.3. Sprint Backlog 1
