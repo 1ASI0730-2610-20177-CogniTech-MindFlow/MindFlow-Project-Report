@@ -92,11 +92,134 @@ Estos colores permiten diferenciar:
 
 ### 4.1.2. Web Style Guidelines
 
+En esta sección se describen los estándares visuales y de interacción definidos para las interfaces web de MindFlow. Estos lineamientos permiten mantener consistencia en la experiencia de usuario, asegurando que los elementos visuales, componentes y comportamientos interactivos sigan un mismo patrón de diseño en toda la aplicación.
+
+Las Web Style Guidelines consideran principios de diseño responsive, accesibilidad y usabilidad, con el objetivo de que la plataforma pueda adaptarse correctamente a distintos tamaños de pantalla y dispositivos, manteniendo siempre claridad visual y facilidad de interacción.
+
+#### Layout and Grid System
+
+El diseño de las interfaces web utiliza un sistema de grid flexible que permite organizar los elementos de forma consistente y adaptable a diferentes resoluciones de pantalla.
+
+El sistema de grid se basa en:
+
+- Grid de 12 columnas  
+- Margen lateral adaptable  
+- Espaciado consistente basado en múltiplos de 8px  
+
+Este enfoque facilita la construcción de interfaces responsivas y permite distribuir componentes como tarjetas, formularios y paneles de manera equilibrada dentro del layout.
+
+#### Buttons
+
+Los botones representan uno de los elementos interactivos principales dentro de la plataforma. Se definen estilos consistentes para mantener una interacción clara y reconocible.
+
+Tipos de botones definidos:
+
+Primary Button  
+Utilizado para acciones principales como guardar registros emocionales o iniciar procesos importantes dentro de la aplicación.
+
+Secondary Button  
+Utilizado para acciones complementarias o alternativas dentro de una misma interfaz.
+
+Text Button  
+Utilizado en acciones secundarias o navegación ligera dentro de la aplicación.
+
+#### Forms and Input Fields
+
+Los formularios permiten al usuario interactuar con el sistema ingresando información, como registros emocionales o configuración de hábitos.
+
+Los campos de entrada siguen un diseño simple y claro, con etiquetas visibles y retroalimentación visual en caso de error o validación.
+
+Elementos incluidos en formularios:
+
+- Text input  
+- Dropdown selectors  
+- Text areas  
+- Validation messages  
+
+#### Cards and Content Containers
+
+Las tarjetas (cards) se utilizan para organizar información dentro de la interfaz de manera clara y estructurada. Este componente es especialmente útil para mostrar registros emocionales, estadísticas o recomendaciones del sistema.
+
+Las cards incluyen:
+
+- fondo neutro  
+- bordes suaves  
+- sombra ligera para jerarquía visual  
+
+#### Responsive Behavior
+
+La interfaz web de MindFlow fue diseñada siguiendo principios de diseño responsive, permitiendo que el contenido se adapte correctamente a diferentes dispositivos.
+
+Se consideran tres tamaños principales de visualización:
+
+Desktop  
+Pantallas mayores a 1024px.
+
+Tablet  
+Pantallas entre 768px y 1024px.
+
+Mobile  
+Pantallas menores a 768px.
+
+Cada layout reorganiza los componentes para mantener la legibilidad y facilidad de navegación.
+
 ## 4.2. Information Architecture
+
+En esta sección el equipo presenta las decisiones y el sustento que orientan la manera en que se organizará el contenido dentro de las experiencias web y móvil del proyecto, incluyendo el Landing Page y las aplicaciones del sistema.
+
+La arquitectura de información tiene como propósito facilitar la comprensión de la estructura del producto digital, permitiendo que los visitantes y usuarios puedan adaptarse rápidamente a su funcionamiento y encontrar la información o funcionalidades que necesitan sin esfuerzo innecesario.
+
+Para lograrlo, se han definido distintos sistemas que estructuran la experiencia digital:
+
+- Organization Systems  
+- Labeling Systems  
+- Navigation Systems  
+- Searching Systems  
+
+Estos sistemas permiten organizar la información, definir la forma en que se nombran los contenidos, estructurar la navegación dentro de la plataforma y facilitar la localización de información específica cuando el usuario la requiere.
 
 ---
 
-### 4.2.1. Organization Systems
+## 4.2.1. Organization Systems
+
+Los Organization Systems definen la manera en que la información se agrupa y estructura dentro del Landing Page y las aplicaciones del sistema.
+
+En el proyecto se consideran distintos tipos de organización visual del contenido, dependiendo del contexto de uso y del tipo de información que se presenta:
+
+- organización jerárquica 
+- organización secuencial
+- organización matricial  
+
+### Organización jerárquica
+
+La organización jerárquica se utiliza principalmente en el Landing Page y en los dashboards principales de la aplicación, donde es necesario destacar la información más relevante y guiar la atención del usuario.
+
+Este tipo de organización establece distintos niveles de importancia dentro de la interfaz mediante el uso de tamaño, contraste, posición y agrupación de elementos, permitiendo que los usuarios identifiquen rápidamente los contenidos o acciones más importantes.
+
+### Organización secuencial
+
+La organización secuencial se aplica en aquellas funcionalidades donde el usuario debe seguir una serie de pasos para completar una tarea dentro del sistema.
+
+Este enfoque permite estructurar procesos de manera clara y ordenada, facilitando la comprensión del flujo de interacción y reduciendo la probabilidad de errores durante la ejecución de las tareas.
+
+### Organización matricial
+
+La organización matricial se utiliza en aquellas secciones donde la información debe visualizarse considerando diferentes variables o dimensiones al mismo tiempo.
+
+Este tipo de estructura permite relacionar distintos tipos de datos dentro de una misma vista, facilitando la comparación de información y el análisis de resultados.
+
+### Esquemas de categorización del contenido
+
+Además de la organización visual, el sistema también utiliza diferentes esquemas de categorización para estructurar el contenido de acuerdo con su naturaleza:
+
+- organización alfabética  
+- organización cronológica  
+- organización por tópicos  
+- organización según audiencia  
+
+La organización alfabética permite localizar elementos de manera rápida dentro de listados extensos. La organización cronológica se utiliza cuando la información está asociada a registros históricos o eventos que ocurren a lo largo del tiempo. La organización por tópicos agrupa los contenidos según áreas funcionales del sistema. Finalmente, la organización según audiencia considera los distintos tipos de usuarios que interactúan con la plataforma, permitiendo adaptar la estructura de la información de acuerdo con sus necesidades y contexto de uso.
+
+La combinación de estos sistemas permite estructurar el contenido del producto digital de manera clara y coherente, facilitando la navegación y mejorando la experiencia general de los usuarios.
 
 ### 4.2.2. Labeling Systems
 
