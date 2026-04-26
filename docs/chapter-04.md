@@ -296,9 +296,83 @@ Esta estructura facilita la orientación dentro de MindFlow y permite acceder de
 
 ## 4.3. Landing Page UI Design
 
+En esta sección se presenta la propuesta de interfaz de usuario para el Landing Page de MindFlow. El diseño traduce las decisiones previamente definidas en la arquitectura de información y en las guías de estilo, con el objetivo de ofrecer una experiencia clara, intuitiva y visualmente organizada para los visitantes del sitio.
+
+La propuesta de UI busca facilitar la comprensión del producto desde el primer contacto, guiando al usuario a través de las funcionalidades principales de la plataforma y promoviendo la interacción mediante llamados a la acción claros. Asimismo, se consideran principios de jerarquía visual, organización del contenido y diseño inclusivo para asegurar que la información sea accesible y fácil de comprender.
+
 ---
 
 ### 4.3.1. Landing Page Wireframe
+
+A continuación se presentan los wireframes del Landing Page para la versión Desktop Web Browser. Estos wireframes muestran la estructura y organización de los elementos principales de la página antes de aplicar el diseño visual final.
+
+Los wireframes permiten definir la jerarquía de la información, la distribución de los componentes y el flujo visual que seguirá el usuario al recorrer el sitio.
+
+#### Sección Hero
+
+Esta sección corresponde a la parte superior del Landing Page, donde se presenta la propuesta de valor principal de MindFlow. Incluye el menú de navegación superior, un encabezado principal, un breve texto descriptivo y botones de acción que invitan al usuario a comenzar a utilizar la plataforma o conocer más sobre sus funcionalidades.
+
+![Landing Hero](../assets/landing.png)
+
+---
+
+#### Sección de funcionalidades principales
+
+En esta sección se presentan las funcionalidades principales de MindFlow mediante tarjetas informativas organizadas en una grilla. Cada tarjeta representa una característica clave de la plataforma, permitiendo que los visitantes comprendan rápidamente los beneficios del producto.
+
+Esta organización facilita la lectura y mantiene una jerarquía visual clara, ayudando al usuario a identificar las capacidades principales del sistema.
+
+![Landing Features](../assets/landing2.png)
+
+---
+
+#### Sección de análisis emocional
+
+Esta sección muestra cómo la plataforma permite visualizar información relacionada con el estado emocional del usuario mediante diferentes representaciones visuales. Se incluyen componentes como el calendario de estados de ánimo, resúmenes generados por inteligencia artificial y visualizaciones de palabras clave.
+
+El objetivo de esta sección es comunicar el valor analítico de la plataforma y cómo ayuda a los usuarios a comprender sus patrones emocionales.
+
+![Landing Insights](../assets/landing3.png)
+
+---
+
+#### Sección de bienestar y hábitos
+
+Esta sección presenta funcionalidades relacionadas con el desarrollo de hábitos saludables y herramientas de bienestar. A través de tarjetas informativas se destacan características como seguimiento de hábitos, recordatorios de hidratación y ejercicios de respiración guiada.
+
+La organización visual facilita la comprensión de las herramientas disponibles para mejorar el bienestar personal.
+
+![Landing Wellbeing](../assets/landing4.png)
+
+---
+
+#### Sección de panel analítico
+
+En esta sección se muestra una vista previa del panel analítico de la plataforma, donde los usuarios pueden visualizar información relacionada con sus emociones y actividades mediante gráficos y resúmenes.
+
+Esta representación permite comunicar el valor de los datos generados dentro de la plataforma y cómo estos apoyan el proceso de reflexión personal.
+
+![Landing Analytics](../assets/landing5.png)
+
+---
+
+#### Sección de planes o funcionalidades premium
+
+Esta sección presenta los diferentes planes o funcionalidades avanzadas disponibles dentro de la plataforma. La información se organiza en tarjetas comparativas que permiten identificar fácilmente las características incluidas en cada opción.
+
+Esta estructura facilita la comparación y ayuda a los usuarios a comprender los beneficios adicionales que ofrece la versión premium.
+
+![Landing Pricing](../assets/landing6.png)
+
+---
+
+#### Sección de llamada a la acción final y footer
+
+La sección final del Landing Page incluye una llamada a la acción que invita al usuario a comenzar a utilizar MindFlow. Debajo se presenta el footer del sitio, que contiene enlaces de navegación adicionales, información de contacto y recursos de soporte.
+
+Esta sección permite cerrar el recorrido del usuario dentro del Landing Page y ofrecer accesos rápidos a información relevante.
+
+![Landing Footer](../assets/landing7.png)
 
 ### 4.3.2. Landing Page Mock-up
 
