@@ -221,7 +221,25 @@ La organización alfabética permite localizar elementos de manera rápida dentr
 
 La combinación de estos sistemas permite estructurar el contenido del producto digital de manera clara y coherente, facilitando la navegación y mejorando la experiencia general de los usuarios.
 
-### 4.2.2. Labeling Systems
+## 4.2.2. Labeling Systems
+
+En esta sección el equipo define la manera en que se representará la información dentro del Landing Page y las aplicaciones del sistema mediante el uso de etiquetas claras y comprensibles. El objetivo del sistema de etiquetado es facilitar la interpretación del contenido y evitar confusiones durante la interacción del usuario con la plataforma.
+
+Las etiquetas utilizadas en el sistema se caracterizan por ser simples, directas y consistentes a lo largo de toda la experiencia digital. Se busca emplear el menor número posible de palabras para representar cada conjunto de información, permitiendo que los usuarios identifiquen rápidamente el propósito de cada sección o funcionalidad.
+
+El sistema de etiquetado también busca mantener coherencia entre las distintas partes del producto digital, de modo que los mismos conceptos se representen siempre con la misma terminología. Esto contribuye a generar familiaridad en el uso de la plataforma y facilita la navegación entre las diferentes secciones.
+
+Entre las principales etiquetas utilizadas para representar los conjuntos de información dentro del sistema se encuentran:
+
+- Dashboard  
+- Assets  
+- Maintenance  
+- Failures  
+- Reports  
+- Notifications  
+- Settings  
+
+Estas etiquetas permiten organizar los módulos principales del sistema y establecer relaciones claras entre los distintos tipos de información. Asimismo, contribuyen a que los usuarios comprendan rápidamente la función de cada sección y puedan acceder a las herramientas necesarias para realizar sus tareas dentro de la plataforma.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
