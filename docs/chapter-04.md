@@ -395,7 +395,24 @@ Hacia la parte final del Landing Page se incluye una sección de llamada a la ac
 ---
 
 ### 4.4.1. Web Applications Wireframes
+Los wireframes de la Web Application de MindFlow representan la estructura base de la plataforma en baja fidelidad. Su objetivo principal es definir la arquitectura de la información, la jerarquía de los contenidos y los flujos de interacción sin la distracción de elementos visuales como colores o tipografías definitivas.
 
+Para el diseño de estos esquemas se utilizaron los colores neutros definidos en las Style Guidelines, permitiendo al equipo concentrarse exclusivamente en la usabilidad y disposición de los siguientes módulos clave:
+![Login Wireframe](../assets/Login Wireframe.png)
+
+![Register Wireframe](../assets/Register Wireframe.png)
+
+![Home Wireframe](../assets/Home Wireframe.png)
+
+![Journal Wireframe](../assets/Journal Wireframe.png)
+
+![Habitos Wireframe](../assets/Habitos Wireframe.png)
+
+![Analíticas Wireframe](../assets/Analíticas Wireframe.png)
+
+![Configuraciones Wireframe](../assets/Configuraciones Wireframe.png)
+
+![Planes Wireframe](../assets/Planes Wireframe.png)
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 ### 4.4.3. Web Applications Mock-ups
