@@ -152,7 +152,15 @@ realizado para el Sprint 1.
 | Sprint 1 Velocity | 18                                                                                                                                                                                                                                                                                                                                                                            |
 | Sum of Story Points | 20                                                                                                                                                                                                                                                                                                                                                                            
 #### 5.2.1.2. Aspect Leaders and Collaborators
+En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para el Sprint 1. Cada aspecto representa una fase crítica de la entrega, donde se designa un líder (L) responsable de la dirección del entregable y colaboradores (C) que apoyaron en su ejecución, cumpliendo con el objetivo de proporcionar liderazgo conjunto y un entorno colaborativo.
 
+| Team Member (Last Name, First Name) | GitHub Username | Idea de Negocio y Bases | Landing Page | Diseño de App Web (Figma) | User Stories y Funciones | Análisis de Usuario y Needfinding |
+| :--- |:----------------|:-----------------------:|:------------:|:-------------------------:|:------------------------:|:---------------------------------:|
+| Cabrera Sotelo, Camila Celeste | whcamm          |            C            |      C       |           **L**           |            C             |                 C                 |
+| Caisahuana Osores, Becker Junior | becker693       |            C            |      C       |             C             |          **L**           |                 C                 |
+| Díaz De la cruz, Sebastián Gabriel | tipaso07        |            C            |    **L**     |             C             |            C             |                 C                 |
+| Jáuregui Cerna, Jean Franco | JFranco556      |            C            |      C       |             C             |            C             |                 **L**                  |
+| Rocca Mariaca, Angel Mathias | MRMpro13        |          **L**          |      C       |             C             |            C             |                 C                 |
 #### 5.2.1.3. Sprint Backlog 1
 
 #### 5.2.1.4. Development Evidence for Sprint Review
