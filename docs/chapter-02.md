@@ -624,6 +624,23 @@ Los datos evidencian que el problema ocurre varias veces al día, lo que requier
 
 ## 2.4. Big Picture EventStorming
 
+El Design-Level EventStorming de MindFlow representa la transición entre los requerimientos del negocio y el diseño técnico de la solución. A través de este modelo, se han mapeado los procesos críticos del sistema —desde el análisis de sentimientos mediante IA hasta la gestión proactiva del estrés— utilizando un lenguaje común entre el equipo de desarrollo y los expertos del dominio. Este diagrama permite visualizar no solo las acciones del usuario, sino también las reglas de negocio, las interacciones con sistemas externos y los cambios de estado en las entidades principales del software.
+
+<img src="asset/Big Picture Event Storming.png" alt="Big Picture Event Storming">
+
+<br>
+
+El diseño se estructura en tres flujos principales que responden a las épicas del proyecto:
+
+Módulo de Inteligencia Emocional: Se detalla el proceso en el cual una entrada de diario activa el motor de procesamiento de lenguaje natural (NLP Engine), derivando en retroalimentación empática o alertas de crisis según el sentimiento detectado.
+
+Módulo de Bienestar Adaptativo: Muestra la lógica de intervención proactiva, donde el sistema evalúa el nivel de burnout del usuario y ajusta automáticamente la carga de hábitos diarios para evitar el agotamiento.
+
+Módulo de Gestión y Monetización: Describe el ciclo de vida de la cuenta de usuario, integrando pasarelas de pago seguras y procesos de encriptación de datos para garantizar la privacidad y el acceso a funciones premium.
+
+La identificación de Hotspots en estos flujos ha permitido anticipar desafíos técnicos, como los tiempos de respuesta de la IA y la seguridad de la información, asegurando una arquitectura robusta y escalable.
+
+
 ---
 
 ## 2.5. Ubiquitous Language
