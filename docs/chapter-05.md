@@ -162,7 +162,9 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 | Jáuregui Cerna, Jean Franco | JFranco556      |            C            |      C       |             C             |            C             |                 **L**                  |
 | Rocca Mariaca, Angel Mathias | MRMpro13        |          **L**          |      C       |             C             |            C             |                 C                 |
 #### 5.2.1.3. Sprint Backlog 1
+![SprintBacklog](../assets/SprintBacklog.png)
 
+Enlace de Trello: https://trello.com/invite/b/69ee88a6130c90b4e5b1d5b2/ATTId18d929499f3de387496062b322b92179F3FB526/mindflow
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
