@@ -645,4 +645,17 @@ La identificación de Hotspots en estos flujos ha permitido anticipar desafíos 
 
 ## 2.5. Ubiquitous Language
 
+
+El Lenguaje Ubicuo de MindFlow constituye el idioma común utilizado por los integrantes del equipo para eliminar la ambigüedad entre los requerimientos de salud mental y la implementación técnica. Estos términos han sido extraídos directamente del Event Storming, asegurando que cada concepto del negocio tenga una representación única y coherente en el código fuente y la base de datos.
+
+| Término | Definición de Dominio | Relación Técnica |
+|:-------:|:---------------------:|:----------------:|
+| Journal Entry | Registro de texto libre donde el usuario expresa sus pensamientos y sentimientos. | Objeto persistente en DB (Colección). |
+| NLP Engine | Servicio encargado de procesar el lenguaje natural para extraer emociones. |  Sistema Externo (API). |
+| Sentiment Label | Etiqueta (Positivo/Negativo) asignada a una entrada tras el análisis. | Atributo de la clase JournalEntry. |
+| Habit Tracker |  Módulo para la gestión y seguimiento de objetivos de autocuidado. | Agregado que gestiona la disciplina. |
+| Workload Adjustment | Modificación automática de la carga de tareas basada en el estado de estrés detectado. | Política de negocio (Business Rule). |
+| Burnout Level | Indicador de agotamiento detectado por la persistencia de ánimos negativos. | Variable de análisis para intervenciones. |
+
+
 ---
