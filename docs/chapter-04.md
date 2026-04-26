@@ -398,42 +398,42 @@ Hacia la parte final del Landing Page se incluye una sección de llamada a la ac
 Los wireframes de la Web Application de MindFlow representan la estructura base de la plataforma en baja fidelidad. Su objetivo principal es definir la arquitectura de la información, la jerarquía de los contenidos y los flujos de interacción sin la distracción de elementos visuales como colores o tipografías definitivas.
 
 Para el diseño de estos esquemas se utilizaron los colores neutros definidos en las Style Guidelines, permitiendo al equipo concentrarse exclusivamente en la usabilidad y disposición de los siguientes módulos clave:
-![Login Wireframe](../assets/Login Wireframe.png)
+![Login Wireframe](../assets/Login%20Wireframe.png)
 
-![Register Wireframe](../assets/Register Wireframe.png)
+![Register Wireframe](../assets/Register%20Wireframe.png)
 
-![Home Wireframe](../assets/Home Wireframe.png)
+![Home Wireframe](../assets/Home%20Wireframe.png)
 
-![Journal Wireframe](../assets/Journal Wireframe.png)
+![Journal Wireframe](../assets/Journal%20Wireframe.png)
 
-![Habitos Wireframe](../assets/Habitos Wireframe.png)
+![Habitos Wireframe](../assets/Habitos%20Wireframe.png)
 
-![Analíticas Wireframe](../assets/Analíticas Wireframe.png)
+![Analíticas Wireframe](../assets/Analíticas%20Wireframe.png)
 
-![Configuraciones Wireframe](../assets/Configuraciones Wireframe.png)
+![Configuraciones Wireframe](../assets/Configuraciones%20Wireframe.png)
 
-![Planes Wireframe](../assets/Planes Wireframe.png)
+![Planes Wireframe](../assets/Planes%20Wireframe.png)
 ### 4.4.2. Web Applications Wireflow Diagrams
-![Wireflow Diagram](../assets/Wireflow Diagram.png)
+![Wireflow Diagram](../assets/Wireflow%20Diagram.png)
 ### 4.4.3. Web Applications Mock-ups
 Los mock-ups de la Web Application constituyen la representación visual de alta fidelidad del producto final. En esta etapa, la estructura definida en los wireframes cobra vida mediante la aplicación estricta de las Web Style Guidelines descritas anteriormente.
 
 El diseño busca transmitir calma emocional y confianza tecnológica, reduciendo la carga cognitiva de los usuarios y fomentando la retención. A continuación, se detallan las características de las vistas principales:
-![Login Mockup](../assets/Login Mockup.png)
+![Login Mockup](../assets/Login%20Mockup.png)
 
-![Register Mockup](../assets/Register Mockup.png)
+![Register Mockup](../assets/Register%20Mockup.png)
 
-![Home Mockup](../assets/Home Mockup.png)
+![Home Mockup](../assets/Home%20Mockup.png)
 
-![Journal Mockup](../assets/Journal Mockup.png)
+![Journal Mockup](../assets/Journal%20Mockup.png)
 
-![Habitos Mockup](../assets/Habitos Mockup.png)
+![Habitos Mockup](../assets/Habitos%20Mockup.png)
 
-![Analíticas Mockup](../assets/Analíticas Mockup.png)
+![Analíticas Mockup](../assets/Analíticas%20Mockup.png)
 
-![Configuraciones Mockup](../assets/Configuraciones Mockup.png)
+![Configuraciones Mockup](../assets/Configuraciones%20Mockup.png)
 
-![Planes Mockup](../assets/Planes Mockup.png)
+![Planes Mockup](../assets/Planes%20Mockup.png)
 ### 4.4.4. Web Applications User Flow Diagrams
 
 ## 4.5. Web Applications Prototyping
