@@ -92,8 +92,6 @@ Estos colores permiten diferenciar:
 
 ### 4.1.2. Web Style Guidelines
 
-En esta sección se describen los estándares visuales y de interacción definidos para las interfaces web de MindFlow. Estos lineamientos permiten mantener consistencia en la experiencia de usuario, asegurando que los elementos visuales, componentes y comportamientos interactivos sigan un mismo patrón de diseño en toda la aplicación.
-
 Las Web Style Guidelines consideran principios de diseño responsive, accesibilidad y usabilidad, con el objetivo de que la plataforma pueda adaptarse correctamente a distintos tamaños de pantalla y dispositivos, manteniendo siempre claridad visual y facilidad de interacción.
 
 #### Layout and Grid System
@@ -165,8 +163,6 @@ Cada layout reorganiza los componentes para mantener la legibilidad y facilidad 
 
 ## 4.2. Information Architecture
 
-En esta sección el equipo presenta las decisiones y el sustento que orientan la manera en que se organizará el contenido dentro de las experiencias web y móvil del proyecto, incluyendo el Landing Page y las aplicaciones del sistema.
-
 La arquitectura de información tiene como propósito facilitar la comprensión de la estructura del producto digital, permitiendo que los visitantes y usuarios puedan adaptarse rápidamente a su funcionamiento y encontrar la información o funcionalidades que necesitan sin esfuerzo innecesario.
 
 Para lograrlo, se han definido distintos sistemas que estructuran la experiencia digital:
@@ -223,8 +219,6 @@ La combinación de estos sistemas permite estructurar el contenido del producto 
 
 ## 4.2.2. Labeling Systems
 
-En esta sección el equipo define la manera en que se representará la información dentro del Landing Page y las aplicaciones del sistema mediante el uso de etiquetas claras y comprensibles. El objetivo del sistema de etiquetado es facilitar la interpretación del contenido y evitar confusiones durante la interacción del usuario con la plataforma.
-
 Las etiquetas utilizadas en el sistema se caracterizan por ser simples, directas y consistentes a lo largo de toda la experiencia digital. Se busca emplear el menor número posible de palabras para representar cada conjunto de información, permitiendo que los usuarios identifiquen rápidamente el propósito de cada sección o funcionalidad.
 
 El sistema de etiquetado también busca mantener coherencia entre las distintas partes del producto digital, de modo que los mismos conceptos se representen siempre con la misma terminología. Esto contribuye a generar familiaridad en el uso de la plataforma y facilita la navegación entre las diferentes secciones.
@@ -241,7 +235,35 @@ Entre las principales etiquetas utilizadas para representar los conjuntos de inf
 
 Estas etiquetas permiten organizar los módulos principales del sistema y establecer relaciones claras entre los distintos tipos de información. Asimismo, contribuyen a que los usuarios comprendan rápidamente la función de cada sección y puedan acceder a las herramientas necesarias para realizar sus tareas dentro de la plataforma.
 
-### 4.2.3. SEO Tags and Meta Tags
+## 4.2.3. SEO Tags and Meta Tags
+
+La plataforma TexCheck incorpora metaetiquetas que permiten mejorar la identificación del contenido por parte de los motores de búsqueda y estructurar correctamente la información para navegadores y sistemas de indexación.
+
+Las meta tags definidas para la experiencia digital se utilizan tanto en el Landing Page como en la Web Application, permitiendo describir el propósito del sistema y facilitar su posicionamiento en buscadores.
+
+Las principales meta tags utilizadas son las siguientes:
+
+- **Title:** Define el título principal de la página que aparece en la pestaña del navegador y en los resultados de búsqueda.
+
+![Title Tag](../assets/titleTag.png)
+
+- **Codificación de caracteres:** Permite que los caracteres especiales se muestren correctamente en todos los navegadores.
+
+![Charset Tag](../assets/charsetTag.png)
+
+- **Description:** Proporciona un resumen breve del contenido del sitio que puede aparecer en los resultados de búsqueda.
+
+![Description Tag](../assets/descriptionTag.png)
+
+- **Keywords:** Define palabras clave relacionadas con el contenido del sistema para facilitar su indexación en motores de búsqueda.
+
+![Keywords Tag](../assets/keywordsTag.png)
+
+- **Author:** Identifica al autor o equipo responsable del contenido del sitio.
+
+![Author Tag](../assets/authorTag.png)
+
+Estas metaetiquetas permiten describir adecuadamente el contenido de las páginas principales del sistema, facilitando su indexación en motores de búsqueda y mejorando la visibilidad de la plataforma.
 
 ### 4.2.4. Searching Systems
 
