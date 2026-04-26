@@ -265,7 +265,22 @@ Las principales meta tags utilizadas son las siguientes:
 
 Estas metaetiquetas permiten describir adecuadamente el contenido de las páginas principales del sistema, facilitando su indexación en motores de búsqueda y mejorando la visibilidad de la plataforma.
 
-### 4.2.4. Searching Systems
+## 4.2.4. Searching Systems
+
+El sistema de búsqueda define los mecanismos que permiten a los usuarios localizar información dentro de la plataforma de manera rápida y eficiente. Estas funcionalidades buscan facilitar la exploración del contenido y evitar que los usuarios se sientan desorientados cuando interactúan con grandes volúmenes de información.
+
+Las aplicaciones incorporan herramientas de búsqueda que permiten encontrar registros específicos dentro de los distintos módulos del sistema. Estas búsquedas se complementan con filtros que ayudan a refinar los resultados según diferentes criterios, permitiendo a los usuarios acceder de forma más precisa a la información que necesitan.
+
+Las principales opciones de búsqueda disponibles en el sistema incluyen:
+
+- búsqueda por palabra clave  
+- filtros por categoría o tipo de información  
+- filtros por estado  
+- filtros por fecha  
+
+Una vez realizada la búsqueda, los resultados se presentan en vistas organizadas que facilitan la lectura y comparación de la información. Los datos se muestran en tablas o listas estructuradas, permitiendo visualizar los registros encontrados junto con los atributos más relevantes asociados a cada elemento.
+
+Este sistema de búsqueda contribuye a mejorar la eficiencia de la interacción con la plataforma, ya que permite acceder rápidamente a la información requerida y facilita la gestión de los datos dentro de las diferentes funcionalidades del sistema.
 
 ### 4.2.5. Navigation Systems
 
