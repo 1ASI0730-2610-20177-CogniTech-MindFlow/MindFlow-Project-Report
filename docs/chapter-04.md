@@ -282,7 +282,17 @@ Una vez realizada la búsqueda, los resultados se presentan en vistas organizada
 
 Este sistema de búsqueda contribuye a mejorar la eficiencia de la interacción con la plataforma, ya que permite acceder rápidamente a la información requerida y facilita la gestión de los datos dentro de las diferentes funcionalidades del sistema.
 
-### 4.2.5. Navigation Systems
+## 4.2.5. Navigation Systems
+
+La navegación en MindFlow permite a los usuarios recorrer el Landing Page y las aplicaciones de manera clara mientras interactúan con las diferentes funcionalidades de la plataforma.
+
+En la Web Application se utiliza un menú principal que agrupa los módulos más importantes, permitiendo acceder directamente a las principales secciones de trabajo. Este menú mantiene una estructura consistente en todas las pantallas, lo que facilita la identificación rápida de las funcionalidades disponibles.
+
+Dentro de cada módulo se incorporan elementos de navegación contextual que permiten desplazarse entre distintas vistas o acciones relacionadas. Estos elementos se presentan mediante botones, enlaces y accesos directos que apoyan la interacción con las funcionalidades de la aplicación.
+
+En el Landing Page, la navegación se organiza mediante un menú superior que dirige a los visitantes hacia las secciones principales del sitio, permitiendo recorrer la información del producto de forma ordenada.
+
+Esta estructura facilita la orientación dentro de MindFlow y permite acceder de manera directa a las funcionalidades necesarias durante la interacción con la plataforma.
 
 ## 4.3. Landing Page UI Design
 
