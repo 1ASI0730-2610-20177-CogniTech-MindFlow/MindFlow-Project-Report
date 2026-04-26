@@ -416,7 +416,24 @@ Para el diseño de estos esquemas se utilizaron los colores neutros definidos en
 ### 4.4.2. Web Applications Wireflow Diagrams
 ![Wireflow Diagram](../assets/Wireflow Diagram.png)
 ### 4.4.3. Web Applications Mock-ups
+Los mock-ups de la Web Application constituyen la representación visual de alta fidelidad del producto final. En esta etapa, la estructura definida en los wireframes cobra vida mediante la aplicación estricta de las Web Style Guidelines descritas anteriormente.
 
+El diseño busca transmitir calma emocional y confianza tecnológica, reduciendo la carga cognitiva de los usuarios y fomentando la retención. A continuación, se detallan las características de las vistas principales:
+![Login Mockup](../assets/Login Mockup.png)
+
+![Register Mockup](../assets/Register Mockup.png)
+
+![Home Mockup](../assets/Home Mockup.png)
+
+![Journal Mockup](../assets/Journal Mockup.png)
+
+![Habitos Mockup](../assets/Habitos Mockup.png)
+
+![Analíticas Mockup](../assets/Analíticas Mockup.png)
+
+![Configuraciones Mockup](../assets/Configuraciones Mockup.png)
+
+![Planes Mockup](../assets/Planes Mockup.png)
 ### 4.4.4. Web Applications User Flow Diagrams
 
 ## 4.5. Web Applications Prototyping
