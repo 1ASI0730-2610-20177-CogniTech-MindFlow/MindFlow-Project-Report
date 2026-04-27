@@ -466,9 +466,12 @@ A continuación se presenta el flujo de interacción del prototipo elaborado en 
 ---
 
 ### 4.7.1. Class Diagrams
+En esta sección, se presentan los diagramas de clases que ilustran las principales entidades del sistema, sus atributos y las relaciones entre ellas. Estos diagramas son fundamentales para entender la estructura del software y cómo interactúan los diferentes componentes.
+
+![class diagram](../assets/class_diagram.png)
 
 ## 4.8. Database Design
-
+![class diagram](../assets/Database.png)
 ---
 
 ### 4.8.1. Database Diagrams
