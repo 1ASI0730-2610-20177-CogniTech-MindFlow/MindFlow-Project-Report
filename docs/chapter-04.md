@@ -454,6 +454,7 @@ A continuación se presenta el flujo de interacción del prototipo elaborado en 
 ---
 
 ### 4.6.1. Design-Level EventStorming
+![Design-Level EventStorming](../assets/EventStorming.png)
 
 ### 4.6.2. Software Architecture Context Diagram
 
