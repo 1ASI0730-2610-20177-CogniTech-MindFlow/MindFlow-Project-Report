@@ -11,6 +11,7 @@
 | E2 | AI-Powered Emotional Intelligence | Implementation of the AI core for sentiment analysis and empathetic feedback. |
 | E3 | Smart Wellness & Habit Engineering | Logic for habit management and proactive intervention systems for stress. |
 | E4 | Analytics, Monetization & Scalability | Data visualization module, business model, and system optimization. |
+| E5 | Landing Page & User Acquisition | Design and development of a high-conversion informative website to attract potential users and communicate MindFlow’s value proposition. |
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |-----------------|--------|-------------|------------------------|--------------------------|
@@ -54,7 +55,16 @@
 | US38 (T) | Unit Testing | As a developer, I want to implement automated tests, so that I can ensure payment flows never break. | Given code is modified, when tests are run, then 100% must pass green before committing. | E4 |
 | US39 (T) | Responsiveness | As a developer, I want to use Flexbox and Grid, so that the app looks perfect on tablets and laptops. | Given the device changes, when the screen scales, then the UI adjusts without visual errors. | E4 |
 | US40 (T) | Rate Limiting | As an admin, I want to implement API request limits, so that I can protect the server from abuse or external attacks. | Given an IP exceeds the request limit, when the threshold is met, then the system temporarily blocks access. | E4 |
-
+| US41 | Main Navigation (Navbar) | As a visitor, I want a top navigation menu, so that I can quickly navigate to the Features, Insights, and Pricing sections. | Given I am on the landing page, when I click on "Features", then the page smoothly scrolls to that section. | E5 |
+| US42 | Hero CTA (Call to Action) | As a visitor, I want clear action buttons in the header ("Start Journaling"), so that I can start my registration immediately. | Given I see the homepage, when I click on "Start Journaling", then the system redirects me to the Sign Up flow. | E5 |
+| US43 | Features Grid | As a visitor, I want to read the 6 main features displayed in cards, so that I can quickly understand what the application offers. | Given I scroll to the Features section, when I view the grid, then I can identify icons and descriptive text for each feature. | E5 |
+| US44 | UI Preview (Mockups) | As a visitor, I want to see visual examples of the journal and charts, so that I know how the app will look before registering. | Given I am in the Insights section, when I view the mockups, then I see real examples of the Word Cloud and Mood Trends. | E5 |
+| US45 | Free Trial CTA | As a visitor, I want a button to start a 14-day free trial without a credit card at the bottom of the page, so that I can try the app risk-free. | Given I reach the bottom of the page, when I read "14-day free trial", then the "Get Started" button takes me to the free registration. | E5 |
+| US46 | Footer Navigation | As a visitor, I want legal and company links in the footer, so that I can verify the privacy policy and terms of service. | Given I am in the footer, when I click on "Privacy Policy", then the page with legal content opens. | E5 |
+| US47 | Social Media Links | As a visitor, I want social media icons in the footer, so that I can visit MindFlow’s official profiles. | Given I see the icons, when I click on Twitter/IG/LinkedIn, then the profile opens in a new tab. | E5 |
+| US48 | Interactive Trends Chart | As a visitor, I want to see the "Mood Trends" line chart with a "Last 30 Days" button, so that I know I can track my data over time. | Given I scroll down to "Deep dive into your data", when I view the panel, then I see a blue line chart with a time filter label. | E5 |
+| US49 | Features Grid (6 Cards) | As a visitor, I want to read the 6 feature cards with icons, so that I can quickly understand the core tools of the application. | Given I scroll to the "Everything you need..." section, when I view the grid, then I see 6 white cards with colored icons and descriptions. | E5 |
+| US50 | AI Insight Preview Card | As a visitor, I want to see a floating preview of "Today's Entry" and "AI Insight", so that I can understand how AI feedback works in practice. | Given I am in the hero section, when I look to the right of the text, then I see a card simulating a real entry and the AI response. | E5 |
 ## 3.2. Impact Mapping
 <img src="../assets/Impact_mapping.png" alt="Impact Mapping Picture" width="5000"/>
 ---
@@ -105,3 +115,13 @@
 | 38 | US38 (T) | Unit Testing | As a developer, I want to implement automated tests, so that I can ensure payment flows never break. | 5 |
 | 39 | US39 (T) | Responsiveness | As a developer, I want to use Flexbox and Grid, so that the app looks perfect on tablets and laptops. | 5 |
 | 40 | US40 (T) | Rate Limiting | As an admin, I want to implement API request limits, so that I can protect the server from abuse or external attacks. | 3 |
+| 41 | US41 | Main Navigation (Navbar) | As a visitor, I want a top navigation menu, so that I can quickly jump to the Features, Insights, and Pricing sections. | 2 |
+| 42 | US42 | Hero CTA (Call to Action) | As a visitor, I want clear action buttons in the header, so that I can start my registration immediately. | 2 |
+| 43 | US43 | Features Grid | As a visitor, I want to read the 6 main features in cards, so that I can quickly understand what the app offers. | 3 |
+| 44 | US44 | UI Preview (Mockups) | As a visitor, I want to see visual examples of the journal and charts, so that I know how the app looks before signing up. | 3 |
+| 45 | US45 | Free Trial CTA | As a visitor, I want a 14-day free trial button at the bottom, so that I can test the app without risk. | 2 |
+| 46 | US46 | Footer Navigation | As a visitor, I want legal and company links in the footer, so that I can verify the privacy policy and terms. | 1 |
+| 47 | US47 | Social Media Links | As a visitor, I want social media icons in the footer, so that I can visit MindFlow's official profiles. | 1 |
+| 48 | US50 | AI Insight Preview Card | As a visitor, I want to see a floating preview of an entry, so that I can understand how the AI feedback works. | 3 |
+| 49 | US49 | Features Grid | As a visitor, I want to read the 6 feature cards with icons, so that I can quickly understand the core tools. | 3 |
+| 50 | US48 | Interactive Trends Chart | As a visitor, I want to see the "Mood Trends" line chart, so that I know I can track my data over time. | 3 |
