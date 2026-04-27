@@ -481,7 +481,8 @@ En esta sección, se presentan los diagramas de clases que ilustran las principa
 ![class diagram](../assets/class_diagram.png)
 
 ## 4.8. Database Design
-![class diagram](../assets/Database.png)
 ---
 
 ### 4.8.1. Database Diagrams
+
+![class diagram](../assets/Database.png)
