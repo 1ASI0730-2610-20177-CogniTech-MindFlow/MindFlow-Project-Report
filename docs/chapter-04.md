@@ -457,9 +457,19 @@ A continuación se presenta el flujo de interacción del prototipo elaborado en 
 
 ### 4.6.2. Software Architecture Context Diagram
 
+<img src="../assets/Diagrama De Contexto.png" width="900">
+
+---
+
 ### 4.6.3. Software Architecture Container Diagrams
 
+<img src="../assets/Diagrama De Contenedores.png" width="900">
+
+---
+
 ### 4.6.4. Software Architecture Components Diagrams
+
+<img src="../assets/Software Architecture Components Diagram.png" width="900">
 
 ## 4.7. Software Object-Oriented Design
 
