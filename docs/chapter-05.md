@@ -166,14 +166,80 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 
 Enlace de Trello: https://trello.com/invite/b/69ee88a6130c90b4e5b1d5b2/ATTId18d929499f3de387496062b322b92179F3FB526/mindflow
 #### 5.2.1.4. Development Evidence for Sprint Review
+Durante el Sprint 1, el equipo utilizó GitHub como sistema de control de versiones, siguiendo el flujo de trabajo GitFlow para asegurar una integración ordenada del código. A continuación, se presenta el registro de los commits más relevantes que evidencian el desarrollo de la Landing Page y la colaboración del equipo.
+
+**Repository:** 1ASI0730-2610-20177-CogniTech-MindFlow/MindFlow-Landing-Page
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `MindFlow-Landing-Page` | `main` | `116956f` | `Delete CNAME` | `Removed the CNAME file after updating the deployment configuration.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `db4b64c` | `Create CNAME` | `Created the CNAME file to configure the custom domain for GitHub Pages.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `8f7d39f` | `fix(landing): Small improvements` | `Applied minor layout and content improvements to the landing page.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `915f60c` | `Update index.html with new logo and content` | `Updated `index.html` with the new logo and revised content.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `58bd198` | `Add Logo por LandingPage` | `Added the logo to the landing page header.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `2bb352c` | `Rename assets/MindFlow_logo.png to assets/images/MindFlow_logo.png` | `Moved the logo asset to the `assets/images/` folder.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `7d82e38` | `Add MindFlow Logo` | `Added the MindFlow logo asset to the project.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `f85bb97` | `fix(landing): Update file paths for styles and scripts` | `Updated CSS and JS file paths to ensure correct loading in deployment.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `3bea106` | `Add to Landing-Page: RESPONSIVE` | `Added responsive behavior and media-query adjustments.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `9f20df4` | `Add to Landing-Page: HTML interactions` | `Added HTML structure for interactive elements.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `ccc5152` | `Add to Landing-Page: interactions` | `Added JavaScript interactions for landing page elements.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `ff7519b` | `Add to Landing-Page: footer styles` | `Added CSS styles for the footer section.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `a1d3026` | `Add to Landing-Page: HTML footer` | `Added HTML structure for the footer section.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `bc214c8` | `Add to Landing-Page: cta styles` | `Added CSS styles for the CTA section.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `fde311e` | `Add to Landing-Page: HTML cta` | `Added HTML structure for the CTA section.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `578ea95` | `Add to Landing-Page: analytics styles` | `Added CSS styles for the analytics section.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `1c4ed7c` | `Add to Landing-Page: ANALYTICS HTML` | `Added HTML structure for the analytics section.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `f86644b` | `Add to Landing-Page: journey styles` | `Added CSS styles for the journey section.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `dcf0463` | `Add to Landing-Page: jorney HTML` | `Added HTML structure for the journey section.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `b58a0c8` | `Add to Landing-Page: Feature styles` | `Added CSS styles for the feature section.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `eedddd9` | `Add to Landing-Page: feature html` | `Added HTML structure for the feature section.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `eea888d` | `Add to Landing-Page: Hero Style` | `Added CSS styles for the hero section.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `cc1e39b` | `Add to Landing-Page: NavBar html` | `Added NavBar structure for the landing page HTML sections.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `cf3719a` | `Add to Landing-Page: Script Base` | `Added JS structure for the landing page sections.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `63ef417` | `Add to Landing-Page: Css Base` | `Added CSS style structure for the landing page sections.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `eaf4bf8` | `Add to Landing-Page: HTML Base` | `Added HTML structure for the landing page sections.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `9b05451` | `add index, script and styless in blank` | `Initial HTML, CSS structure and JS for the landing page layout.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `370452c` | `Initial commit` | `Initial repository setup with base project files.` | 26/04/2026 |
+| `MindFlow-Landing-Page` | `main` | `e0c6a37` | `Add to Landing-Page: hero html` | `Added Hero section for the landing page HTML.` | 23/04/2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
+En esta sección se presenta la evidencia de la ejecución del Sprint 1, demostrando el cumplimiento de los objetivos establecidos y el despliegue del producto en un entorno de producción accesible.
+
+
+
+Enlace del Landing Page: https://github.com/1ASI0730-2610-20177-CogniTech-MindFlow/MindFlow-Landing-Page.git
+
+Evidencia de Despliegue (GitHub Pages): https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/
+
+A continuación, se presenta la captura del dashboard de GitHub que confirma el despliegue exitoso (Production Deployment) de la Landing Page desde el repositorio oficial de GitHub.
+
+![DeploymentEvidence1](../assets/DeployEvidence1.png)
+![DeploymentEvidence2](../assets/DeployEvidence2.png)
+![DeploymentEvidence3](../assets/DeployEvidence3.png)
+![DeploymentEvidence4](../assets/DeployEvidence4.png)
+![DeploymentEvidence5](../assets/DeployEvidence5.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+Para el presente Sprint 1, el alcance se centró exclusivamente en la implementación y despliegue del Landing Page (sitio web estático). Por lo tanto, no se han desarrollado servicios RESTful API en esta etapa. La documentación detallada de los endpoints mediante OpenAPI (Swagger) se incluirá en los informes correspondientes a los siguientes Sprints, una vez iniciada la fase de implementación de los Web Services.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+Durante el Sprint 1, se realizó el despliegue de la Landing Page de VITAL CARE
+utilizando GitHub Pages como plataforma de hosting. A continuación se describen
+las actividades realizadas para lograr la publicación exitosa del sitio.
 
+1. Se creó el repositorio `MindFlow-Landing-Page` bajo la organización
+   `1ASI0730-2610-20177-CogniTech-MindFlow` en GitHub.
+
+2. Se desarrolló la Landing Page en la rama `main` siguiendo el flujo
+   GitFlow, integrando las secciones de hero, problemática, beneficios,
+   startup, planes y footer.
+
+3. Una vez validado el contenido, se dirigió el repositorio hacia GitHub Pages configurando la rama `main` como fuente de despliegue.
+
+4. Se verificó el despliegue exitoso accediendo a la URL pública:
+   [https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/](https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/)
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+![TeamCollaboration](../assets/CollaborationInsights.png)
 
 ---
 # Conclusiones
