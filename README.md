@@ -48,6 +48,13 @@
 |---------|------------|------------------------------|-----------------------------|
 | 1.0 | 10/04/2026 | Rocca Mariaca, Angel Mathias | Creación del reporte en formato Markdown. |
 
+## Desarrollo del reporte
+
+---
+
+AV1:
+![AV1](./assets/ContributorsInsight.png)
+
 # Project Report Collaboration Insights
 
 ---
