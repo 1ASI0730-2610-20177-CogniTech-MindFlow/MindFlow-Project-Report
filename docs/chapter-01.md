@@ -7,12 +7,14 @@
 ---
 
 ### 1.1.1. Descripción de la Startup
-CogniTech es una startup tecnológica emergente enfocada en la intersección entre la salud mental y la inteligencia artificial. Nuestro propósito es democratizar el acceso a herramientas de bienestar emocional a través de soluciones de software innovadoras, escalables y centradas en el usuario.
+CogniTech es una startup tecnológica creada por estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas . Nuestra organización se especializa en el desarrollo de soluciones de HealthTech y Smart Wellness, enfocándonos específicamente en la intersección entre la salud mental y la Inteligencia Artificial.
+
+A diferencia de las herramientas de productividad convencionales, en CogniTech aplicamos un enfoque de Ingeniería Empática. Esto significa que nuestros procesos de desarrollo no solo priorizan la eficiencia algorítmica, sino también el impacto psicológico en el usuario final. Utilizamos arquitecturas escalables y seguras para gestionar datos sensibles, transformando registros emocionales en insights accionables mediante Procesamiento de Lenguaje Natural (NLP). Nuestro compromiso es cerrar la brecha de accesibilidad a herramientas de contención emocional en entornos de alta exigencia académica y laboral.
 
 | Atributo | Declaración Estratégica |
 | :--- | :--- |
-| **Misión** | Empoderar a las personas en la gestión de su bienestar emocional mediante el desarrollo de aplicaciones inteligentes, accesibles y éticas que faciliten la construcción de hábitos saludables y el autoconocimiento. |
-| **Visión** | Ser la *startup* líder en la región en la creación de ecosistemas digitales de salud mental, transformando la manera en que la tecnología asiste al ser humano en su desarrollo personal y equilibrio emocional. |
+| **Misión** | Democratizar y humanizar el acceso al bienestar emocional mediante el desarrollo de ecosistemas digitales éticos, inteligentes y centrados en el usuario, que permitan a las personas transformar el estrés en productividad y autoconocimiento.|
+| **Visión** | Consolidarnos para el año 2030 como la startup líder en el ecosistema HealthTech de la región, siendo reconocidos por nuestra innovación en el uso de IA aplicada a la salud mental y por establecer el estándar en la protección de la privacidad del usuario. |
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
