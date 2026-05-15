@@ -244,8 +244,19 @@ las actividades realizadas para lograr la publicación exitosa del sitio.
 ---
 # Conclusiones
 
----
 ## Conclusiones y recomendaciones
+
+El desarrollo de MindFlow permitió identificar que los estudiantes universitarios y profesionales jóvenes enfrentan altos niveles de estrés, ansiedad y agotamiento emocional, además de presentar dificultades para mantener hábitos de bienestar de forma constante. A través de las entrevistas, el análisis competitivo y las técnicas de investigación aplicadas, se evidenció que muchas aplicaciones actuales de salud mental son percibidas como soluciones pasivas, repetitivas y poco personalizadas, lo que provoca una alta tasa de abandono por parte de los usuarios.
+
+Asimismo, la investigación permitió validar la necesidad de una plataforma inteligente capaz de brindar apoyo emocional en tiempo real, reduciendo el esfuerzo cognitivo del usuario y ofreciendo recomendaciones adaptadas a su estado emocional. En este contexto, MindFlow propone una solución innovadora basada en inteligencia artificial y análisis de sentimientos, integrando funcionalidades como el diario emocional inteligente, los hábitos adaptativos y las intervenciones automatizadas, diferenciándose de otras aplicaciones del mercado por su capacidad de personalización y acompañamiento activo.
+
+El proyecto también demostró la importancia de aplicar metodologías centradas en el usuario, como Lean UX, User Personas, Empathy Mapping y EventStorming, ya que estas herramientas permitieron comprender de manera más profunda las necesidades, frustraciones y comportamientos de los segmentos objetivo. Gracias a ello, fue posible diseñar una propuesta alineada con los problemas reales de los usuarios y enfocada en generar valor dentro de su rutina diaria.
+
+Finalmente, el desarrollo de MindFlow evidenció la relevancia del trabajo colaborativo y la organización dentro del equipo, permitiendo distribuir responsabilidades de manera eficiente y alcanzar los objetivos planteados en cada etapa del proyecto. La integración de conocimientos técnicos, de diseño y de investigación facilitó la construcción de una solución sólida, escalable y orientada a mejorar la experiencia y el bienestar emocional de los usuarios.
+
+Como recomendación, se plantea continuar con el desarrollo e implementación de nuevas funcionalidades basadas en inteligencia artificial, priorizando la automatización y personalización de la experiencia del usuario. Además, se recomienda fortalecer las medidas de seguridad y privacidad de los datos, debido a la sensibilidad de la información emocional gestionada por la plataforma.
+
+También se sugiere realizar futuras validaciones con una mayor cantidad de usuarios y distintos perfiles demográficos, con el objetivo de obtener retroalimentación más amplia y mejorar continuamente la experiencia de uso. Finalmente, sería importante incorporar métricas de seguimiento y análisis que permitan evaluar el impacto real de la plataforma en la reducción del estrés y la mejora de hábitos de bienestar.
 
 ---
 
