@@ -415,7 +415,7 @@ Enlace: https://mindflow-frontend-cognitech-mindflow.vercel.app/
 
 <img src="../assets/collabLanding.png" alt="Collab Landing Page" height="500" width="1000">
 
-## Desarrollo del Fronted
+## Desarrollo del Frontend
 
 #### TP1:
 
