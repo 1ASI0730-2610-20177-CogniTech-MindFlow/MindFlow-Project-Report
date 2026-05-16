@@ -469,6 +469,6 @@ Recopilación de entrevistas
 | Entrega | Título         | Enlace |
 |---------|----------------|--------|
 | AV1 | Exposición AV1 |https://drive.google.com/drive/folders/1zaVJczj7mF71U5WlXfVcNgUmt_EtWrW-?usp=drive_link |
-| TB1 |                | |
+| TB1 | Exposición TB1 | https://drive.google.com/drive/folders/1RxrPr6JgksZUIHGFvMvERentxTJFXQix?usp=drive_link|
 | AV2 |                | |
 | TB2 |                | |
