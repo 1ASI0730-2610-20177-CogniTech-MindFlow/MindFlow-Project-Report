@@ -240,6 +240,188 @@ las actividades realizadas para lograr la publicación exitosa del sitio.
    [https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/](https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/)
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 ![TeamCollaboration](../assets/CollaborationInsights.png)
+---
+### 5.2.2. Sprint 2
+#### 5.2.2.1.Sprint Planning 2.
+| Sprint #                           | Sprint 2                                                                                                                                                                                                                                                                                                |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                         |
+| Date                               | 2026-05-11                                                                                                                                                                                                                                                                                              |
+| Time                               | 04:30 PM                                                                                                                                                                                                                                                                                                |
+| Location                           | Reunión virtual vía discord                                                                                                                                                                                                                                                                             |
+| Prepared By                        | Caisahuana Osores, Becker Junior                                                                                                                                                                                                                                                                        |
+| Attendees                          | Cabrera Sotelo, Camila Celeste / Caisahuana Osores, Becker Junior / Díaz De la cruz, Sebastián Gabriel / Jáuregui Cerna, Jean Franco / Rocca Mariaca, Angel Mathias                                                                                                                                     |
+| Sprint 2 – 1 Review Summary        | The previous sprint laid a solid foundation for the initial structure. However, the team noticed some integration challenges that delayed the final delivery. The Product Owner provided valuable feedback regarding the user interface clarity, which we will address immediately.                                                                               |
+| Sprint 2 – 1 Retrospective Summary | The team recognizes that communication during the integration phase needs improvement to avoid bottlenecks. The feedback received has been instrumental in adjusting our focus. We are committed to maintaining a cleaner architecture and better modularization moving forward to ensure high quality. |
+| **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                         |
+| Sprint 1 Goal                      | Our focus is on strengthening the MindFlow digital experience through the development of the Analytics and Dashboard modules. We believe this will effectively provide users with a clear, responsive, and secure interface to track their emotional progress and daily habits.                                          |
+| Sprint 1 Velocity                  | 78                                                                                                                                                                                                                                                                                                      |
+| Sum of Story Points                | 24                                                                                                                                                                                                                                                                                                      |
+
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+| Role | Team Member                                                     |
+|---|-----------------------------------------------------------------|
+| Frontend Architecture Leader | Caisahuana Osores, Becker Junior                                |
+| UX/UI Design Collaborator | Cabrera Sotelo, Camila Celeste                                  |
+| Backend Integration Collaborator | Rocca Mariaca, Angel Mathias  |
+| Database Management Collaborator | Díaz De la cruz, Sebastián Gabriel                                    |
+| QA and Testing Collaborator | Jáuregui Cerna, Jean Franco                                     |
+
+#### 5.2.2.3.Sprint Backlog 2.
+<img src="../assets/SprintBacklog2.png" alt="SprintBacklog2" height="500" width="1000">
+
+Enlace de Trello: https://trello.com/invite/b/6a07bd49bd8ca58850e4501f/ATTIbebb0ef435bfc9608428b3b7f81f3e36DE5E1F2D/mindflow-sprint2
+
+#### 5.2.2.4.Development Evidence for Sprint Review.
+Aquí se presentará el registro de commits de aplicación frontend durante el Sprint 2, evidenciando el desarrollo de funcionalidades relacionadas con la gestión de dashboard, diario(journal), habitos, analiticas, configuracion,planes y otros aspectos clave del sistema MindFlow
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on Date |
+|---|---|---|---|---|---|
+| MindFlow-Frontend | main | 2d5c5cb | Merge pull request #8 from develop | Merged develop branch into main integrating all sprint features. | 15/05/2026 |
+| MindFlow-Frontend | main | 80bc510 | Merge pull request #7 from feature/dashboard | Integrated dashboard features into the development branch. | 15/05/2026 |
+| MindFlow-Frontend | main | cc2f715 | feat dashboard: assemble main dashboard view | Assembled the main dashboard view with asymmetric grid layout. | 15/05/2026 |
+| MindFlow-Frontend | main | 29d6786 | feat dashboard: create daily habits checklist component | Created daily habits checklist component for user tracking. | 15/05/2026 |
+| MindFlow-Frontend | main | 8b60ed1 | feat dashboard: add quick interventions action buttons | Added quick interventions action buttons to the main dashboard. | 15/05/2026 |
+| MindFlow-Frontend | main | ce2457e | feat dashboard: implement weekly mood summary widget | Implemented weekly mood summary widget for visual tracking. | 15/05/2026 |
+| MindFlow-Frontend | main | eee2cf9 | feat dashboard: implement store for state management | Implemented store for state management and AI feedback. | 15/05/2026 |
+| MindFlow-Frontend | main | cefa732 | feat dashboard: setup api endpoint for ai analysis | Setup API endpoint for AI analysis processing. | 15/05/2026 |
+| MindFlow-Frontend | main | a958085 | feat: update API integration to use mock API | Updated API integration to use mock API and improve fetching. | 15/05/2026 |
+| MindFlow-Frontend | main | 07ebab6 | feat: implement dark mode support and enhance theme transitions | Implemented dark mode support and enhanced theme transitions. | 15/05/2026 |
+| MindFlow-Frontend | main | 260e472 | feat: enhance animations and transitions in components | Enhanced animations and transitions in habit and journal components. | 15/05/2026 |
+| MindFlow-Frontend | main | 3b2c6b2 | Add Subscriptions to Develop | Added Subscriptions module to Develop branch. | 15/05/2026 |
+| MindFlow-Frontend | main | bd32afe | Add Journal to Develop | Added Journal module to Develop branch. | 15/05/2026 |
+| MindFlow-Frontend | main | 5a45715 | Add: Create journal store using Pinia | Created journal store using Pinia for state management. | 15/05/2026 |
+| MindFlow-Frontend | main | 6619997 | chore analytics: remove temporary placeholder files | Removed temporary placeholder files from analytics module. | 14/05/2026 |
+| MindFlow-Frontend | main | e56f9cc | feat analytics: assemble responsive main dashboard view | Assembled responsive analytics view. | 14/05/2026 |
+| MindFlow-Frontend | main | d28876e | feat analytics: implement pinia store for dashboard | Implemented Pinia store for analytics state management. | 14/05/2026 |
+| MindFlow-Frontend | main | 401f2cf | chore deps: install chart.js for analytics graphics | Installed chart.js dependency for analytics graphics. | 14/05/2026 |
+| MindFlow-Frontend | main | 16124d3 | feat: enhance subscription page with animations | Enhanced subscription page with animations. | 14/05/2026 |
+| MindFlow-Frontend | main | e270a87 | feat: add localization support for plans page | Added localization support for plans page. | 13/05/2026 |
+| MindFlow-Frontend | main | 5815cf2 | feat: implement settings page with profile management | Implemented settings page with profile management. | 13/05/2026 |
+| MindFlow-Frontend | main | 7068b4f | feat: add initial application structure with routing | Added initial application structure with routing and localization. | 13/05/2026 |
+| MindFlow-Frontend | develop | cc2f715 | feat[dashboard]: assemble main dashboard view with asymmetric grid layout | Assembled the main dashboard view integrating all widgets into a responsive asymmetric grid. | 15/05/2026 |
+| MindFlow-Frontend | develop | 29d6786 | feat[dashboard]: create daily habits checklist component | Implemented custom interactive checkboxes for daily habit tracking. | 15/05/2026 |
+| MindFlow-Frontend | develop | 8b60ed1 | feat[dashboard]: add quick interventions action buttons | Added quick action buttons for breathing and meditation exercises. | 15/05/2026 |
+| MindFlow-Frontend | develop | ce2457e | feat[dashboard]: implement weekly mood summary widget | Built a CSS flexbox based chart to display the weekly mood summary. | 15/05/2026 |
+| MindFlow-Frontend | develop | 9522634 | feat[dashboard]: create recent entries list component | Developed component to display the history of recent journal interactions. | 15/05/2026 |
+| MindFlow-Frontend | develop | 73cadd2 | feat[dashboard]: build mood input component with ai feedback integration | Created text area component with dynamic AI response box. | 15/05/2026 |
+| MindFlow-Frontend | develop | eee2cf9 | feat[dashboard]: implement store for state management and ai feedback | Added actions to Pinia store for submitting journal entries and toggling habits. | 15/05/2026 |
+| MindFlow-Frontend | develop | 620c493 | feat[dashboard]: create domain models for journal entries and habits | Defined JournalEntry and DailyHabit models in the domain layer. | 15/05/2026 |
+| MindFlow-Frontend | develop | cefa732 | feat[dashboard]: setup api endpoint for ai analysis processing | Created infrastructure endpoint to simulate AI feedback processing. | 15/05/2026 |
+| MindFlow-Frontend | develop | 8bd23c9 | feat[router]: enable dashboard route in main navigation | Activated the main dashboard route in the router configuration file. | 15/05/2026 |
+| MindFlow-Frontend | develop | a958085 | feat: update API integration to use mock API and improve subscription fetching logic | Updated subscription logic to reliably fetch data from the mock API endpoints. | 15/05/2026 |
+| MindFlow-Frontend | develop | 07ebab6 | feat: implement dark mode support and enhance theme transitions across components | Added global dark mode styling and smoothed visual transitions. | 15/05/2026 |
+| MindFlow-Frontend | develop | d7ce45b | fix: attemp to fix Vercel deploy | Adjusted build configuration to resolve Vercel deployment errors. | 15/05/2026 |
+| MindFlow-Frontend | develop | 260e472 | feat: enhance animations and transitions in habit and journal components | Added smooth reveal animations to habit and journal interface elements. | 15/05/2026 |
+| MindFlow-Frontend | develop | c2dfa02 | feat: localize habit and analytics components | Integrated i18n support for habit and analytics text strings. | 15/05/2026 |
+| MindFlow-Frontend | develop | 70616de | fix: Remove temporary placeholder files | Cleaned up unused placeholder files from the project structure. | 15/05/2026 |
+| MindFlow-Frontend | develop | ac7a6a7 | fix: Delete dupplicate component | Removed redundant component files to optimize bundle size. | 15/05/2026 |
+| MindFlow-Frontend | develop | 255058e | fix: Fix merge problem | Resolved Git merge conflicts in routing configuration. | 15/05/2026 |
+| MindFlow-Frontend | develop | 49f059b | Add: habits.vue | Created main view component for the habits tracking section. | 15/05/2026 |
+| MindFlow-Frontend | develop | 938fe06 | Add: Components .vue in Presentation/components | Scaffolded base presentation components for the UI. | 15/05/2026 |
+| MindFlow-Frontend | develop | 6bbd96a | Add: Implement HabitsHistoryAPI for habit tracking | Added infrastructure service to handle habit history endpoints. | 15/05/2026 |
+| MindFlow-Frontend | develop | b7952fb | add: Implement habits API with default habits | Connected habits view to backend API for initial data loading. | 15/05/2026 |
+| MindFlow-Frontend | develop | 0b8f442 | Add: HabitCompletionLog and weekly summary functions | Implemented logic to calculate and display weekly habit completion stats. | 15/05/2026 |
+| MindFlow-Frontend | develop | 6daf284 | Add: habits store with state and actions | Created Pinia store to manage global state for user habits. | 15/05/2026 |
+| MindFlow-Frontend | develop | 175c7b3 | Add: Create journal.vue | Created main view component for the personal journal section. | 15/05/2026 |
+| MindFlow-Frontend | develop | 27efb8a | Add: Create JournalFilters.vue | Built UI component to filter journal entries by tags or dates. | 15/05/2026 |
+| MindFlow-Frontend | develop | e90c784 | Add: Create JournalEntryCard.vue | Designed reusable card component to display individual journal logs. | 15/05/2026 |
+| MindFlow-Frontend | develop | 7938033 | Add: JournalCalendar.vue | Implemented calendar widget for navigating historical journal entries. | 15/05/2026 |
+| MindFlow-Frontend | develop | 2027f66 | Add: Create journal-api.js | Configured API service calls for journal data persistence. | 15/05/2026 |
+| MindFlow-Frontend | develop | 8c3f5ea | Add: Create journal-entry.entity.js | Defined core domain entity structure for journal entries. | 15/05/2026 |
+| MindFlow-Frontend | develop | 5a45715 | Add: Create journal store using Pinia for state management | Setup state management architecture for the journaling module. | 15/05/2026 |
+| MindFlow-Frontend | develop | 6619997 | chore[analytics]: remove temporary placeholder files | Deleted placeholder files from domain and application folders. | 14/05/2026 |
+| MindFlow-Frontend | develop | e56f9cc | feat[analytics]: assemble responsive main dashboard view | Integrated all analytics components into a responsive layout. | 14/05/2026 |
+| MindFlow-Frontend | develop | aca4bbf | feat[analytics]: build high-end UI components and chart widgets | Developed clean-card styled components including word cloud and charts. | 14/05/2026 |
+| MindFlow-Frontend | develop | d28876e | feat[analytics]: implement pinia store for dashboard state management | Configured Pinia store to handle dynamic data fetching for analytics. | 14/05/2026 |
+| MindFlow-Frontend | develop | edff945 | feat[analytics]: setup domain models, mock db, and api endpoint | Created Domain-Driven Design structure for the analytics module. | 14/05/2026 |
+| MindFlow-Frontend | develop | c690046 | feat[router]: register analytics view route | Registered the analytics path in the main Vue router configuration. | 14/05/2026 |
+| MindFlow-Frontend | develop | 263843f | fix[layout]: adjust main container overflow for proper dashboard scrolling | Fixed layout CSS to ensure the sidebar remains static while content scrolls. | 14/05/2026 |
+| MindFlow-Frontend | develop | 401f2cf | chore[deps]: install chart.js for analytics graphics | Added chart.js dependency to package.json for visualizations. | 14/05/2026 |
+| MindFlow-Frontend | develop | 91a91f4 | feat: enhance settings page with animations and improved UI elements | Upgraded settings view with modern transition effects and styling. | 14/05/2026 |
+| MindFlow-Frontend | develop | 16124d3 | feat: enhance subscription page with animations | Added visual polish and fluid animations to the premium plans page. | 14/05/2026 |
+| MindFlow-Frontend | develop | e270a87 | feat: add localization support for plans page | Implemented multi-language text translations for subscription tiers. | 13/05/2026 |
+| MindFlow-Frontend | develop | 16d1d7b | feat: add localization support for settings | Enabled English and Spanish translations in the configuration panel. | 13/05/2026 |
+| MindFlow-Frontend | develop | 3f1ee87 | fix: add missing files | Restored accidentally deleted structural files to the repository. | 13/05/2026 |
+| MindFlow-Frontend | develop | 28fa283 | feat: add subscription route and update premium banner functionality | Linked the sidebar premium banner to the newly created plans route. | 13/05/2026 |
+| MindFlow-Frontend | develop | 22624ac | fix: validate userId in fetchProfile action to prevent errors | Added safety checks in the auth store to handle missing user IDs. | 13/05/2026 |
+| MindFlow-Frontend | develop | 5815cf2 | feat: implement settings page with profile management | Built settings interface allowing users to update their core profile data. | 13/05/2026 |
+| MindFlow-Frontend | develop | 7068b4f | feat: add initial application structure with routing and localization support | Set up base project architecture including Vue Router and Vue I18n. | 13/05/2026 |
+
+#### 5.2.2.5.Execution Evidence for Sprint Review.
+Aquí se muestran las funciones desarrolladas para esta entrega, algunas funciones fueron descartadas como el IAM por ser un módulo que se hará para la siguiente sprint
+
+### Vista Dashboard
+<img src="../assets/dashboard.png" alt="dashboard app web" height="500" width="1000">
+
+### Vista diario(journal)
+<img src="../assets/diario.png" alt="diario app web" height="500" width="1000">
+
+### Vista habitos
+<img src="../assets/habitos.png" alt="habitos app web" height="500" width="1000">
+
+### Vista analiticas
+<img src="../assets/analiticas1.png" alt="analiticas app web" height="500" width="1000">
+
+<img src="../assets/analiticas2.png" alt="analiticas2 app web" height="500" width="1000">
+
+### Vista configuracion
+<img src="../assets/configuracion1.png" alt="configuracion app web" height="500" width="1000">
+
+<img src="../assets/configuracion2.png" alt="configuracion2 app web" height="500" width="1000">
+
+### Vista planes
+<img src="../assets/planes.png" alt="planes app web" height="500" width="1000">
+
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Analytics Service | GET | `/api/v1/analytics/summary` | Retrieves the emotional stability score, weekly trend, and overall AI-generated analysis. |
+| Analytics Service | GET | `/api/v1/analytics/fluctuation` | Retrieves phase-distributed numerical data to render the activity fluctuation bar chart. |
+| Analytics Service | GET | `/api/v1/analytics/trends` | Retrieves the history of wellness and stress levels for the mental progress line chart. |
+| Dashboard Service | POST | `/api/v1/dashboard/journal/analyze` | Sends the user-written journal text to the NLP engine and returns structured empathetic AI feedback. |
+| Dashboard Service | GET | `/api/v1/dashboard/journal/recent` | Lists the history of the user's most recent emotional journal entries. |
+| Habits Service | GET | `/api/v1/habits/daily` | Returns the list of daily habits assigned to the user along with their current streaks. |
+| Habits Service | PUT | `/api/v1/habits/{id}/toggle` | Updates the completion status of a specific habit and recalculates its corresponding streak. |
+
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+En esta sección se mostrará la evidencia de ejecución de la primera versión de la aplicación web desplegada aen Vercel
+
+---
+### En esta sección se muestra el ingreso del repositorio en la app de Vercel
+
+<img src="../assets/evidence 1- sprint 2.png" alt="Deploy front 1" height="500" width="1000">
+
+### Aquí se muestra el proceso previo al despliegue de la aplicación web en Vercel
+
+<img src="../assets/evidence 2- sprint 2.png" alt="Deploy front 1" height="500" width="1000">
+
+### Aquí se muestra la aplicación ya desplegada en Vercel, con la URL pública para su acceso
+
+<img src="../assets/evidence 3- sprint 2.png" alt="Deploy front 1" height="500" width="1000">
+
+Enlace: https://mindflow-frontend-cognitech-mindflow.vercel.app/
+#### 5.2.2.8.Team Collaboration Insights during Sprint.
+
+## Desarrollo del reporte
+
+#### TP1:
+
+<img src="../assets/collabReport2.png" height="500" width="1000">
+
+## Desarrollo de Landing Page
+#### TP1:
+
+<img src="../assets/collabLanding.png" alt="Collab Landing Page" height="500" width="1000">
+
+## Desarrollo del Fronted
+
+#### TP1:
+
+<img src="../assets/collabFronted.png" height="500" width="1000">
+
+---
 
 ---
 # Conclusiones
