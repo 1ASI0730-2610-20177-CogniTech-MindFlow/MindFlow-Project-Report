@@ -447,6 +447,8 @@ El acceso al sistema sigue un flujo lineal de Registro → Login → Dashboard, 
 ![WebAppPrototyping](../assets/Web%20Applications%20Prototyping.png)
 A continuación se presenta el flujo de interacción del prototipo elaborado en Figma: https://www.figma.com/design/iIGtOTVpNTMNgyT0om6QyY/Web-Applications-Prototyping?node-id=0-1&t=wQUWGyL6lBhFsmmT-1
 
+Tambien se presenta el video del prototipo navegable: https://drive.google.com/drive/folders/12xu-hSmfMdB7cCbxxfyS6keXYXxXm424?usp=sharing
+
 ---
 
 ## 4.6. Domain-Driven Software Architecture
