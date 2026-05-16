@@ -415,7 +415,7 @@ Enlace: https://mindflow-frontend-cognitech-mindflow.vercel.app/
 
 <img src="../assets/collabLanding.png" alt="Collab Landing Page" height="500" width="1000">
 
-## Desarrollo del Fronted
+## Desarrollo del Frontend
 
 #### TP1:
 
@@ -440,6 +440,16 @@ Como recomendación, se plantea continuar con el desarrollo e implementación de
 
 También se sugiere realizar futuras validaciones con una mayor cantidad de usuarios y distintos perfiles demográficos, con el objetivo de obtener retroalimentación más amplia y mejorar continuamente la experiencia de uso. Finalmente, sería importante incorporar métricas de seguimiento y análisis que permitan evaluar el impacto real de la plataforma en la reducción del estrés y la mejora de hábitos de bienestar.
 
+Conclusiones del Entregable Actual Sprint 2
+
+Arquitectura Escalable: La aplicación de Domain-Driven Design en el frontend permitió construir una base modular. Separar el código en dominio, infraestructura, aplicación y presentación facilitará el mantenimiento y la futura integración con los microservicios del backend.
+
+Despliegue y Accesibilidad: La publicación exitosa de la primera versión en Vercel y la implementación de un diseño responsivo garantizan que la plataforma sea accesible desde cualquier dispositivo, un factor clave para fomentar el registro emocional diario.
+
+Simulación de Inteligencia Artificial: El desarrollo de los módulos de Diario y Dashboard logró simular la interacción en tiempo real con el motor de análisis de sentimientos, demostrando cómo la plataforma brindará retroalimentación empática inmediata al usuario.
+
+Experiencia de Usuario Optimizada: La gestión centralizada del estado global permitió un flujo de datos eficiente entre los módulos de hábitos y analíticas. Esto asegura una navegación fluida que reduce la carga cognitiva, un aspecto fundamental al diseñar para personas con estrés o ansiedad.
+
 ---
 
 # Bibliografía
@@ -459,6 +469,6 @@ Recopilación de entrevistas
 | Entrega | Título         | Enlace |
 |---------|----------------|--------|
 | AV1 | Exposición AV1 |https://drive.google.com/drive/folders/1zaVJczj7mF71U5WlXfVcNgUmt_EtWrW-?usp=drive_link |
-| TB1 |                | |
+| TB1 | Exposición TB1 | https://drive.google.com/drive/folders/1RxrPr6JgksZUIHGFvMvERentxTJFXQix?usp=drive_link|
 | AV2 |                | |
 | TB2 |                | |
