@@ -448,6 +448,40 @@ Enlace: https://mindflow-frontend-cognitech-mindflow.vercel.app/
 
 ### 5.3.2. Registro de Entrevistas.
 
+## Segmento 1: Estudiantes Universitarios
+
+### Entrevista N
+
+| Campo | Detalle |
+|------|--------|
+| Segmento Objetivo | Estudiantes universitarios (18–25 años) |
+| Fecha Entrevista |  |
+| Entrevistador |  |
+| Entrevistado |   |
+| Edad |  |
+| Distrito |  |
+| Link del Video |  |
+| Minuto de Inicio |  |
+| Duración |  |
+| Resumen |  |
+
+## Segmento 2: Profesionales Jóvenes
+
+### Entrevista N
+
+| Campo | Detalle |
+|------|--------|
+| Segmento Objetivo | Profesionales jóvenes (26–35 años) |
+| Fecha Entrevista |  |
+| Entrevistador |  |
+| Entrevistado |   |
+| Edad |  |
+| Distrito |  |
+| Link del Video |  |
+| Minuto de Inicio |  |
+| Duración |  |
+| Resumen |  |
+
 ### 5.3.3. Evaluaciones según heurísticas.
 
 ## 5.4. Video About-the-Product.
