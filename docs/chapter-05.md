@@ -555,32 +555,32 @@ Durante el Sprint 3, el equipo desarrolló el backend completo con .NET 10 y rea
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 En esta sección se presenta la evidencia de ejecución del Sprint 3, demostrando la implementación completa del backend con .NET 10 y la documentación interactiva de la API RESTful mediante Swagger (OpenAPI 3.0). Las siguientes capturas corresponden a la interfaz de Swagger UI desplegada en producción, accesible desde la URL pública del backend.
 
-##### Swagger Evidence — AiFeedback & Analytics
+##### Swagger Evidence - AiFeedback & Analytics
 Se muestran los endpoints del bounded context **AiFeedback** (POST, GET y GET /summary para valoraciones de la IA) y **Analytics** (GET/POST /analyticscache, POST /analyticscache/compute, GET/POST /wordcloud, GET /moodcalendar) que permiten consultar el score emocional, tendencias semanales, nube de palabras y calendario de estados de ánimo.
 
 <img src="../assets/Swagger_Evidence_1.png" alt="Swagger Evidence 1 - AiFeedback y Analytics" height="500" width="1000">
 
-##### Swagger Evidence — Chat & HabitLogs
+##### Swagger Evidence - Chat & HabitLogs
 Se presentan los endpoints del bounded context **Chat** (POST/GET /chat/conversations, DELETE /chat/conversations/{id}, POST/GET /chat/conversations/{id}/messages) para conversaciones con IA en tiempo real, y **HabitLogs** (CRUD completo en /habit-logs) para el registro de completado de hábitos con recálculo automático de rachas.
 
 <img src="../assets/Swagger_Evidence_2.png" alt="Swagger Evidence 2 - Chat y HabitLogs" height="500" width="1000">
 
-##### Swagger Evidence — Habits & Journal
+##### Swagger Evidence - Habits & Journal
 Se evidencian los endpoints del bounded context **Habits** (CRUD en /habits, GET /habits/streak-summary, POST /habits/suggestions para sugerencias de IA) y **Journal** (CRUD en /journal/entries con análisis de sentimiento automático, gestión de /journal/tags, /journal/entry-tags y /journal/media con soporte de carga de archivos multimedia).
 
 <img src="../assets/Swagger_Evidence_3.png" alt="Swagger Evidence 3 - Habits y Journal" height="500" width="1000">
 
-##### Swagger Evidence — Notifications, Reporting & Subscriptions
+##### Swagger Evidence - Notifications, Reporting & Subscriptions
 Se muestran los endpoints de **Notifications** (GET /notifications, PATCH /{id}/read, POST /register-device, DELETE /unregister-device para FCM), **Reporting** (GET /api/v1/reporting/export/pdf y /export/csv para exportación premium) y **Subscriptions** (POST /checkout, GET /me, POST /verify-session, POST /cancel, POST /webhook para integración con Stripe).
 
 <img src="../assets/Swagger_Evidence_4.png" alt="Swagger Evidence 4 - Notifications, Reporting y Subscriptions" height="500" width="1000">
 
-##### Swagger Evidence — Support & Users (IAM)
+##### Swagger Evidence - Support & Users (IAM)
 Se presentan los endpoints de **Support** (POST/GET /api/v1/support/tickets para tickets de soporte con confirmación por email) y **Users** (POST /sign-up, POST /sign-in, POST /google-auth, POST /forgot-password, POST /reset-password, GET/PUT /profile, DELETE /users, POST/DELETE/POST verify/GET status de PIN) que conforman el bounded context IAM completo con autenticación JWT.
 
 <img src="../assets/Swagger_Evidence_5.png" alt="Swagger Evidence 5 - Support y Users" height="500" width="1000">
 
-##### Swagger Evidence — Wellness Engine
+##### Swagger Evidence - Wellness Engine
 Se muestra el endpoint del bounded context **Wellness** (POST /wellness/stress-check) que realiza el análisis de estrés del usuario y ajusta automáticamente la carga de hábitos cuando se detecta un nivel de ánimo bajo.
 
 <img src="../assets/Swagger_Evidence_6.png" alt="Swagger Evidence 6 - Wellness Engine" height="100" width="1000">
