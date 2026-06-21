@@ -454,6 +454,10 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 
 #### 5.2.3.3. Sprint Backlog 3.
 
+<img src="../assets/sprint_backlog_3.png" alt="SprintBacklog3" height="500" width="1000">
+
+Enlace de Trello: https://trello.com/b/7WeOkqeo/mindflow-sprint-3
+
 #### 5.2.3.4. Development Evidence for Sprint Review.
 Durante el Sprint 3, el equipo desarrolló el backend completo con .NET 10 y realizó la integración total con el frontend en Vue.js. A continuación se presentan los commits más relevantes que evidencian el desarrollo en ambos repositorios.
 
