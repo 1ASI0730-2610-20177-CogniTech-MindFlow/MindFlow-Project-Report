@@ -404,18 +404,18 @@ En esta sección se mostrará la evidencia de ejecución de la primera versión 
 Enlace: https://mindflow-frontend-cognitech-mindflow.vercel.app/
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
-## Desarrollo del reporte
+### Desarrollo del reporte
 
 #### TP1:
 
 <img src="../assets/collabReport2.png" height="500" width="1000">
 
-## Desarrollo de Landing Page
+### Desarrollo de Landing Page
 #### TP1:
 
 <img src="../assets/collabLanding.png" alt="Collab Landing Page" height="500" width="1000">
 
-## Desarrollo del Frontend
+### Desarrollo del Frontend
 
 #### TP1:
 
@@ -738,6 +738,16 @@ Se asignaron los recursos de la réplica con **2 vCPU** y **1 GB de memoria RAM*
 <img src="../assets/Database_deploy_3.png" alt="Database Deploy 3 - Replica Limits y Deploy command" height="500" width="1000">
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+### Desarrollo del Backend
+
+#### AV2
+<img src="../assets/insight_backend_sprint_3.png" height="500" width="1000">
+
+### Desarrollo del Frontend
+
+#### AV2
+<img src="../assets/insight_frontend_sprint_3.png" height="500" width="1000">
 
 ---
 
