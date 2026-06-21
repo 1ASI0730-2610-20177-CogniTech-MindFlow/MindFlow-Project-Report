@@ -582,6 +582,132 @@ Se muestra el endpoint del bounded context **Wellness** (POST /wellness/stress-c
 <img src="../assets/Swagger_Evidence_6.png" alt="Swagger Evidence 6 - Wellness Engine" height="100" width="1000">
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+Durante el Sprint 3 se implementó la totalidad de la API RESTful del backend de MindFlow con .NET 10, documentada mediante OpenAPI 3.0 (Swagger). A continuación se presenta el catálogo completo de los endpoints desarrollados, organizados por bounded context.
+
+**Bounded Context: Users (IAM)**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Users | POST | `/api/v1/users/sign-up` | Registra un nuevo usuario con email y contraseña hasheada con BCrypt. |
+| Users | POST | `/api/v1/users/sign-in` | Autentica al usuario y retorna un token JWT para acceso a la API. |
+| Users | POST | `/api/v1/users/google-auth` | Autentica al usuario mediante intercambio de token OAuth de Google. |
+| Users | POST | `/api/v1/users/forgot-password` | Envía un email con enlace de recuperación de contraseña vía SMTP. |
+| Users | POST | `/api/v1/users/reset-password` | Restablece la contraseña del usuario mediante token de recuperación. |
+| Users | GET | `/api/v1/users/profile` | Obtiene los datos del perfil del usuario autenticado. |
+| Users | PUT | `/api/v1/users/profile` | Actualiza el nombre y ocupación del perfil del usuario. |
+| Users | DELETE | `/api/v1/users` | Elimina la cuenta del usuario y todos sus datos asociados en cascada. |
+| Users | POST | `/api/v1/users/pin` | Configura un PIN de seguridad para proteger el acceso a la aplicación. |
+| Users | POST | `/api/v1/users/pin/verify` | Verifica el PIN de seguridad ingresado por el usuario. |
+| Users | DELETE | `/api/v1/users/pin` | Elimina el PIN de seguridad configurado. |
+| Users | GET | `/api/v1/users/pin/status` | Consulta si el usuario tiene un PIN de seguridad activo. |
+
+**Bounded Context: Journal**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Journal | GET | `/journal/entries` | Lista las entradas del diario emocional del usuario con filtros y ordenamiento. |
+| Journal | POST | `/journal/entries` | Crea una nueva entrada con detección automática de sentimiento vía Google Gemini. |
+| Journal | GET | `/journal/entries/{id}` | Obtiene una entrada específica del diario por su identificador. |
+| Journal | PUT | `/journal/entries/{id}` | Actualiza el contenido de una entrada existente y recalcula el preview. |
+| Journal | DELETE | `/journal/entries/{id}` | Realiza un soft delete de la entrada del diario. |
+| Journal | GET | `/journal/tags` | Lista todas las etiquetas disponibles del usuario. |
+| Journal | GET | `/journal/entry-tags` | Lista las asociaciones entre entradas y etiquetas contextuales. |
+| Journal | POST | `/journal/entry-tags` | Asocia una etiqueta contextual a una entrada del diario. |
+| Journal | DELETE | `/journal/entry-tags/{id}` | Elimina la asociación entre una etiqueta y una entrada. |
+| Journal | GET | `/journal/media` | Lista los archivos multimedia asociados a las entradas. |
+| Journal | POST | `/journal/media` | Crea un registro de media asociado a una entrada del diario. |
+| Journal | POST | `/journal/media/upload` | Sube un archivo multimedia (máx. 10MB) a Cloudinary y lo vincula a una entrada. |
+
+**Bounded Context: Habits**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Habits | GET | `/habits` | Lista los hábitos del usuario con recálculo de streak en tiempo real. |
+| Habits | POST | `/habits` | Crea un nuevo hábito personalizado con nombre, categoría y frecuencia. |
+| Habits | GET | `/habits/{id}` | Obtiene un hábito específico por su identificador. |
+| Habits | PUT | `/habits/{id}` | Actualiza el nombre, categoría o frecuencia de un hábito existente. |
+| Habits | DELETE | `/habits/{id}` | Elimina un hábito y sus logs de completado asociados. |
+| Habits | GET | `/habits/streak-summary` | Obtiene el resumen de rachas activas y máximas del usuario. |
+| Habits | POST | `/habits/suggestions` | Genera sugerencias de hábitos personalizadas mediante IA (Gemini). |
+
+**Bounded Context: HabitLogs**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| HabitLogs | GET | `/habit-logs` | Lista los logs de completado filtrados por hábito. |
+| HabitLogs | POST | `/habit-logs` | Registra el completado de un hábito y recalcula el streak automáticamente. |
+| HabitLogs | GET | `/habit-logs/{id}` | Obtiene un log de completado específico. |
+| HabitLogs | PUT | `/habit-logs/{id}` | Actualiza un log de completado existente. |
+| HabitLogs | DELETE | `/habit-logs/{id}` | Elimina un log de completado y recalcula la racha del hábito asociado. |
+
+**Bounded Context: Analytics**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Analytics | GET | `/analyticscache` | Obtiene las analíticas semanales del usuario (score, tendencias, KPIs). |
+| Analytics | POST | `/analyticscache` | Crea un registro de analíticas en caché. |
+| Analytics | PUT | `/analyticscache/{id}` | Actualiza un registro de analíticas existente. |
+| Analytics | POST | `/analyticscache/compute` | Fuerza el recómputo de analíticas con insights generados por IA. |
+| Analytics | GET | `/wordcloud` | Obtiene la nube de palabras extraída de las entradas del diario. |
+| Analytics | POST | `/wordcloud/compute` | Fuerza el recómputo de la nube de palabras. |
+| Analytics | GET | `/moodcalendar` | Obtiene el calendario de estados de ánimo por mes con colores por día. |
+
+**Bounded Context: Chat**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Chat | POST | `/chat/conversations` | Crea una nueva conversación con el asistente de IA. |
+| Chat | GET | `/chat/conversations` | Lista todas las conversaciones del usuario. |
+| Chat | DELETE | `/chat/conversations/{id}` | Elimina una conversación y su historial de mensajes. |
+| Chat | POST | `/chat/conversations/{id}/messages` | Envía un mensaje al asistente de IA y recibe respuesta generada por Gemini. |
+| Chat | GET | `/chat/conversations/{id}/messages` | Obtiene el historial de mensajes de una conversación. |
+
+**Bounded Context: AiFeedback**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| AiFeedback | POST | `/api/v1/ai-feedback` | Envía una valoración (1-5 estrellas) sobre la retroalimentación de IA recibida. |
+| AiFeedback | GET | `/api/v1/ai-feedback` | Lista todas las valoraciones de IA realizadas por el usuario. |
+| AiFeedback | GET | `/api/v1/ai-feedback/summary` | Obtiene la distribución estadística de las valoraciones de IA. |
+
+**Bounded Context: Notifications**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Notifications | GET | `/notifications` | Lista las últimas 50 notificaciones del usuario. |
+| Notifications | PATCH | `/notifications/{id}/read` | Marca una notificación como leída. |
+| Notifications | POST | `/notifications/register-device` | Registra un token FCM para recibir notificaciones push. |
+| Notifications | DELETE | `/notifications/unregister-device` | Desregistra un dispositivo del servicio de notificaciones push. |
+
+**Bounded Context: Subscriptions**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Subscriptions | POST | `/api/v1/subscriptions/checkout` | Crea una sesión de checkout en Stripe para suscripción premium. |
+| Subscriptions | GET | `/api/v1/subscriptions/me` | Obtiene el estado actual de la suscripción del usuario. |
+| Subscriptions | POST | `/api/v1/subscriptions/verify-session` | Verifica el estado del pago tras completar el checkout de Stripe. |
+| Subscriptions | POST | `/api/v1/subscriptions/cancel` | Cancela la suscripción premium activa del usuario. |
+| Subscriptions | POST | `/api/v1/subscriptions/webhook` | Recibe y procesa eventos webhook de Stripe (activación, cancelación). |
+
+**Bounded Context: Reporting**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Reporting | GET | `/api/v1/reporting/export/pdf` | Exporta el historial del diario emocional como documento PDF (solo premium). |
+| Reporting | GET | `/api/v1/reporting/export/csv` | Exporta el historial del diario emocional como archivo CSV (solo premium). |
+
+**Bounded Context: Support**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Support | POST | `/api/v1/support/tickets` | Crea un ticket de soporte técnico y envía email de confirmación al usuario. |
+| Support | GET | `/api/v1/support/tickets` | Lista los tickets de soporte creados por el usuario. |
+
+**Bounded Context: Wellness**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Wellness | POST | `/wellness/stress-check` | Realiza un análisis de estrés y ajusta automáticamente la carga de hábitos. |
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
