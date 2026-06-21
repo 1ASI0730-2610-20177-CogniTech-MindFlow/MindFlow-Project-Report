@@ -455,6 +455,98 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 #### 5.2.3.3. Sprint Backlog 3.
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
+Durante el Sprint 3, el equipo desarrolló el backend completo con .NET 10 y realizó la integración total con el frontend en Vue.js. A continuación se presentan los commits más relevantes que evidencian el desarrollo en ambos repositorios.
+
+**Repository:** 1ASI0730-2610-20177-CogniTech-MindFlow/MindFlow-Backend
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `MindFlow-Backend` | `main` | `4804f1c` | `first commit` | Configuración inicial del repositorio del backend. | 09/06/2026 |
+| `MindFlow-Backend` | `main` | `f23465d` | `chore: initial structure` | Creación de la estructura inicial del proyecto con bounded contexts. | 10/06/2026 |
+| `MindFlow-Backend` | `main` | `567104c` | `shared` | Configuración del módulo compartido del proyecto. | 10/06/2026 |
+| `MindFlow-Backend` | `main` | `c6de514` | `feat: configure MySQL database and replace weather forecast boilerplate` | Configuración de la base de datos MySQL y limpieza del boilerplate inicial de .NET. | 12/06/2026 |
+| `MindFlow-Backend` | `main` | `d323a1f` | `feat: add domain entities, value objects and repository interfaces` | Creación de entidades de dominio, value objects e interfaces de repositorio siguiendo DDD. | 12/06/2026 |
+| `MindFlow-Backend` | `main` | `49e73e2` | `feat: add CQRS command and query records` | Implementación del patrón CQRS con registros de comandos y consultas. | 12/06/2026 |
+| `MindFlow-Backend` | `main` | `25498c6` | `feat: add application command and query services` | Desarrollo de servicios de aplicación para comandos y consultas. | 12/06/2026 |
+| `MindFlow-Backend` | `main` | `6691312` | `feat: add infrastructure repositories and EF configuration` | Implementación de repositorios con Entity Framework Core y configuración de persistencia. | 12/06/2026 |
+| `MindFlow-Backend` | `main` | `5d07be0` | `feat: add REST controllers with authorization checks` | Creación de controladores REST con validaciones de autorización. | 12/06/2026 |
+| `MindFlow-Backend` | `main` | `a80e666` | `feat: integrate bounded context into AppDbContext and add migration` | Integración de bounded contexts en el contexto de base de datos y generación de migraciones. | 12/06/2026 |
+| `MindFlow-Backend` | `main` | `0297654` | `feat(iam-domain): create User aggregate and authentication commands` | Creación del agregado User y comandos de autenticación en el bounded context IAM. | 14/06/2026 |
+| `MindFlow-Backend` | `main` | `fae5d2a` | `feat(iam-domain): define IUserRepository interface` | Definición de la interfaz del repositorio de usuarios. | 14/06/2026 |
+| `MindFlow-Backend` | `main` | `bdfc6e6` | `feat(iam-application): implement UserCommandService for registration logic` | Implementación del servicio de comandos para la lógica de registro de usuarios. | 14/06/2026 |
+| `MindFlow-Backend` | `main` | `c58238c` | `feat(iam-infrastructure): implement UserRepository and configure Entity Framework context` | Implementación del repositorio de usuarios con Entity Framework. | 14/06/2026 |
+| `MindFlow-Backend` | `main` | `bb27bd8` | `feat(iam-rest): create UsersController and register module dependencies in Program.cs` | Creación del controlador REST de usuarios y registro de dependencias del módulo IAM. | 14/06/2026 |
+| `MindFlow-Backend` | `main` | `b00b616` | `feat: add dockerfile and docker-compose` | Configuración de contenedores Docker para el despliegue del backend. | 14/06/2026 |
+| `MindFlow-Backend` | `main` | `deb5e53` | `feat(config): add JWT authentication and clean journal placeholders` | Configuración de autenticación JWT y limpieza de placeholders del journal. | 15/06/2026 |
+| `MindFlow-Backend` | `main` | `da5f729` | `feat(journal): add domain entities` | Creación de las entidades de dominio del bounded context Journal. | 15/06/2026 |
+| `MindFlow-Backend` | `main` | `82d4dee` | `feat(journal): add JournalController with all REST endpoints` | Implementación del controlador Journal con todos los endpoints REST (CRUD). | 15/06/2026 |
+| `MindFlow-Backend` | `main` | `3ce2b97` | `fix(journal): soft delete, recalculate HasPreview on update, and fix frontend query param names` | Implementación de soft delete y corrección de parámetros de consulta del frontend. | 15/06/2026 |
+| `MindFlow-Backend` | `main` | `e498b91` | `feat(analytics): add AnalyticsComputationService with score, trends, KPIs, AI insights and word cloud extraction` | Servicio de cómputo de analíticas con score emocional, tendencias, KPIs e insights de IA. | 15/06/2026 |
+| `MindFlow-Backend` | `main` | `eb372d3` | `feat(analytics): register ComputationService and add compute endpoints` | Registro del servicio de analíticas y creación de endpoints de cómputo. | 15/06/2026 |
+| `MindFlow-Backend` | `main` | `0e24c3d` | `fix(journal): use JournalError enum instead of Error record` | Corrección del manejo de errores en el módulo Journal usando enums. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `edaa897` | `feat: implement missing US across IAM, Journal and Habits` | Implementación de User Stories faltantes en los bounded contexts IAM, Journal y Habits. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `175fbe4` | `feat: implement Google OAuth token-exchange authentication` | Implementación de autenticación OAuth con Google mediante intercambio de tokens. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `f59dfbc` | `feat: implement password recovery flow with SMTP email` | Implementación del flujo de recuperación de contraseña con envío de email vía SMTP. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `daf054a` | `feat: implement real file upload for journal media` | Implementación de carga real de archivos multimedia para entradas del diario. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `1a32d88` | `feat: implement Gemini LLM bounded context for journal feedback` | Implementación del bounded context de IA con Google Gemini para retroalimentación del diario. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `1bc03da` | `feat(wellness-engine): implement stress-based habit adjustment` | Motor de bienestar con ajuste automático de hábitos basado en nivel de estrés. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `36bb739` | `feat: implement push notification BC with FCM hydration` | Implementación de notificaciones push con Firebase Cloud Messaging. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `422f4c1` | `feat: implement Stripe checkout and premium subscription` | Integración de Stripe para checkout y gestión de suscripciones premium. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `b996335` | `feat: implement PDF and CSV export for premium users` | Exportación de historial en formato PDF (QuestPDF) y CSV para usuarios premium. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `7c5547d` | `feat: implement support tickets with email confirmation` | Sistema de tickets de soporte técnico con confirmación por email. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `08754f4` | `test: add unit test project with 38 tests` | Creación del proyecto de tests unitarios con 38 pruebas automatizadas. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `bb1ac07` | `ci: add GitHub Actions pipeline` | Configuración del pipeline CI/CD con GitHub Actions para build, test y despliegue. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `03aa5fc` | `feat: add AI metrics logging` | Implementación de logging de métricas de respuestas de IA. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `cae3ca3` | `perf: add database indexes` | Adición de índices en la base de datos para optimización de consultas. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `7a401ad` | `feat: add AES-256 encryption for journal entries` | Implementación de cifrado AES-256 para proteger las entradas del diario. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `8439fec` | `feat(iam): add PIN lock endpoints` | Endpoints para bloqueo y desbloqueo mediante PIN de seguridad. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `d7c37d8` | `feat: add mood calendar endpoint` | Endpoint del calendario de estados de ánimo con colores por día. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `dc2cd1e` | `feat: add AI feedback rating bounded context` | Bounded context para valoración de la retroalimentación de IA por parte del usuario. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `c78d2c2` | `feat(analytics): add weekly summary background scheduler` | Programador en segundo plano para generar resúmenes semanales de bienestar. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `e66241d` | `feat: add AI-powered habit suggestions endpoint` | Endpoint de sugerencias de hábitos generadas por IA. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `288f92f` | `feat: replace local file storage with Cloudinary` | Migración del almacenamiento local de archivos a Cloudinary en la nube. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `7b8a669` | `feat: add chat bounded context with AI-powered conversation endpoints` | Bounded context de chat con endpoints de conversación potenciados por IA. | 18/06/2026 |
+| `MindFlow-Backend` | `main` | `87e3ea2` | `feat: add subscription cancellation endpoint` | Endpoint para cancelación de suscripciones premium. | 18/06/2026 |
+| `MindFlow-Backend` | `main` | `1cfb282` | `feat: invalidate analytics cache on journal entry changes` | Invalidación de caché de analíticas al modificar entradas del diario. | 18/06/2026 |
+| `MindFlow-Backend` | `main` | `e17f037` | `fix: enforce ownership checks on habit-logs, journal tags/media, and replace raw SQL` | Validaciones de propiedad en habit-logs, tags y media del journal; reemplazo de SQL crudo. | 18/06/2026 |
+| `MindFlow-Backend` | `main` | `b0ceb28` | `feat: add matching query filters on EntryTag and Media for soft delete consistency` | Filtros de consulta en EntryTag y Media para consistencia con soft delete. | 20/06/2026 |
+| `MindFlow-Backend` | `main` | `e98921d` | `fix: return localized AI insight as {en, es} object and persist name on sign-up` | Respuesta de IA localizada en formato bilingüe y persistencia del nombre en registro. | 20/06/2026 |
+| `MindFlow-Backend` | `main` | `0f5189b` | `fix: recalculate habit status and streak at query time based on completion logs` | Recálculo dinámico del estado y racha de hábitos en tiempo de consulta. | 20/06/2026 |
+| `MindFlow-Backend` | `main` | `5165901` | `fix: address code review findings across all bounded contexts` | Correcciones de hallazgos de code review en todos los bounded contexts. | 20/06/2026 |
+| `MindFlow-Backend` | `main` | `aac55d2` | `feat: add notifications persistence with GET and mark-as-read endpoints` | Persistencia de notificaciones con endpoints de lectura y marcado como leído. | 21/06/2026 |
+| `MindFlow-Backend` | `main` | `0539363` | `fix: add GET profile endpoint, deduplicate support tickets, and force HTTPS on upload URLs` | Endpoint GET de perfil, deduplicación de tickets y forzado de HTTPS en URLs de carga. | 21/06/2026 |
+| `MindFlow-Backend` | `main` | `a6e00b7` | `fix: delete all user-related data before account deletion to prevent FK constraint errors` | Eliminación en cascada de datos del usuario para evitar errores de claves foráneas. | 21/06/2026 |
+
+**Repository:** 1ASI0730-2610-20177-CogniTech-MindFlow/MindFlow-Frontend
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `MindFlow-Frontend` | `main` | `866646f` | `fix: extract dashboard data aggregation to service` | Extracción de la lógica de agregación de datos del dashboard a un servicio dedicado. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `20a7967` | `fix: standardize BaseEndpoint inheritance and align journal store loading naming` | Estandarización de herencia BaseEndpoint y nomenclatura del store del journal. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `514450a` | `feat: externalize hardcoded Spanish strings to translation keys across components and entities` | Externalización de strings en español hardcodeados a claves de traducción i18n. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `5b932d1` | `fix: replace transition:all, remove !important, add prefers-reduced-motion, normalize hardcoded colors, and add design tokens` | Optimización de transiciones CSS, eliminación de !important y adición de design tokens. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `069326e` | `feat: improve accessibility — aria labels, focus trap, modal roles, dynamic lang` | Mejoras de accesibilidad con aria labels, focus trap y roles de modales. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `71f71f3` | `fix: lazy-load analytics, remove unused deps, fix will-change, manualChunks` | Lazy-loading de analíticas, eliminación de dependencias no usadas y optimización de chunks. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `516e538` | `fix: empty catch blocks, security key, console stubs, robots.txt` | Corrección de bloques catch vacíos, clave de seguridad y configuración de robots.txt. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `2eadc38` | `feat: polish chart components — hover states, shadows, backdrop-filter, legend pills, bar interactions` | Pulido visual de componentes de gráficos con estados hover, sombras y filtros. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `53fd680` | `feat: polish mood-input stars, quick-interventions glass icons, daily-habits checkbox glow` | Pulido de componentes de input de ánimo, intervenciones rápidas y checkboxes de hábitos. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `9604528` | `feat: polish dashboard grid dots dark mode, recent-entries gradient/tags, color-light fix` | Mejoras visuales del dashboard en modo oscuro y corrección de gradientes. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `6bc0b91` | `feat: polish home-vars, active-states, white-to-var, color-mix` | Pulido de variables CSS del home, estados activos y mezcla de colores. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `1566857` | `feat: add User, AuthSession, LoginRequest and Registration domain models` | Creación de modelos de dominio para User, AuthSession, LoginRequest y Registration. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `2dfdee5` | `feat: add session manager for local storage token management` | Gestor de sesión para manejo de tokens JWT en localStorage. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `88f6c4c` | `feat: add AuthApiService with login, register, password reset and session endpoints` | Servicio API de autenticación con endpoints de login, registro y recuperación de contraseña. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `2812a1d` | `feat: add Pinia auth store with login, register, logout and session restore` | Store de autenticación con Pinia para login, registro, logout y restauración de sesión. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `5a976f7` | `feat: add auth layout component for login and register pages` | Componente de layout para las páginas de autenticación. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `08c682a` | `feat: add login form component and login view` | Componente de formulario de login y vista de inicio de sesión. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `af76883` | `feat: add register form component and register view` | Componente de formulario de registro y vista de registro. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `8e7e221` | `feat: add forgot password view with email form and sent confirmation state` | Vista de recuperación de contraseña con formulario de email y confirmación de envío. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `84edfe3` | `feat: add auth routes and navigation guard with session check` | Rutas de autenticación y guard de navegación con verificación de sesión. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `39cb0b4` | `feat: add avatar dropdown with logout to topbar` | Dropdown de avatar con opción de logout en la barra superior. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `422033d` | `refactor: replace hardcoded 'u1' with authStore.currentUserId across all features` | Reemplazo de userId hardcodeado por el userId real del store de autenticación. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `3e3d78e` | `feat: update project` | Actualización general del proyecto con integraciones del backend. | 17/06/2026 |
+| `MindFlow-Frontend` | `main` | `1551a88` | `feat: integrate chat system, fix subscription endpoints, improve analytics parsing and UI consistency` | Integración del sistema de chat, corrección de endpoints de suscripción y mejoras de analíticas. | 18/06/2026 |
+| `MindFlow-Frontend` | `main` | `3d583aa` | `feat: integrate chat system, fix subscriptions, improve analytics and UI polish` | Integración final del chat, correcciones de suscripciones y pulido de UI. | 18/06/2026 |
+| `MindFlow-Frontend` | `main` | `faadd84` | `fix: resolve user-reported bugs, improve habits logic, and add mobile responsive design` | Resolución de bugs reportados por usuarios, mejoras en lógica de hábitos y diseño responsivo móvil. | 21/06/2026 |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
