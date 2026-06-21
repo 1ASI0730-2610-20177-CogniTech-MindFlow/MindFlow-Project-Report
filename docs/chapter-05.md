@@ -442,6 +442,15 @@ Enlace: https://mindflow-frontend-cognitech-mindflow.vercel.app/
 | Sum of Story Points                | 56                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
+En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para el Sprint 3. Cada aspecto representa una fase crítica de la entrega, donde se designa un líder (L) responsable de la dirección del entregable y colaboradores (C) que apoyaron en su ejecución.
+
+| Team Member (Last Name, First Name) | GitHub Username | Backend API & DDD Architecture | IAM & Security (JWT) | AI Integration (Gemini & Chat) | Frontend-Backend Integration | QA, Testing & Deployment |
+| :--- | :--- |:------------------------------:|:--------------------:|:------------------------------:|:----------------------------:|:------------------------:|
+| Cabrera Sotelo, Camila Celeste | whcamm | C | C | C | **L** | C |
+| Caisahuana Osores, Becker Junior | becker693 | C | **L** | C | C | C |
+| Díaz De la cruz, Sebastián Gabriel | tipaso07 | C | C | C | C | **L** |
+| Jáuregui Cerna, Jean Franco | JFranco556 | C | C | **L** | C | C |
+| Rocca Mariaca, Angel Mathias | MRMpro13 | **L** | C | C | C | C |
 
 #### 5.2.3.3. Sprint Backlog 3.
 
