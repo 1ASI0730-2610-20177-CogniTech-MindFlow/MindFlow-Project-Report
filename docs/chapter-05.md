@@ -710,6 +710,32 @@ Durante el Sprint 3 se implementó la totalidad de la API RESTful del backend de
 | Wellness | POST | `/wellness/stress-check` | Realiza un análisis de estrés y ajusta automáticamente la carga de hábitos. |
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+Durante el Sprint 3 se realizó el despliegue completo de la infraestructura backend de MindFlow, incluyendo el Web Service y la base de datos relacional en plataformas cloud. A continuación se describen las actividades realizadas y la evidencia del despliegue exitoso.
+
+##### Despliegue del Backend - Render
+
+Se desplegó el Web Service del backend en **Render** como plataforma PaaS, utilizando Docker como entorno de ejecución. El repositorio `MindFlow-Backend` de la organización fue vinculado directamente a Render, configurando el despliegue automático desde la rama `main`. La instancia fue configurada en la región **Ohio (US East)** bajo el proyecto **Mindflow / Production**, con las variables de entorno necesarias para las conexiones a la base de datos, claves de API de Google Gemini, credenciales de Stripe y configuración SMTP.
+
+<img src="../assets/Rander_deploy.png" alt="Render Deploy - Backend Web Service" height="500" width="1000">
+
+##### Despliegue de la Base de Datos - Railway (MySQL)
+
+Se desplegó la base de datos relacional **MySQL 9.4** en **Railway** como servicio administrado en la nube. La instancia fue configurada bajo el proyecto **Mindflow-Database** en entorno de producción, con volumen persistente (`mysql-volume`) para garantizar la durabilidad de los datos.
+
+**Configuración de Source e imagen:**
+La base de datos utiliza la imagen oficial `mysql:9.4` con estado **Online** y acceso de red público habilitado a través de `thomas.proxy.rlwy.net:49350` redirigido al puerto estándar `:3306`.
+
+<img src="../assets/Database_deploy_1.png" alt="Database Deploy 1 - MySQL Source y Networking público" height="500" width="1000">
+
+**Configuración de Networking privado y Scale:**
+Se habilitó la red privada interna de Railway (`mysql.railway.internal`) con soporte IPv4 e IPv6 para la comunicación segura entre el backend y la base de datos. La instancia fue configurada en la región **US West (California, USA)** con 1 réplica.
+
+<img src="../assets/Database_deploy_2.png" alt="Database Deploy 2 - Networking privado y Scale" height="500" width="1000">
+
+**Configuración de Replica Limits y Deploy:**
+Se asignaron los recursos de la réplica con **2 vCPU** y **1 GB de memoria RAM**. El comando de inicio personalizado utiliza `docker-entrypoint.sh mysqld --innodb-use-native-aio=0 --disable-log-bin` para optimizar el rendimiento en entornos cloud.
+
+<img src="../assets/Database_deploy_3.png" alt="Database Deploy 3 - Replica Limits y Deploy command" height="500" width="1000">
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
 
