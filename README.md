@@ -66,6 +66,7 @@ MindFlow
 | Versión | Fecha      | Autor                        | Descripción de modificación |
 |---------|------------|------------------------------|-----------------------------|
 | 1.0 | 10/04/2026 | Rocca Mariaca, Angel Mathias | Creación del reporte en formato Markdown. |
+| 2.0 | 10/06/2026 | Díaz De la Cruz, Sebastián Gabriel | Edición del reporte en formato Markdown. |
 
 ## Desarrollo del reporte
 
