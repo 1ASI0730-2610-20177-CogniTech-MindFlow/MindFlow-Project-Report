@@ -755,7 +755,75 @@ Se asignaron los recursos de la réplica con **2 vCPU** y **1 GB de memoria RAM*
 
 ---
 
-## Segmento 1: Estudiantes Universitarios
+## 5.3. Validation Interviews.
+### 5.3.1. Diseño de Entrevistas.
+
+Para la validación del producto MindFlow se diseñó un banco de preguntas dirigido a los dos segmentos objetivo: estudiantes universitarios (18–25 años) y profesionales jóvenes (26–35 años). Las preguntas siguen un formato semiestructurado y están organizadas en tres bloques: exploración de la Landing Page, navegación por la aplicación web y cierre valorativo. El objetivo es recoger impresiones sobre la propuesta de valor, la usabilidad de cada módulo y la disposición de uso.
+
+A continuación se presentan las preguntas diseñadas para cada segmento objetivo:
+
+#### Segmento 1: Estudiantes Universitarios (18–25 años)
+
+**Landing Page**
+
+| N.° | Pregunta |
+|:---:|:---------|
+| 1 | Después de ver la página principal, ¿qué entiendes que es MindFlow y qué problema crees que busca resolver? |
+| 2 | Revisa la sección "Problema". ¿Te sientes identificado/a con algo de lo que aparece? |
+| 3 | ¿Qué te pareció la sección "Cómo funciona"? ¿Te queda claro cómo funcionaría el producto? |
+| 4 | ¿Qué opinas sobre la sección "Por qué MindFlow"? |
+| 5 | ¿Te registrarías para utilizar la plataforma? |
+
+**Aplicación Web**
+
+| N.° | Pregunta |
+|:---:|:---------|
+| 6 | Ahora entra al Dashboard. ¿Qué te parece la organización y la información que se presenta? |
+| 7 | Prueba la sección Diario y registra una entrada. ¿Qué te pareció la experiencia? |
+| 8 | ¿Qué opinas sobre la sección Hábitos? ¿Crees que te ayudaría en tu rutina diaria? |
+| 9 | Observa las Analíticas. ¿Las gráficas y estadísticas son fáciles de entender? |
+| 10 | ¿Qué te pareció la sección Configuración? |
+
+**Cierre**
+
+| N.° | Pregunta |
+|:---:|:---------|
+| 11 | ¿Qué fue lo que más te gustó de la plataforma? |
+| 12 | ¿Qué mejorarías o qué funcionalidad agregarías? |
+| 13 | ¿Utilizarías MindFlow en tu día a día? ¿Qué calificación le darías del 1 al 10? |
+
+#### Segmento 2: Profesionales Jóvenes (26–35 años)
+
+**Landing Page**
+
+| N.° | Pregunta |
+|:---:|:---------|
+| 1 | Explora la página principal de MindFlow y coméntame qué impresión te genera. |
+| 2 | Revisa la sección "Cómo funciona". ¿Te parece clara la propuesta? |
+| 3 | ¿Qué te parece la sección "Por qué MindFlow"? ¿Qué te llamó la atención? |
+| 4 | ¿Te registrarías para utilizar la plataforma? |
+
+**Aplicación Web**
+
+| N.° | Pregunta |
+|:---:|:---------|
+| 5 | Ahora entra al Dashboard. ¿Qué te parece la organización y las funcionalidades que se presentan? |
+| 6 | Ahora entra al Diario. ¿Cómo evalúas la estructura y facilidad de uso? |
+| 7 | ¿Qué te parece la sección Hábitos? ¿Consideras que podría ayudarte con tu ritmo de trabajo? |
+| 8 | ¿Qué opinas sobre las Analíticas? ¿Las gráficas son fáciles de interpretar? |
+| 9 | ¿Qué te pareció la sección Configuración? |
+
+**Cierre**
+
+| N.° | Pregunta |
+|:---:|:---------|
+| 10 | ¿Qué fue lo que más te gustó de la plataforma? |
+| 11 | ¿Qué mejorarías o qué funcionalidad agregarías? |
+| 12 | ¿Utilizarías MindFlow en tu día a día? ¿Qué calificación le darías del 1 al 10? |
+
+### 5.3.2. Registro de Entrevistas.
+
+### Segmento 1: Estudiantes Universitarios
 
 ### Entrevista 1
 
@@ -804,7 +872,7 @@ Se asignaron los recursos de la réplica con **2 vCPU** y **1 GB de memoria RAM*
 
 ---
 
-## Segmento 2: Profesionales Jóvenes
+### Segmento 2: Profesionales Jóvenes
 
 ### Entrevista 1
 
