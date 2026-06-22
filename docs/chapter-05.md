@@ -755,45 +755,101 @@ Se asignaron los recursos de la réplica con **2 vCPU** y **1 GB de memoria RAM*
 
 ---
 
-## 5.3. Validation Interviews.
-
-### 5.3.1. Diseño de Entrevistas.
-
-### 5.3.2. Registro de Entrevistas.
-
 ## Segmento 1: Estudiantes Universitarios
 
-### Entrevista N
+### Entrevista 1
 
 | Campo | Detalle |
 |------|--------|
 | Segmento Objetivo | Estudiantes universitarios (18–25 años) |
-| Fecha Entrevista |  |
-| Entrevistador |  |
-| Entrevistado |   |
-| Edad |  |
-| Distrito |  |
-| Link del Video |  |
-| Minuto de Inicio |  |
-| Duración |  |
-| Resumen |  |
+| Fecha Entrevista | 19/06/2026 |
+| Entrevistador | Sebastián Díaz |
+| Entrevistado | Ingrid Ledka |
+| Edad | 18 |
+| Distrito | San Isidro |
+| Link del Video | |
+| Minuto de Inicio | 0:00 |
+| Duración | |
+| Resumen | La entrevistada comprendió rápidamente la propuesta de valor de MindFlow y se identificó con la problemática del estrés académico. Destacó las intervenciones rápidas y las analíticas por ser herramientas útiles para actuar en momentos de estrés. Consideró que la aplicación es organizada y fácil de utilizar. Como mejora, sugirió que la IA pueda actuar en tiempo real y proporcionar recomendaciones automáticas según el estado emocional detectado. Calificó la plataforma con 8/10 y afirmó que la utilizaría. |
+
+### Entrevista 2
+
+| Campo | Detalle |
+|------|--------|
+| Segmento Objetivo | Estudiantes universitarios (18–25 años) |
+| Fecha Entrevista | 19/06/2026 |
+| Entrevistador | Sebastián Díaz |
+| Entrevistado | Jiss Zerpa |
+| Edad | 18 |
+| Distrito | La Molina |
+| Link del Video | |
+| Minuto de Inicio | 0:00 |
+| Duración | |
+| Resumen | La participante percibió a MindFlow como una plataforma orientada al bienestar emocional y al manejo del estrés. Consideró que las funcionalidades son fáciles de comprender y destacó la simplicidad de la interfaz. Valoró especialmente la posibilidad de registrar emociones y hábitos sin dedicar demasiado tiempo. Como mejora, sugirió incorporar notificaciones y recomendaciones automáticas para brindar apoyo en momentos de estrés. Indicó que utilizaría la aplicación y le otorgó una calificación de 8/10. |
+
+### Entrevista 3
+
+| Campo | Detalle |
+|------|--------|
+| Segmento Objetivo | Estudiantes universitarios (18–25 años) |
+| Fecha Entrevista | 20/06/2026 |
+| Entrevistador | Sebastián Díaz |
+| Entrevistado | Lucero |
+| Edad | 19 |
+| Distrito | La Molina |
+| Link del Video | |
+| Minuto de Inicio | 0:00 |
+| Duración | |
+| Resumen | La entrevistada comprendió claramente el propósito de MindFlow y destacó el uso de inteligencia artificial para detectar patrones emocionales. Mostró especial interés por el diario emocional y las analíticas, considerándolas el principal valor diferencial de la plataforma. Valoró la organización del Dashboard y las opciones relacionadas con la privacidad. Como mejora, sugirió incorporar análisis emocionales más profundos y recomendaciones personalizadas. Manifestó que utilizaría la plataforma y la calificó con 9/10. |
+
+---
 
 ## Segmento 2: Profesionales Jóvenes
 
-### Entrevista N
+### Entrevista 1
 
 | Campo | Detalle |
 |------|--------|
 | Segmento Objetivo | Profesionales jóvenes (26–35 años) |
-| Fecha Entrevista |  |
-| Entrevistador |  |
-| Entrevistado |   |
-| Edad |  |
-| Distrito |  |
-| Link del Video |  |
-| Minuto de Inicio |  |
-| Duración |  |
-| Resumen |  |
+| Fecha Entrevista | 19/06/2026 |
+| Entrevistador | Sebastián Díaz |
+| Entrevistado | Ghorghet Baltazar |
+| Edad | 26 |
+| Distrito | San Isidro |
+| Link del Video | |
+| Minuto de Inicio | 0:00 |
+| Duración | |
+| Resumen | El entrevistado percibió a MindFlow como una plataforma profesional y bien estructurada para gestionar el estrés y los patrones emocionales. Valoró la simplicidad del proceso de registro y el uso de IA para identificar patrones y sugerir intervenciones. Destacó las intervenciones rápidas, el seguimiento de hábitos y las analíticas por ser herramientas prácticas para personas con poco tiempo disponible. Como mejora, sugirió incorporar recordatorios automáticos y recomendaciones basadas en los niveles de estrés. Indicó que utilizaría la plataforma y la calificó con 8/10. |
+
+### Entrevista 2
+
+| Campo | Detalle |
+|------|--------|
+| Segmento Objetivo | Profesionales jóvenes (26–35 años) |
+| Fecha Entrevista | 20/06/2026 |
+| Entrevistador | Sebastián Díaz |
+| Entrevistado | Óscar Benavides |
+| Edad | 29 |
+| Distrito | Chorrillos |
+| Link del Video | |
+| Minuto de Inicio | 0:00 |
+| Duración | |
+| Resumen | El entrevistado destacó la apariencia moderna y organizada de MindFlow y valoró el uso de inteligencia artificial para personalizar la experiencia. Se identificó con el problema de las aplicaciones genéricas que suelen abandonarse por no adaptarse al usuario. Las secciones que más le gustaron fueron Hábitos y Analíticas, debido a su capacidad para mostrar patrones y ofrecer sugerencias. Como mejora, propuso que la IA aprenda continuamente sobre el usuario y adapte automáticamente las recomendaciones. Manifestó que utilizaría la plataforma y la calificó con 9/10. |
+
+### Entrevista 3
+
+| Campo | Detalle |
+|------|--------|
+| Segmento Objetivo | Profesionales jóvenes (26–35 años) |
+| Fecha Entrevista | 20/06/2026 |
+| Entrevistador | Sebastián Díaz |
+| Entrevistado | Nordie Sanabria |
+| Edad | 29 |
+| Distrito | Santiago de Surco |
+| Link del Video | |
+| Minuto de Inicio | 0:00 |
+| Duración | |
+| Resumen | La entrevistada percibió a MindFlow como una solución clara y fácil de utilizar para gestionar el estrés diario. Se identificó con la problemática del estrés acumulado y valoró especialmente las intervenciones rápidas por su practicidad. Consideró que las estadísticas y observaciones generadas por IA permiten comprender mejor los patrones emocionales. Como oportunidad de mejora, sugirió incrementar la automatización y mostrar recomendaciones inteligentes de manera proactiva. Indicó que utilizaría la plataforma, la recomendaría y la calificó con 8/10. |
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
