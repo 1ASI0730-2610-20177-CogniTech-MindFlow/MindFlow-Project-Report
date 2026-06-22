@@ -1028,9 +1028,9 @@ Recopilación de entrevistas
 - Entrevista 6: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQAu709K0qBWQZsvqeI53bCHAdB9HmsozDqHD-ua8jw6HjU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rM0yrn
 ## Videos de Exposiciones
 
-| Entrega | Título         | Enlace |
-|---------|----------------|--------|
-| AV1 | Exposición AV1 |https://drive.google.com/drive/folders/1zaVJczj7mF71U5WlXfVcNgUmt_EtWrW-?usp=drive_link |
-| TB1 | Exposición TB1 | https://drive.google.com/drive/folders/1RxrPr6JgksZUIHGFvMvERentxTJFXQix?usp=drive_link|
-| AV2 |                | |
-| TB2 |                | |
+| Entrega | Título         | Enlace                                                                                 |
+|---------|----------------|----------------------------------------------------------------------------------------|
+| AV1 | Exposición AV1 | https://drive.google.com/drive/folders/1zaVJczj7mF71U5WlXfVcNgUmt_EtWrW-?usp=drive_link |
+| TB1 | Exposición TB1 | https://drive.google.com/drive/folders/1RxrPr6JgksZUIHGFvMvERentxTJFXQix?usp=drive_link |
+| AV2 | Exposición AV2 | https://drive.google.com/drive/folders/1Xhvym3YDqaRASRbCE-xwQRnq_Y8WBAcD?usp=sharing   |
+| TB2 |                |                                                                                        |
