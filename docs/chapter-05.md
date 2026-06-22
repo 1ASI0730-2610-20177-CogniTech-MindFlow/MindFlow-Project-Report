@@ -1032,5 +1032,5 @@ Recopilación de entrevistas
 |---------|----------------|----------------------------------------------------------------------------------------|
 | AV1 | Exposición AV1 | https://drive.google.com/drive/folders/1zaVJczj7mF71U5WlXfVcNgUmt_EtWrW-?usp=drive_link |
 | TB1 | Exposición TB1 | https://drive.google.com/drive/folders/1RxrPr6JgksZUIHGFvMvERentxTJFXQix?usp=drive_link |
-| AV2 | Exposición AV2 | https://drive.google.com/drive/folders/1Xhvym3YDqaRASRbCE-xwQRnq_Y8WBAcD?usp=sharing   |
-| TB2 | Exposición TB2 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQB3hAEtAofjTaF-dtkRS_51AfvZkyMFLgfgQ5_oox_s9UE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=quUHNY |
+| AV2 | Exposición AV2 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQB3hAEtAofjTaF-dtkRS_51AfvZkyMFLgfgQ5_oox_s9UE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=quUHNY    |
+| TB2 | Exposición TB2 | |
