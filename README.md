@@ -72,11 +72,6 @@ MindFlow
 ## Desarrollo del reporte
 
 ---
-
-AV1:
-
-![AV1](./assets/ContributorsInsight.png)
-
 AV2:
 <img src="../assets/insight_frontend_sprint_3.png" height="500" width="1000">
 
