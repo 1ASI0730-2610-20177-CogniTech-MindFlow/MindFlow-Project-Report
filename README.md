@@ -1,44 +1,63 @@
-<div align="center">
+<style>
+  .cover h1, .cover h2, .cover h3, .cover p, .cover table {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+  }
+  .cover table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
 
-<img src="assets/upc_logo.png" alt="UPC Logo" width="300"/>
+<div align="center" class="cover">
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+<img src="assets/upc_logo.png" alt="UPC Logo" width="200"/>
 
-### Carrera: Ingeniería de Software
+# Universidad Peruana de Ciencias Aplicadas
 
-### Periodo: 2026-10
+### Carrera de Ingeniería de Software
 
-### Nombre del curso: Aplicaciones Web (1ASI0730)
+### 1ASI0730
 
-### NRC: 20177
+### Aplicaciones Web
 
-### Nombre del profesor: Flores Ingaruca, Jose Miguel
+### NRC 20177
 
-## Informe de Trabajo Final
+## Informe del Trabajo Final
 
-## Nombre del startup: CogniTech
+### Docente
 
-## Nombre del producto: MindFlow
+Flores Ingaruca, José Miguel
 
-### Relación de integrantes:
+### Equipo
 
-<div style="text-align: center;">
+CogniTech
 
-|        Apellidos y Nombres         | Código de Alumno |
-|:----------------------------------:|:----------------:|
-|   Cabrera Sotelo, Camila Celeste   |    U202412462    |
-|  Caisahuana Osores, Becker Junior  |    U202419462    |
-| Díaz De la cruz, Sebastián Gabriel |    U202410421    |
-|    Jáuregui Cerna, Jean Franco     |    U202410024    |
-|    Rocca Mariaca, Angel Mathias    |    U20231E515    |
+### Proyecto
+
+MindFlow
+
+### Integrantes
+
+<div style="display: flex; justify-content: center;">
+
+|   Código   |            Apellidos y Nombres             |
+|:----------:|:------------------------------------------:|
+| U202412462 |   Cabrera Sotelo, Camila Celeste           |
+| U202419462 |   Caisahuana Osores, Becker Junior         |
+| U202410421 |   Díaz De la cruz, Sebastián Gabriel       |
+| U202410024 |   Jáuregui Cerna, Jean Franco              |
+| U20231E515 |   Rocca Mariaca, Angel Mathias             |
 
 </div>
 
-### Abril, 2026
+### Período 202610
 
----
+### Junio 2026
 
 </div>
+
+<div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
 
