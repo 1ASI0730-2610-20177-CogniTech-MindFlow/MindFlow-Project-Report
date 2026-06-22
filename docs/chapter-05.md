@@ -961,6 +961,10 @@ Los resultados indican que MindFlow presenta un nivel de usabilidad satisfactori
 
 ## 5.4. Video About-the-Product.
 
+En el siguiente video se presenta MindFlow, mostrando sus principales funcionalidades, la propuesta de valor y la experiencia de uso de la plataforma de bienestar emocional inteligente.
+
+Enlace del video: [Video About-the-Product](https://drive.google.com/drive/u/3/folders/1qeiWdSS0L5rjPT2sVuRS3iYHF8EDLXMD)
+
 ---
 # Conclusiones
 
