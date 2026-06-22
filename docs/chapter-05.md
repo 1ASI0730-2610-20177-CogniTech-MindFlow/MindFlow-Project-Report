@@ -1000,6 +1000,18 @@ Finalmente, se recomienda realizar validaciones con una mayor cantidad de usuari
 
 # Bibliografía
 
+- ASP.NET Core Team. (s.f.). *Engineering guidelines: Coding guidelines*. GitHub. https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#coding-guidelines
+
+- Driessen, V. (2010, 5 de enero). *A successful Git branching model*. nvie.com. https://nvie.com/posts/a-successful-git-branching-model/
+
+- Microsoft. (s.f.). *C# coding conventions*. Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
+
+- Nielsen Norman Group. (s.f.). *Front-end style guides*. https://www.nngroup.com/articles/front-end-style-guides/
+
+- Open Practice Library. (s.f.). *Domain-Driven Design*. https://openpracticelibrary.com/blog/domain-driven-design/
+
+- Vue.js. (s.f.). *Style guide*. https://v2.vuejs.org/v2/style-guide/?redirect=true
+
 ---
 
 # Anexos
