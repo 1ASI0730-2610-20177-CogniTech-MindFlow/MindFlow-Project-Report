@@ -74,9 +74,12 @@ MindFlow
 ---
 
 AV1:
+
 ![AV1](./assets/ContributorsInsight.png)
 
-# Project Report Collaboration Insights
+AV2:
+<img src="../assets/insight_frontend_sprint_3.png" height="500" width="1000">
+
 
 ---
 
