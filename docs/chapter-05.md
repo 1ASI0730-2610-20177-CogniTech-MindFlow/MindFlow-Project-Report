@@ -404,24 +404,566 @@ En esta sección se mostrará la evidencia de ejecución de la primera versión 
 Enlace: https://mindflow-frontend-cognitech-mindflow.vercel.app/
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
-## Desarrollo del reporte
+### Desarrollo del reporte
 
 #### TP1:
 
 <img src="../assets/collabReport2.png" height="500" width="1000">
 
-## Desarrollo de Landing Page
+### Desarrollo de Landing Page
 #### TP1:
 
 <img src="../assets/collabLanding.png" alt="Collab Landing Page" height="500" width="1000">
 
-## Desarrollo del Frontend
+### Desarrollo del Frontend
 
 #### TP1:
 
 <img src="../assets/collabFronted.png" height="500" width="1000">
 
 ---
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3.
+
+| Sprint #                           | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Date                               | 2026-06-05                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Time                               | 05:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Location                           | Reunión virtual vía Discord                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Prepared By                        | Rocca Mariaca, Angel Mathias                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Attendees                          | Cabrera Sotelo, Camila Celeste / Caisahuana Osores, Becker Junior / Díaz De la cruz, Sebastián Gabriel / Jáuregui Cerna, Jean Franco / Rocca Mariaca, Angel Mathias                                                                                                                                                                                                                                                           |
+| Sprint 3 – 2 Review Summary        | During Sprint 2, the team successfully delivered the first version of the frontend application with Vue.js, including Dashboard, Journal, Habits, Analytics, Settings and Subscription modules. The deployment on Vercel was validated. However, all modules relied on mock APIs and lacked real backend integration, authentication, and AI-powered features, which became the primary focus for this sprint.                    |
+| Sprint 3 – 2 Retrospective Summary | The team identified the need to transition from mock data to a fully functional backend with real database persistence. Communication improved through Discord channels, and the modular DDD architecture adopted in Sprint 2 facilitated the integration process. The team committed to implementing the complete backend API, real-time AI features, and a robust IAM system for this sprint.                                  |
+| **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Sprint 3 Goal                      | Our focus is on delivering the complete backend API with .NET 10, integrating real AI-powered features via Google Gemini, implementing the IAM bounded context with JWT authentication, deploying the chat system with conversational AI, connecting Stripe for subscription management, and performing full frontend-backend integration. This will be validated once all modules operate with real data persistence and AI feedback. |
+| Sprint 3 Velocity                  | 95                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Sum of Story Points                | 56                                                                                                                                                                                                                                                                                                                                                                                                                             |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para el Sprint 3. Cada aspecto representa una fase crítica de la entrega, donde se designa un líder (L) responsable de la dirección del entregable y colaboradores (C) que apoyaron en su ejecución.
+
+| Team Member (Last Name, First Name) | GitHub Username | Backend API & DDD Architecture | IAM & Security (JWT) | AI Integration (Gemini & Chat) | Frontend-Backend Integration | QA, Testing & Deployment |
+| :--- | :--- |:------------------------------:|:--------------------:|:------------------------------:|:----------------------------:|:------------------------:|
+| Cabrera Sotelo, Camila Celeste | whcamm | C | C | C | **L** | C |
+| Caisahuana Osores, Becker Junior | becker693 | C | **L** | C | C | C |
+| Díaz De la cruz, Sebastián Gabriel | tipaso07 | C | C | C | C | **L** |
+| Jáuregui Cerna, Jean Franco | JFranco556 | C | C | **L** | C | C |
+| Rocca Mariaca, Angel Mathias | MRMpro13 | **L** | C | C | C | C |
+
+#### 5.2.3.3. Sprint Backlog 3.
+
+<img src="../assets/sprint_backlog_3.png" alt="SprintBacklog3" height="500" width="1000">
+
+Enlace de Trello: https://trello.com/b/7WeOkqeo/mindflow-sprint-3
+
+#### 5.2.3.4. Development Evidence for Sprint Review.
+Durante el Sprint 3, el equipo desarrolló el backend completo con .NET 10 y realizó la integración total con el frontend en Vue.js. A continuación se presentan los commits más relevantes que evidencian el desarrollo en ambos repositorios.
+
+**Repository:** 1ASI0730-2610-20177-CogniTech-MindFlow/MindFlow-Backend
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `MindFlow-Backend` | `main` | `4804f1c` | `first commit` | Configuración inicial del repositorio del backend. | 09/06/2026 |
+| `MindFlow-Backend` | `main` | `f23465d` | `chore: initial structure` | Creación de la estructura inicial del proyecto con bounded contexts. | 10/06/2026 |
+| `MindFlow-Backend` | `main` | `567104c` | `shared` | Configuración del módulo compartido del proyecto. | 10/06/2026 |
+| `MindFlow-Backend` | `main` | `c6de514` | `feat: configure MySQL database and replace weather forecast boilerplate` | Configuración de la base de datos MySQL y limpieza del boilerplate inicial de .NET. | 12/06/2026 |
+| `MindFlow-Backend` | `main` | `d323a1f` | `feat: add domain entities, value objects and repository interfaces` | Creación de entidades de dominio, value objects e interfaces de repositorio siguiendo DDD. | 12/06/2026 |
+| `MindFlow-Backend` | `main` | `49e73e2` | `feat: add CQRS command and query records` | Implementación del patrón CQRS con registros de comandos y consultas. | 12/06/2026 |
+| `MindFlow-Backend` | `main` | `25498c6` | `feat: add application command and query services` | Desarrollo de servicios de aplicación para comandos y consultas. | 12/06/2026 |
+| `MindFlow-Backend` | `main` | `6691312` | `feat: add infrastructure repositories and EF configuration` | Implementación de repositorios con Entity Framework Core y configuración de persistencia. | 12/06/2026 |
+| `MindFlow-Backend` | `main` | `5d07be0` | `feat: add REST controllers with authorization checks` | Creación de controladores REST con validaciones de autorización. | 12/06/2026 |
+| `MindFlow-Backend` | `main` | `a80e666` | `feat: integrate bounded context into AppDbContext and add migration` | Integración de bounded contexts en el contexto de base de datos y generación de migraciones. | 12/06/2026 |
+| `MindFlow-Backend` | `main` | `0297654` | `feat(iam-domain): create User aggregate and authentication commands` | Creación del agregado User y comandos de autenticación en el bounded context IAM. | 14/06/2026 |
+| `MindFlow-Backend` | `main` | `fae5d2a` | `feat(iam-domain): define IUserRepository interface` | Definición de la interfaz del repositorio de usuarios. | 14/06/2026 |
+| `MindFlow-Backend` | `main` | `bdfc6e6` | `feat(iam-application): implement UserCommandService for registration logic` | Implementación del servicio de comandos para la lógica de registro de usuarios. | 14/06/2026 |
+| `MindFlow-Backend` | `main` | `c58238c` | `feat(iam-infrastructure): implement UserRepository and configure Entity Framework context` | Implementación del repositorio de usuarios con Entity Framework. | 14/06/2026 |
+| `MindFlow-Backend` | `main` | `bb27bd8` | `feat(iam-rest): create UsersController and register module dependencies in Program.cs` | Creación del controlador REST de usuarios y registro de dependencias del módulo IAM. | 14/06/2026 |
+| `MindFlow-Backend` | `main` | `b00b616` | `feat: add dockerfile and docker-compose` | Configuración de contenedores Docker para el despliegue del backend. | 14/06/2026 |
+| `MindFlow-Backend` | `main` | `deb5e53` | `feat(config): add JWT authentication and clean journal placeholders` | Configuración de autenticación JWT y limpieza de placeholders del journal. | 15/06/2026 |
+| `MindFlow-Backend` | `main` | `da5f729` | `feat(journal): add domain entities` | Creación de las entidades de dominio del bounded context Journal. | 15/06/2026 |
+| `MindFlow-Backend` | `main` | `82d4dee` | `feat(journal): add JournalController with all REST endpoints` | Implementación del controlador Journal con todos los endpoints REST (CRUD). | 15/06/2026 |
+| `MindFlow-Backend` | `main` | `3ce2b97` | `fix(journal): soft delete, recalculate HasPreview on update, and fix frontend query param names` | Implementación de soft delete y corrección de parámetros de consulta del frontend. | 15/06/2026 |
+| `MindFlow-Backend` | `main` | `e498b91` | `feat(analytics): add AnalyticsComputationService with score, trends, KPIs, AI insights and word cloud extraction` | Servicio de cómputo de analíticas con score emocional, tendencias, KPIs e insights de IA. | 15/06/2026 |
+| `MindFlow-Backend` | `main` | `eb372d3` | `feat(analytics): register ComputationService and add compute endpoints` | Registro del servicio de analíticas y creación de endpoints de cómputo. | 15/06/2026 |
+| `MindFlow-Backend` | `main` | `0e24c3d` | `fix(journal): use JournalError enum instead of Error record` | Corrección del manejo de errores en el módulo Journal usando enums. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `edaa897` | `feat: implement missing US across IAM, Journal and Habits` | Implementación de User Stories faltantes en los bounded contexts IAM, Journal y Habits. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `175fbe4` | `feat: implement Google OAuth token-exchange authentication` | Implementación de autenticación OAuth con Google mediante intercambio de tokens. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `f59dfbc` | `feat: implement password recovery flow with SMTP email` | Implementación del flujo de recuperación de contraseña con envío de email vía SMTP. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `daf054a` | `feat: implement real file upload for journal media` | Implementación de carga real de archivos multimedia para entradas del diario. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `1a32d88` | `feat: implement Gemini LLM bounded context for journal feedback` | Implementación del bounded context de IA con Google Gemini para retroalimentación del diario. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `1bc03da` | `feat(wellness-engine): implement stress-based habit adjustment` | Motor de bienestar con ajuste automático de hábitos basado en nivel de estrés. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `36bb739` | `feat: implement push notification BC with FCM hydration` | Implementación de notificaciones push con Firebase Cloud Messaging. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `422f4c1` | `feat: implement Stripe checkout and premium subscription` | Integración de Stripe para checkout y gestión de suscripciones premium. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `b996335` | `feat: implement PDF and CSV export for premium users` | Exportación de historial en formato PDF (QuestPDF) y CSV para usuarios premium. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `7c5547d` | `feat: implement support tickets with email confirmation` | Sistema de tickets de soporte técnico con confirmación por email. | 16/06/2026 |
+| `MindFlow-Backend` | `main` | `08754f4` | `test: add unit test project with 38 tests` | Creación del proyecto de tests unitarios con 38 pruebas automatizadas. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `bb1ac07` | `ci: add GitHub Actions pipeline` | Configuración del pipeline CI/CD con GitHub Actions para build, test y despliegue. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `03aa5fc` | `feat: add AI metrics logging` | Implementación de logging de métricas de respuestas de IA. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `cae3ca3` | `perf: add database indexes` | Adición de índices en la base de datos para optimización de consultas. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `7a401ad` | `feat: add AES-256 encryption for journal entries` | Implementación de cifrado AES-256 para proteger las entradas del diario. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `8439fec` | `feat(iam): add PIN lock endpoints` | Endpoints para bloqueo y desbloqueo mediante PIN de seguridad. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `d7c37d8` | `feat: add mood calendar endpoint` | Endpoint del calendario de estados de ánimo con colores por día. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `dc2cd1e` | `feat: add AI feedback rating bounded context` | Bounded context para valoración de la retroalimentación de IA por parte del usuario. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `c78d2c2` | `feat(analytics): add weekly summary background scheduler` | Programador en segundo plano para generar resúmenes semanales de bienestar. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `e66241d` | `feat: add AI-powered habit suggestions endpoint` | Endpoint de sugerencias de hábitos generadas por IA. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `288f92f` | `feat: replace local file storage with Cloudinary` | Migración del almacenamiento local de archivos a Cloudinary en la nube. | 17/06/2026 |
+| `MindFlow-Backend` | `main` | `7b8a669` | `feat: add chat bounded context with AI-powered conversation endpoints` | Bounded context de chat con endpoints de conversación potenciados por IA. | 18/06/2026 |
+| `MindFlow-Backend` | `main` | `87e3ea2` | `feat: add subscription cancellation endpoint` | Endpoint para cancelación de suscripciones premium. | 18/06/2026 |
+| `MindFlow-Backend` | `main` | `1cfb282` | `feat: invalidate analytics cache on journal entry changes` | Invalidación de caché de analíticas al modificar entradas del diario. | 18/06/2026 |
+| `MindFlow-Backend` | `main` | `e17f037` | `fix: enforce ownership checks on habit-logs, journal tags/media, and replace raw SQL` | Validaciones de propiedad en habit-logs, tags y media del journal; reemplazo de SQL crudo. | 18/06/2026 |
+| `MindFlow-Backend` | `main` | `b0ceb28` | `feat: add matching query filters on EntryTag and Media for soft delete consistency` | Filtros de consulta en EntryTag y Media para consistencia con soft delete. | 20/06/2026 |
+| `MindFlow-Backend` | `main` | `e98921d` | `fix: return localized AI insight as {en, es} object and persist name on sign-up` | Respuesta de IA localizada en formato bilingüe y persistencia del nombre en registro. | 20/06/2026 |
+| `MindFlow-Backend` | `main` | `0f5189b` | `fix: recalculate habit status and streak at query time based on completion logs` | Recálculo dinámico del estado y racha de hábitos en tiempo de consulta. | 20/06/2026 |
+| `MindFlow-Backend` | `main` | `5165901` | `fix: address code review findings across all bounded contexts` | Correcciones de hallazgos de code review en todos los bounded contexts. | 20/06/2026 |
+| `MindFlow-Backend` | `main` | `aac55d2` | `feat: add notifications persistence with GET and mark-as-read endpoints` | Persistencia de notificaciones con endpoints de lectura y marcado como leído. | 21/06/2026 |
+| `MindFlow-Backend` | `main` | `0539363` | `fix: add GET profile endpoint, deduplicate support tickets, and force HTTPS on upload URLs` | Endpoint GET de perfil, deduplicación de tickets y forzado de HTTPS en URLs de carga. | 21/06/2026 |
+| `MindFlow-Backend` | `main` | `a6e00b7` | `fix: delete all user-related data before account deletion to prevent FK constraint errors` | Eliminación en cascada de datos del usuario para evitar errores de claves foráneas. | 21/06/2026 |
+
+**Repository:** 1ASI0730-2610-20177-CogniTech-MindFlow/MindFlow-Frontend
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `MindFlow-Frontend` | `main` | `866646f` | `fix: extract dashboard data aggregation to service` | Extracción de la lógica de agregación de datos del dashboard a un servicio dedicado. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `20a7967` | `fix: standardize BaseEndpoint inheritance and align journal store loading naming` | Estandarización de herencia BaseEndpoint y nomenclatura del store del journal. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `514450a` | `feat: externalize hardcoded Spanish strings to translation keys across components and entities` | Externalización de strings en español hardcodeados a claves de traducción i18n. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `5b932d1` | `fix: replace transition:all, remove !important, add prefers-reduced-motion, normalize hardcoded colors, and add design tokens` | Optimización de transiciones CSS, eliminación de !important y adición de design tokens. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `069326e` | `feat: improve accessibility — aria labels, focus trap, modal roles, dynamic lang` | Mejoras de accesibilidad con aria labels, focus trap y roles de modales. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `71f71f3` | `fix: lazy-load analytics, remove unused deps, fix will-change, manualChunks` | Lazy-loading de analíticas, eliminación de dependencias no usadas y optimización de chunks. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `516e538` | `fix: empty catch blocks, security key, console stubs, robots.txt` | Corrección de bloques catch vacíos, clave de seguridad y configuración de robots.txt. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `2eadc38` | `feat: polish chart components — hover states, shadows, backdrop-filter, legend pills, bar interactions` | Pulido visual de componentes de gráficos con estados hover, sombras y filtros. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `53fd680` | `feat: polish mood-input stars, quick-interventions glass icons, daily-habits checkbox glow` | Pulido de componentes de input de ánimo, intervenciones rápidas y checkboxes de hábitos. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `9604528` | `feat: polish dashboard grid dots dark mode, recent-entries gradient/tags, color-light fix` | Mejoras visuales del dashboard en modo oscuro y corrección de gradientes. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `6bc0b91` | `feat: polish home-vars, active-states, white-to-var, color-mix` | Pulido de variables CSS del home, estados activos y mezcla de colores. | 07/06/2026 |
+| `MindFlow-Frontend` | `main` | `1566857` | `feat: add User, AuthSession, LoginRequest and Registration domain models` | Creación de modelos de dominio para User, AuthSession, LoginRequest y Registration. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `2dfdee5` | `feat: add session manager for local storage token management` | Gestor de sesión para manejo de tokens JWT en localStorage. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `88f6c4c` | `feat: add AuthApiService with login, register, password reset and session endpoints` | Servicio API de autenticación con endpoints de login, registro y recuperación de contraseña. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `2812a1d` | `feat: add Pinia auth store with login, register, logout and session restore` | Store de autenticación con Pinia para login, registro, logout y restauración de sesión. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `5a976f7` | `feat: add auth layout component for login and register pages` | Componente de layout para las páginas de autenticación. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `08c682a` | `feat: add login form component and login view` | Componente de formulario de login y vista de inicio de sesión. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `af76883` | `feat: add register form component and register view` | Componente de formulario de registro y vista de registro. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `8e7e221` | `feat: add forgot password view with email form and sent confirmation state` | Vista de recuperación de contraseña con formulario de email y confirmación de envío. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `84edfe3` | `feat: add auth routes and navigation guard with session check` | Rutas de autenticación y guard de navegación con verificación de sesión. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `39cb0b4` | `feat: add avatar dropdown with logout to topbar` | Dropdown de avatar con opción de logout en la barra superior. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `422033d` | `refactor: replace hardcoded 'u1' with authStore.currentUserId across all features` | Reemplazo de userId hardcodeado por el userId real del store de autenticación. | 09/06/2026 |
+| `MindFlow-Frontend` | `main` | `3e3d78e` | `feat: update project` | Actualización general del proyecto con integraciones del backend. | 17/06/2026 |
+| `MindFlow-Frontend` | `main` | `1551a88` | `feat: integrate chat system, fix subscription endpoints, improve analytics parsing and UI consistency` | Integración del sistema de chat, corrección de endpoints de suscripción y mejoras de analíticas. | 18/06/2026 |
+| `MindFlow-Frontend` | `main` | `3d583aa` | `feat: integrate chat system, fix subscriptions, improve analytics and UI polish` | Integración final del chat, correcciones de suscripciones y pulido de UI. | 18/06/2026 |
+| `MindFlow-Frontend` | `main` | `faadd84` | `fix: resolve user-reported bugs, improve habits logic, and add mobile responsive design` | Resolución de bugs reportados por usuarios, mejoras en lógica de hábitos y diseño responsivo móvil. | 21/06/2026 |
+
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+En esta sección se presenta la evidencia de ejecución del Sprint 3, demostrando la implementación completa del backend con .NET 10 y la documentación interactiva de la API RESTful mediante Swagger (OpenAPI 3.0). Las siguientes capturas corresponden a la interfaz de Swagger UI desplegada en producción, accesible desde la URL pública del backend.
+
+##### Swagger Evidence - AiFeedback & Analytics
+Se muestran los endpoints del bounded context **AiFeedback** (POST, GET y GET /summary para valoraciones de la IA) y **Analytics** (GET/POST /analyticscache, POST /analyticscache/compute, GET/POST /wordcloud, GET /moodcalendar) que permiten consultar el score emocional, tendencias semanales, nube de palabras y calendario de estados de ánimo.
+
+<img src="../assets/Swagger_Evidence_1.png" alt="Swagger Evidence 1 - AiFeedback y Analytics" height="500" width="1000">
+
+##### Swagger Evidence - Chat & HabitLogs
+Se presentan los endpoints del bounded context **Chat** (POST/GET /chat/conversations, DELETE /chat/conversations/{id}, POST/GET /chat/conversations/{id}/messages) para conversaciones con IA en tiempo real, y **HabitLogs** (CRUD completo en /habit-logs) para el registro de completado de hábitos con recálculo automático de rachas.
+
+<img src="../assets/Swagger_Evidence_2.png" alt="Swagger Evidence 2 - Chat y HabitLogs" height="500" width="1000">
+
+##### Swagger Evidence - Habits & Journal
+Se evidencian los endpoints del bounded context **Habits** (CRUD en /habits, GET /habits/streak-summary, POST /habits/suggestions para sugerencias de IA) y **Journal** (CRUD en /journal/entries con análisis de sentimiento automático, gestión de /journal/tags, /journal/entry-tags y /journal/media con soporte de carga de archivos multimedia).
+
+<img src="../assets/Swagger_Evidence_3.png" alt="Swagger Evidence 3 - Habits y Journal" height="500" width="1000">
+
+##### Swagger Evidence - Notifications, Reporting & Subscriptions
+Se muestran los endpoints de **Notifications** (GET /notifications, PATCH /{id}/read, POST /register-device, DELETE /unregister-device para FCM), **Reporting** (GET /api/v1/reporting/export/pdf y /export/csv para exportación premium) y **Subscriptions** (POST /checkout, GET /me, POST /verify-session, POST /cancel, POST /webhook para integración con Stripe).
+
+<img src="../assets/Swagger_Evidence_4.png" alt="Swagger Evidence 4 - Notifications, Reporting y Subscriptions" height="500" width="1000">
+
+##### Swagger Evidence - Support & Users (IAM)
+Se presentan los endpoints de **Support** (POST/GET /api/v1/support/tickets para tickets de soporte con confirmación por email) y **Users** (POST /sign-up, POST /sign-in, POST /google-auth, POST /forgot-password, POST /reset-password, GET/PUT /profile, DELETE /users, POST/DELETE/POST verify/GET status de PIN) que conforman el bounded context IAM completo con autenticación JWT.
+
+<img src="../assets/Swagger_Evidence_5.png" alt="Swagger Evidence 5 - Support y Users" height="500" width="1000">
+
+##### Swagger Evidence - Wellness Engine
+Se muestra el endpoint del bounded context **Wellness** (POST /wellness/stress-check) que realiza el análisis de estrés del usuario y ajusta automáticamente la carga de hábitos cuando se detecta un nivel de ánimo bajo.
+
+<img src="../assets/Swagger_Evidence_6.png" alt="Swagger Evidence 6 - Wellness Engine" height="100" width="1000">
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+Durante el Sprint 3 se implementó la totalidad de la API RESTful del backend de MindFlow con .NET 10, documentada mediante OpenAPI 3.0 (Swagger). A continuación se presenta el catálogo completo de los endpoints desarrollados, organizados por bounded context.
+
+**Bounded Context: Users (IAM)**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Users | POST | `/api/v1/users/sign-up` | Registra un nuevo usuario con email y contraseña hasheada con BCrypt. |
+| Users | POST | `/api/v1/users/sign-in` | Autentica al usuario y retorna un token JWT para acceso a la API. |
+| Users | POST | `/api/v1/users/google-auth` | Autentica al usuario mediante intercambio de token OAuth de Google. |
+| Users | POST | `/api/v1/users/forgot-password` | Envía un email con enlace de recuperación de contraseña vía SMTP. |
+| Users | POST | `/api/v1/users/reset-password` | Restablece la contraseña del usuario mediante token de recuperación. |
+| Users | GET | `/api/v1/users/profile` | Obtiene los datos del perfil del usuario autenticado. |
+| Users | PUT | `/api/v1/users/profile` | Actualiza el nombre y ocupación del perfil del usuario. |
+| Users | DELETE | `/api/v1/users` | Elimina la cuenta del usuario y todos sus datos asociados en cascada. |
+| Users | POST | `/api/v1/users/pin` | Configura un PIN de seguridad para proteger el acceso a la aplicación. |
+| Users | POST | `/api/v1/users/pin/verify` | Verifica el PIN de seguridad ingresado por el usuario. |
+| Users | DELETE | `/api/v1/users/pin` | Elimina el PIN de seguridad configurado. |
+| Users | GET | `/api/v1/users/pin/status` | Consulta si el usuario tiene un PIN de seguridad activo. |
+
+**Bounded Context: Journal**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Journal | GET | `/journal/entries` | Lista las entradas del diario emocional del usuario con filtros y ordenamiento. |
+| Journal | POST | `/journal/entries` | Crea una nueva entrada con detección automática de sentimiento vía Google Gemini. |
+| Journal | GET | `/journal/entries/{id}` | Obtiene una entrada específica del diario por su identificador. |
+| Journal | PUT | `/journal/entries/{id}` | Actualiza el contenido de una entrada existente y recalcula el preview. |
+| Journal | DELETE | `/journal/entries/{id}` | Realiza un soft delete de la entrada del diario. |
+| Journal | GET | `/journal/tags` | Lista todas las etiquetas disponibles del usuario. |
+| Journal | GET | `/journal/entry-tags` | Lista las asociaciones entre entradas y etiquetas contextuales. |
+| Journal | POST | `/journal/entry-tags` | Asocia una etiqueta contextual a una entrada del diario. |
+| Journal | DELETE | `/journal/entry-tags/{id}` | Elimina la asociación entre una etiqueta y una entrada. |
+| Journal | GET | `/journal/media` | Lista los archivos multimedia asociados a las entradas. |
+| Journal | POST | `/journal/media` | Crea un registro de media asociado a una entrada del diario. |
+| Journal | POST | `/journal/media/upload` | Sube un archivo multimedia (máx. 10MB) a Cloudinary y lo vincula a una entrada. |
+
+**Bounded Context: Habits**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Habits | GET | `/habits` | Lista los hábitos del usuario con recálculo de streak en tiempo real. |
+| Habits | POST | `/habits` | Crea un nuevo hábito personalizado con nombre, categoría y frecuencia. |
+| Habits | GET | `/habits/{id}` | Obtiene un hábito específico por su identificador. |
+| Habits | PUT | `/habits/{id}` | Actualiza el nombre, categoría o frecuencia de un hábito existente. |
+| Habits | DELETE | `/habits/{id}` | Elimina un hábito y sus logs de completado asociados. |
+| Habits | GET | `/habits/streak-summary` | Obtiene el resumen de rachas activas y máximas del usuario. |
+| Habits | POST | `/habits/suggestions` | Genera sugerencias de hábitos personalizadas mediante IA (Gemini). |
+
+**Bounded Context: HabitLogs**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| HabitLogs | GET | `/habit-logs` | Lista los logs de completado filtrados por hábito. |
+| HabitLogs | POST | `/habit-logs` | Registra el completado de un hábito y recalcula el streak automáticamente. |
+| HabitLogs | GET | `/habit-logs/{id}` | Obtiene un log de completado específico. |
+| HabitLogs | PUT | `/habit-logs/{id}` | Actualiza un log de completado existente. |
+| HabitLogs | DELETE | `/habit-logs/{id}` | Elimina un log de completado y recalcula la racha del hábito asociado. |
+
+**Bounded Context: Analytics**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Analytics | GET | `/analyticscache` | Obtiene las analíticas semanales del usuario (score, tendencias, KPIs). |
+| Analytics | POST | `/analyticscache` | Crea un registro de analíticas en caché. |
+| Analytics | PUT | `/analyticscache/{id}` | Actualiza un registro de analíticas existente. |
+| Analytics | POST | `/analyticscache/compute` | Fuerza el recómputo de analíticas con insights generados por IA. |
+| Analytics | GET | `/wordcloud` | Obtiene la nube de palabras extraída de las entradas del diario. |
+| Analytics | POST | `/wordcloud/compute` | Fuerza el recómputo de la nube de palabras. |
+| Analytics | GET | `/moodcalendar` | Obtiene el calendario de estados de ánimo por mes con colores por día. |
+
+**Bounded Context: Chat**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Chat | POST | `/chat/conversations` | Crea una nueva conversación con el asistente de IA. |
+| Chat | GET | `/chat/conversations` | Lista todas las conversaciones del usuario. |
+| Chat | DELETE | `/chat/conversations/{id}` | Elimina una conversación y su historial de mensajes. |
+| Chat | POST | `/chat/conversations/{id}/messages` | Envía un mensaje al asistente de IA y recibe respuesta generada por Gemini. |
+| Chat | GET | `/chat/conversations/{id}/messages` | Obtiene el historial de mensajes de una conversación. |
+
+**Bounded Context: AiFeedback**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| AiFeedback | POST | `/api/v1/ai-feedback` | Envía una valoración (1-5 estrellas) sobre la retroalimentación de IA recibida. |
+| AiFeedback | GET | `/api/v1/ai-feedback` | Lista todas las valoraciones de IA realizadas por el usuario. |
+| AiFeedback | GET | `/api/v1/ai-feedback/summary` | Obtiene la distribución estadística de las valoraciones de IA. |
+
+**Bounded Context: Notifications**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Notifications | GET | `/notifications` | Lista las últimas 50 notificaciones del usuario. |
+| Notifications | PATCH | `/notifications/{id}/read` | Marca una notificación como leída. |
+| Notifications | POST | `/notifications/register-device` | Registra un token FCM para recibir notificaciones push. |
+| Notifications | DELETE | `/notifications/unregister-device` | Desregistra un dispositivo del servicio de notificaciones push. |
+
+**Bounded Context: Subscriptions**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Subscriptions | POST | `/api/v1/subscriptions/checkout` | Crea una sesión de checkout en Stripe para suscripción premium. |
+| Subscriptions | GET | `/api/v1/subscriptions/me` | Obtiene el estado actual de la suscripción del usuario. |
+| Subscriptions | POST | `/api/v1/subscriptions/verify-session` | Verifica el estado del pago tras completar el checkout de Stripe. |
+| Subscriptions | POST | `/api/v1/subscriptions/cancel` | Cancela la suscripción premium activa del usuario. |
+| Subscriptions | POST | `/api/v1/subscriptions/webhook` | Recibe y procesa eventos webhook de Stripe (activación, cancelación). |
+
+**Bounded Context: Reporting**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Reporting | GET | `/api/v1/reporting/export/pdf` | Exporta el historial del diario emocional como documento PDF (solo premium). |
+| Reporting | GET | `/api/v1/reporting/export/csv` | Exporta el historial del diario emocional como archivo CSV (solo premium). |
+
+**Bounded Context: Support**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Support | POST | `/api/v1/support/tickets` | Crea un ticket de soporte técnico y envía email de confirmación al usuario. |
+| Support | GET | `/api/v1/support/tickets` | Lista los tickets de soporte creados por el usuario. |
+
+**Bounded Context: Wellness**
+
+| Service Module | HTTP Method | Endpoint Path | Description |
+|---|---|---|---|
+| Wellness | POST | `/wellness/stress-check` | Realiza un análisis de estrés y ajusta automáticamente la carga de hábitos. |
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+Durante el Sprint 3 se realizó el despliegue completo de la infraestructura backend de MindFlow, incluyendo el Web Service y la base de datos relacional en plataformas cloud. A continuación se describen las actividades realizadas y la evidencia del despliegue exitoso.
+
+##### Despliegue del Backend - Render
+
+Se desplegó el Web Service del backend en **Render** como plataforma PaaS, utilizando Docker como entorno de ejecución. El repositorio `MindFlow-Backend` de la organización fue vinculado directamente a Render, configurando el despliegue automático desde la rama `main`. La instancia fue configurada en la región **Ohio (US East)** bajo el proyecto **Mindflow / Production**, con las variables de entorno necesarias para las conexiones a la base de datos, claves de API de Google Gemini, credenciales de Stripe y configuración SMTP.
+
+<img src="../assets/Rander_deploy.png" alt="Render Deploy - Backend Web Service" height="500" width="1000">
+
+##### Despliegue de la Base de Datos - Railway (MySQL)
+
+Se desplegó la base de datos relacional **MySQL 9.4** en **Railway** como servicio administrado en la nube. La instancia fue configurada bajo el proyecto **Mindflow-Database** en entorno de producción, con volumen persistente (`mysql-volume`) para garantizar la durabilidad de los datos.
+
+**Configuración de Source e imagen:**
+La base de datos utiliza la imagen oficial `mysql:9.4` con estado **Online** y acceso de red público habilitado a través de `thomas.proxy.rlwy.net:49350` redirigido al puerto estándar `:3306`.
+
+<img src="../assets/Database_deploy_1.png" alt="Database Deploy 1 - MySQL Source y Networking público" height="500" width="1000">
+
+**Configuración de Networking privado y Scale:**
+Se habilitó la red privada interna de Railway (`mysql.railway.internal`) con soporte IPv4 e IPv6 para la comunicación segura entre el backend y la base de datos. La instancia fue configurada en la región **US West (California, USA)** con 1 réplica.
+
+<img src="../assets/Database_deploy_2.png" alt="Database Deploy 2 - Networking privado y Scale" height="500" width="1000">
+
+**Configuración de Replica Limits y Deploy:**
+Se asignaron los recursos de la réplica con **2 vCPU** y **1 GB de memoria RAM**. El comando de inicio personalizado utiliza `docker-entrypoint.sh mysqld --innodb-use-native-aio=0 --disable-log-bin` para optimizar el rendimiento en entornos cloud.
+
+<img src="../assets/Database_deploy_3.png" alt="Database Deploy 3 - Replica Limits y Deploy command" height="500" width="1000">
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+### Desarrollo del Backend
+
+#### AV2
+<img src="../assets/insight_backend_sprint_3.png" height="500" width="1000">
+
+### Desarrollo del Frontend
+
+#### AV2
+<img src="../assets/insight_frontend_sprint_3.png" height="500" width="1000">
+
+---
+
+## 5.3. Validation Interviews.
+### 5.3.1. Diseño de Entrevistas.
+
+Para la validación del producto MindFlow se diseñó un banco de preguntas dirigido a los dos segmentos objetivo: estudiantes universitarios (18–25 años) y profesionales jóvenes (26–35 años). Las preguntas siguen un formato semiestructurado y están organizadas en tres bloques: exploración de la Landing Page, navegación por la aplicación web y cierre valorativo. El objetivo es recoger impresiones sobre la propuesta de valor, la usabilidad de cada módulo y la disposición de uso.
+
+A continuación se presentan las preguntas diseñadas para cada segmento objetivo:
+
+#### Segmento 1: Estudiantes Universitarios (18–25 años)
+
+**Landing Page**
+
+| N.° | Pregunta |
+|:---:|:---------|
+| 1 | Después de ver la página principal, ¿qué entiendes que es MindFlow y qué problema crees que busca resolver? |
+| 2 | Revisa la sección "Problema". ¿Te sientes identificado/a con algo de lo que aparece? |
+| 3 | ¿Qué te pareció la sección "Cómo funciona"? ¿Te queda claro cómo funcionaría el producto? |
+| 4 | ¿Qué opinas sobre la sección "Por qué MindFlow"? |
+| 5 | ¿Te registrarías para utilizar la plataforma? |
+
+**Aplicación Web**
+
+| N.° | Pregunta |
+|:---:|:---------|
+| 6 | Ahora entra al Dashboard. ¿Qué te parece la organización y la información que se presenta? |
+| 7 | Prueba la sección Diario y registra una entrada. ¿Qué te pareció la experiencia? |
+| 8 | ¿Qué opinas sobre la sección Hábitos? ¿Crees que te ayudaría en tu rutina diaria? |
+| 9 | Observa las Analíticas. ¿Las gráficas y estadísticas son fáciles de entender? |
+| 10 | ¿Qué te pareció la sección Configuración? |
+
+**Cierre**
+
+| N.° | Pregunta |
+|:---:|:---------|
+| 11 | ¿Qué fue lo que más te gustó de la plataforma? |
+| 12 | ¿Qué mejorarías o qué funcionalidad agregarías? |
+| 13 | ¿Utilizarías MindFlow en tu día a día? ¿Qué calificación le darías del 1 al 10? |
+
+#### Segmento 2: Profesionales Jóvenes (26–35 años)
+
+**Landing Page**
+
+| N.° | Pregunta |
+|:---:|:---------|
+| 1 | Explora la página principal de MindFlow y coméntame qué impresión te genera. |
+| 2 | Revisa la sección "Cómo funciona". ¿Te parece clara la propuesta? |
+| 3 | ¿Qué te parece la sección "Por qué MindFlow"? ¿Qué te llamó la atención? |
+| 4 | ¿Te registrarías para utilizar la plataforma? |
+
+**Aplicación Web**
+
+| N.° | Pregunta |
+|:---:|:---------|
+| 5 | Ahora entra al Dashboard. ¿Qué te parece la organización y las funcionalidades que se presentan? |
+| 6 | Ahora entra al Diario. ¿Cómo evalúas la estructura y facilidad de uso? |
+| 7 | ¿Qué te parece la sección Hábitos? ¿Consideras que podría ayudarte con tu ritmo de trabajo? |
+| 8 | ¿Qué opinas sobre las Analíticas? ¿Las gráficas son fáciles de interpretar? |
+| 9 | ¿Qué te pareció la sección Configuración? |
+
+**Cierre**
+
+| N.° | Pregunta |
+|:---:|:---------|
+| 10 | ¿Qué fue lo que más te gustó de la plataforma? |
+| 11 | ¿Qué mejorarías o qué funcionalidad agregarías? |
+| 12 | ¿Utilizarías MindFlow en tu día a día? ¿Qué calificación le darías del 1 al 10? |
+
+### 5.3.2. Registro de Entrevistas.
+
+### Segmento 1: Estudiantes Universitarios
+
+### Entrevista 1
+
+| Campo | Detalle |
+|------|--------|
+| Segmento Objetivo | Estudiantes universitarios (18–25 años) |
+| Fecha Entrevista | 19/06/2026 |
+| Entrevistador | Sebastián Díaz |
+| Entrevistado | Ingrid Ledka |
+| Edad | 18 |
+| Distrito | San Isidro |
+| Link del Video | https://youtu.be/P6N2skZq-bw |
+| Minuto de Inicio | 0:00 |
+| Duración | 03:20 |
+| Resumen | La entrevistada comprendió rápidamente la propuesta de valor de MindFlow y se identificó con la problemática del estrés académico. Destacó las intervenciones rápidas y las analíticas por ser herramientas útiles para actuar en momentos de estrés. Consideró que la aplicación es organizada y fácil de utilizar. Como mejora, sugirió que la IA pueda actuar en tiempo real y proporcionar recomendaciones automáticas según el estado emocional detectado. Calificó la plataforma con 8/10 y afirmó que la utilizaría. |
+
+### Entrevista 2
+
+| Campo | Detalle |
+|------|--------|
+| Segmento Objetivo | Estudiantes universitarios (18–25 años) |
+| Fecha Entrevista | 19/06/2026 |
+| Entrevistador | Sebastián Díaz |
+| Entrevistado | Jiss Zerpa |
+| Edad | 18 |
+| Distrito | La Molina |
+| Link del Video | https://youtu.be/cvWedCwngBc |
+| Minuto de Inicio | 0:00 |
+| Duración | 03:15 |
+| Resumen | La participante percibió a MindFlow como una plataforma orientada al bienestar emocional y al manejo del estrés. Consideró que las funcionalidades son fáciles de comprender y destacó la simplicidad de la interfaz. Valoró especialmente la posibilidad de registrar emociones y hábitos sin dedicar demasiado tiempo. Como mejora, sugirió incorporar notificaciones y recomendaciones automáticas para brindar apoyo en momentos de estrés. Indicó que utilizaría la aplicación y le otorgó una calificación de 8/10. |
+
+### Entrevista 3
+
+| Campo | Detalle |
+|------|--------|
+| Segmento Objetivo | Estudiantes universitarios (18–25 años) |
+| Fecha Entrevista | 20/06/2026 |
+| Entrevistador | Sebastián Díaz |
+| Entrevistado | Lucero |
+| Edad | 19 |
+| Distrito | La Molina |
+| Link del Video | https://youtu.be/qgEe9cTHaUo |
+| Minuto de Inicio | 0:00 |
+| Duración | 04:22 |
+| Resumen | La entrevistada comprendió claramente el propósito de MindFlow y destacó el uso de inteligencia artificial para detectar patrones emocionales. Mostró especial interés por el diario emocional y las analíticas, considerándolas el principal valor diferencial de la plataforma. Valoró la organización del Dashboard y las opciones relacionadas con la privacidad. Como mejora, sugirió incorporar análisis emocionales más profundos y recomendaciones personalizadas. Manifestó que utilizaría la plataforma y la calificó con 9/10. |
+
+---
+
+### Segmento 2: Profesionales Jóvenes
+
+### Entrevista 1
+
+| Campo | Detalle |
+|------|--------|
+| Segmento Objetivo | Profesionales jóvenes (26–35 años) |
+| Fecha Entrevista | 19/06/2026 |
+| Entrevistador | Sebastián Díaz |
+| Entrevistado | Ghorghet Baltazar |
+| Edad | 26 |
+| Distrito | San Isidro |
+| Link del Video | https://youtu.be/wJwLmqzYwRE |
+| Minuto de Inicio | 0:00 |
+| Duración | 03:47 |
+| Resumen | El entrevistado percibió a MindFlow como una plataforma profesional y bien estructurada para gestionar el estrés y los patrones emocionales. Valoró la simplicidad del proceso de registro y el uso de IA para identificar patrones y sugerir intervenciones. Destacó las intervenciones rápidas, el seguimiento de hábitos y las analíticas por ser herramientas prácticas para personas con poco tiempo disponible. Como mejora, sugirió incorporar recordatorios automáticos y recomendaciones basadas en los niveles de estrés. Indicó que utilizaría la plataforma y la calificó con 8/10. |
+
+### Entrevista 2
+
+| Campo | Detalle |
+|------|--------|
+| Segmento Objetivo | Profesionales jóvenes (26–35 años) |
+| Fecha Entrevista | 20/06/2026 |
+| Entrevistador | Sebastián Díaz |
+| Entrevistado | Óscar Benavides |
+| Edad | 29 |
+| Distrito | Chorrillos |
+| Link del Video | https://youtu.be/G2XpKu1Ngxo |
+| Minuto de Inicio | 0:00 |
+| Duración | 03:53 |
+| Resumen | El entrevistado destacó la apariencia moderna y organizada de MindFlow y valoró el uso de inteligencia artificial para personalizar la experiencia. Se identificó con el problema de las aplicaciones genéricas que suelen abandonarse por no adaptarse al usuario. Las secciones que más le gustaron fueron Hábitos y Analíticas, debido a su capacidad para mostrar patrones y ofrecer sugerencias. Como mejora, propuso que la IA aprenda continuamente sobre el usuario y adapte automáticamente las recomendaciones. Manifestó que utilizaría la plataforma y la calificó con 9/10. |
+
+### Entrevista 3
+
+| Campo | Detalle |
+|------|--------|
+| Segmento Objetivo | Profesionales jóvenes (26–35 años) |
+| Fecha Entrevista | 20/06/2026 |
+| Entrevistador | Sebastián Díaz |
+| Entrevistado | Nordie Sanabria |
+| Edad | 29 |
+| Distrito | Santiago de Surco |
+| Link del Video | https://youtu.be/IBEQl7y2CZI |
+| Minuto de Inicio | 0:00 |
+| Duración | 02:46 |
+| Resumen | La entrevistada percibió a MindFlow como una solución clara y fácil de utilizar para gestionar el estrés diario. Se identificó con la problemática del estrés acumulado y valoró especialmente las intervenciones rápidas por su practicidad. Consideró que las estadísticas y observaciones generadas por IA permiten comprender mejor los patrones emocionales. Como oportunidad de mejora, sugirió incrementar la automatización y mostrar recomendaciones inteligentes de manera proactiva. Indicó que utilizaría la plataforma, la recomendaría y la calificó con 8/10. |
+
+### 5.3.3. Evaluaciones según heurísticas.
+
+A partir de las entrevistas de validación realizadas a los dos segmentos objetivo, se identificaron hallazgos que fueron mapeados a las heurísticas de usabilidad de Jakob Nielsen. La siguiente tabla presenta la evaluación de cada heurística, la severidad del problema detectado (si aplica) y las recomendaciones derivadas de la retroalimentación de los usuarios.
+
+**Escala de severidad:**
+
+| Nivel | Descripción                                                                     |
+|:-----:|:--------------------------------------------------------------------------------|
+| 1 | Problema visual — no necesita ser corregido a menos que haya tiempo disponible. |
+| 2 | Problema menor — su corrección tiene baja prioridad.                            |
+| 3 | Problema mayor — importante de corregir, tiene alta prioridad.                  |
+| 4 | Problema critico — indispensable corregir antes del release.                    |
+
+**Evaluación heurística:**
+
+| N.° | Heurística | Hallazgo de las entrevistas | Severidad | Recomendación |
+|:---:|:-----------|:----------------------------|:---------:|:--------------|
+| 1 | **Visibilidad del estado del sistema** | Los entrevistados no reportaron problemas para entender en qué sección se encontraban ni el estado de sus acciones (registro de entradas, completado de hábitos). Sin embargo, varios usuarios (Ingrid, Jiss, Nordie) sugirieron que la plataforma debería notificar proactivamente cuando detecte niveles de estrés elevados. | 2 | Incorporar indicadores visuales en tiempo real que reflejen el estado emocional del usuario (e.g., alertas sutiles en el Dashboard cuando el score de bienestar disminuya). |
+| 2 | **Coincidencia entre el sistema y el mundo real** | Todos los participantes comprendieron rápidamente la propuesta de valor y el lenguaje utilizado. Ingrid mencionó que "todo se entiende rápido" y Jiss destacó que "la explicación es sencilla". El vocabulario empleado (diario, hábitos, analíticas) coincide con conceptos familiares para ambos segmentos. | — | No se identificaron problemas. Mantener el lenguaje cercano y accesible. |
+| 3 | **Control y libertad del usuario** | Los entrevistados navegaron con facilidad entre las secciones sin reportar dificultades para deshacer acciones o retroceder. Lucero valoró positivamente los filtros y el calendario del Diario como herramientas de control sobre la información registrada. | — | No se identificaron problemas. |
+| 4 | **Consistencia y estándares** | Los participantes de ambos segmentos encontraron la interfaz organizada y coherente. Ghorghet la describió como "profesional y bien estructurada" y Óscar como "bastante moderna". No se reportaron inconsistencias entre secciones. | — | No se identificaron problemas. Mantener la coherencia visual y de interacción entre módulos. |
+| 5 | **Prevención de errores** | No se reportaron errores durante la exploración de la plataforma. Sin embargo, las entrevistas se centraron en la navegación y exploración general, por lo que no se evaluaron flujos de entrada de datos complejos. | 1 | Validar en futuras pruebas los flujos de entrada de datos (registro de entradas del diario, creación de hábitos) para asegurar que existan mecanismos de prevención de errores. |
+| 6 | **Reconocimiento antes que recuerdo** | Los entrevistados no necesitaron instrucciones adicionales para ubicar las funcionalidades principales. Las secciones del Dashboard, Diario, Hábitos y Analíticas fueron identificadas intuitivamente. Nordie destacó que "la aplicación no se siente complicada". | — | No se identificaron problemas. |
+| 7 | **Flexibilidad y eficiencia de uso** | Todos los usuarios valoraron que la plataforma requiere poco tiempo para ser utilizada. Ghorghet destacó que "solo tome unos minutos registrar emociones" y Jiss mencionó que "no parece algo que te haga perder mucho tiempo". No obstante, Nordie sugirió que los hábitos deberían ser "todavía más automáticos" y varios entrevistados solicitaron mayor automatización. | 2 | Implementar atajos y automatizaciones como registro rápido de estado de ánimo, completado automático de hábitos recurrentes y sugerencias proactivas de la IA sin intervención del usuario. |
+| 8 | **Diseño estético y minimalista** | Esta fue una de las heurísticas mejor evaluadas. Todos los participantes destacaron la claridad y organización de la interfaz. Jiss mencionó que "no hay demasiada información y se entiende rápidamente" e Ingrid que "no está saturada de información". | — | No se identificaron problemas. El diseño minimalista es un diferenciador valorado por los usuarios. |
+| 9 | **Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores** | No se detectaron situaciones de error durante las entrevistas de validación. Los participantes completaron la exploración de la plataforma sin reportar mensajes de error ni estados inesperados. | 1 | Verificar en pruebas futuras que los mensajes de error sean claros y ofrezcan alternativas de acción al usuario. |
+| 10 | **Ayuda y documentación** | Ningún entrevistado mencionó la necesidad de ayuda o documentación adicional para comprender la plataforma, lo que indica que la interfaz es lo suficientemente intuitiva. Sin embargo, no se evaluó la existencia de una sección de ayuda o FAQ dentro de la aplicación. | 1 | Considerar la incorporación de una sección de ayuda o tooltips contextuales para usuarios nuevos, especialmente en las funcionalidades de IA y analíticas avanzadas. |
+
+**Resumen de hallazgos:**
+
+| Severidad | Cantidad | Heurísticas afectadas |
+|:---------:|:--------:|:----------------------|
+| Sin problemas | 5 | H2, H3, H4, H6, H8 |
+| Severidad 1 | 2 | H5, H9, H10 |
+| Severidad 2 | 2 | H1, H7 |
+| Severidad 3 | 0 | — |
+| Severidad 4 | 0 | — |
+
+Los resultados indican que MindFlow presenta un nivel de usabilidad satisfactorio según las heurísticas de Nielsen. Las principales oportunidades de mejora se concentran en dos áreas: (1) visibilidad proactiva del estado emocional mediante notificaciones inteligentes y (2) mayor automatización para incrementar la eficiencia de uso. Ambas áreas coinciden con las sugerencias de mejora más recurrentes identificadas en las entrevistas de validación de ambos segmentos objetivo.
+
+## 5.4. Video About-the-Product.
+
+En el siguiente video se presenta MindFlow, mostrando sus principales funcionalidades, la propuesta de valor y la experiencia de uso de la plataforma de bienestar emocional inteligente.
+
+Enlace del video: [Video About-the-Product](https://drive.google.com/drive/u/3/folders/1qeiWdSS0L5rjPT2sVuRS3iYHF8EDLXMD)
 
 ---
 # Conclusiones
@@ -436,23 +978,43 @@ El proyecto también demostró la importancia de aplicar metodologías centradas
 
 Finalmente, el desarrollo de MindFlow evidenció la relevancia del trabajo colaborativo y la organización dentro del equipo, permitiendo distribuir responsabilidades de manera eficiente y alcanzar los objetivos planteados en cada etapa del proyecto. La integración de conocimientos técnicos, de diseño y de investigación facilitó la construcción de una solución sólida, escalable y orientada a mejorar la experiencia y el bienestar emocional de los usuarios.
 
-Como recomendación, se plantea continuar con el desarrollo e implementación de nuevas funcionalidades basadas en inteligencia artificial, priorizando la automatización y personalización de la experiencia del usuario. Además, se recomienda fortalecer las medidas de seguridad y privacidad de los datos, debido a la sensibilidad de la información emocional gestionada por la plataforma.
+### Conclusiones del Sprint 3
 
-También se sugiere realizar futuras validaciones con una mayor cantidad de usuarios y distintos perfiles demográficos, con el objetivo de obtener retroalimentación más amplia y mejorar continuamente la experiencia de uso. Finalmente, sería importante incorporar métricas de seguimiento y análisis que permitan evaluar el impacto real de la plataforma en la reducción del estrés y la mejora de hábitos de bienestar.
+**Backend completo con arquitectura DDD:** La implementación del backend con .NET 10 y 11 bounded contexts bajo Domain-Driven Design permitió construir una API RESTful robusta, modular y escalable. La separación en capas (dominio, aplicación, infraestructura e interfaces) facilitó el desarrollo paralelo y aseguró la independencia entre contextos como IAM, Journal, Habits, Chat, Analytics, Notifications, Subscriptions, Support, AiFeedback, Wellness y Reporting.
 
-Conclusiones del Entregable Actual Sprint 2
+**Integración real de Inteligencia Artificial:** La transición de datos simulados a inteligencia artificial funcional con Google Gemini representó un avance significativo. El backend ahora genera retroalimentación empática para el diario emocional, sugerencias de hábitos personalizadas, análisis de sentimiento automático, conversaciones de chat en tiempo real e insights analíticos en formato bilingüe (EN/ES). Esto valida la hipótesis central de MindFlow: que la IA puede ofrecer acompañamiento emocional personalizado y no genérico.
 
-Arquitectura Escalable: La aplicación de Domain-Driven Design en el frontend permitió construir una base modular. Separar el código en dominio, infraestructura, aplicación y presentación facilitará el mantenimiento y la futura integración con los microservicios del backend.
+**Sistema de autenticación y seguridad:** La implementación del bounded context IAM con JWT, Google OAuth, recuperación de contraseña vía SMTP, PIN de seguridad y cifrado AES-256 para las entradas del diario demuestra un compromiso con la protección de datos sensibles. Esto responde directamente a la naturaleza confidencial de la información emocional gestionada por la plataforma.
 
-Despliegue y Accesibilidad: La publicación exitosa de la primera versión en Vercel y la implementación de un diseño responsivo garantizan que la plataforma sea accesible desde cualquier dispositivo, un factor clave para fomentar el registro emocional diario.
+**Integración frontend-backend completa:** La conexión total entre el frontend en Vue.js y el backend en .NET 10 eliminó la dependencia de APIs simuladas del Sprint 2. Todos los módulos (Dashboard, Journal, Habits, Analytics, Chat, Settings, Subscriptions) operan ahora con persistencia real en MySQL y almacenamiento multimedia en Cloudinary.
 
-Simulación de Inteligencia Artificial: El desarrollo de los módulos de Diario y Dashboard logró simular la interacción en tiempo real con el motor de análisis de sentimientos, demostrando cómo la plataforma brindará retroalimentación empática inmediata al usuario.
+**Validación con usuarios satisfactoria:** Las entrevistas de validación con 6 usuarios de ambos segmentos objetivo arrojaron calificaciones entre 8 y 9 sobre 10. La evaluación según heurísticas de Nielsen confirmó que la plataforma no presenta problemas de severidad alta o catastrófica. Los entrevistados valoraron la simplicidad, organización y utilidad de las funcionalidades, validando las decisiones de diseño tomadas en sprints anteriores.
 
-Experiencia de Usuario Optimizada: La gestión centralizada del estado global permitió un flujo de datos eficiente entre los módulos de hábitos y analíticas. Esto asegura una navegación fluida que reduce la carga cognitiva, un aspecto fundamental al diseñar para personas con estrés o ansiedad.
+**Calidad y despliegue continuo:** La creación de 38 pruebas unitarias y la configuración de un pipeline CI/CD con GitHub Actions aseguran la estabilidad del código ante futuros cambios. El despliegue en Render con base de datos MySQL persistente garantiza la disponibilidad continua del backend en producción.
+
+### Recomendaciones
+
+Como recomendación, se plantea priorizar la implementación de notificaciones proactivas y recomendaciones automáticas basadas en el estado emocional del usuario, ya que esta fue la mejora más solicitada por los entrevistados de ambos segmentos. Además, se recomienda incrementar la automatización en el módulo de hábitos para reducir la fricción de uso diario.
+
+Se sugiere ampliar la cobertura de pruebas automatizadas, incorporando pruebas de integración que validen los flujos de extremo a extremo entre el frontend y el backend. También sería importante realizar pruebas de rendimiento bajo carga para asegurar la escalabilidad de los servicios de IA y analíticas.
+
+Finalmente, se recomienda realizar validaciones con una mayor cantidad de usuarios y distintos perfiles demográficos para obtener retroalimentación más amplia, así como incorporar métricas de seguimiento que permitan evaluar el impacto real de la plataforma en la reducción del estrés y la mejora de hábitos de bienestar.
 
 ---
 
 # Bibliografía
+
+- ASP.NET Core Team. (s.f.). *Engineering guidelines: Coding guidelines*. GitHub. https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#coding-guidelines
+
+- Driessen, V. (2010, 5 de enero). *A successful Git branching model*. nvie.com. https://nvie.com/posts/a-successful-git-branching-model/
+
+- Microsoft. (s.f.). *C# coding conventions*. Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
+
+- Nielsen Norman Group. (s.f.). *Front-end style guides*. https://www.nngroup.com/articles/front-end-style-guides/
+
+- Open Practice Library. (s.f.). *Domain-Driven Design*. https://openpracticelibrary.com/blog/domain-driven-design/
+
+- Vue.js. (s.f.). *Style guide*. https://v2.vuejs.org/v2/style-guide/?redirect=true
 
 ---
 
@@ -466,9 +1028,9 @@ Recopilación de entrevistas
 - Entrevista 6: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQAu709K0qBWQZsvqeI53bCHAdB9HmsozDqHD-ua8jw6HjU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rM0yrn
 ## Videos de Exposiciones
 
-| Entrega | Título         | Enlace |
-|---------|----------------|--------|
-| AV1 | Exposición AV1 |https://drive.google.com/drive/folders/1zaVJczj7mF71U5WlXfVcNgUmt_EtWrW-?usp=drive_link |
-| TB1 | Exposición TB1 | https://drive.google.com/drive/folders/1RxrPr6JgksZUIHGFvMvERentxTJFXQix?usp=drive_link|
-| AV2 |                | |
-| TB2 |                | |
+| Entrega | Título         | Enlace                                                                                 |
+|---------|----------------|----------------------------------------------------------------------------------------|
+| AV1 | Exposición AV1 | https://drive.google.com/drive/folders/1zaVJczj7mF71U5WlXfVcNgUmt_EtWrW-?usp=drive_link |
+| TB1 | Exposición TB1 | https://drive.google.com/drive/folders/1RxrPr6JgksZUIHGFvMvERentxTJFXQix?usp=drive_link |
+| AV2 | Exposición AV2 | https://drive.google.com/drive/folders/1Xhvym3YDqaRASRbCE-xwQRnq_Y8WBAcD?usp=sharing   |
+| TB2 |                |                                                                                        |
