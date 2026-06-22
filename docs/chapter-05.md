@@ -921,6 +921,44 @@ A continuación se presentan las preguntas diseñadas para cada segmento objetiv
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
+A partir de las entrevistas de validación realizadas a los dos segmentos objetivo, se identificaron hallazgos que fueron mapeados a las heurísticas de usabilidad de Jakob Nielsen. La siguiente tabla presenta la evaluación de cada heurística, la severidad del problema detectado (si aplica) y las recomendaciones derivadas de la retroalimentación de los usuarios.
+
+**Escala de severidad:**
+
+| Nivel | Descripción                                                                     |
+|:-----:|:--------------------------------------------------------------------------------|
+| 1 | Problema visual — no necesita ser corregido a menos que haya tiempo disponible. |
+| 2 | Problema menor — su corrección tiene baja prioridad.                            |
+| 3 | Problema mayor — importante de corregir, tiene alta prioridad.                  |
+| 4 | Problema critico — indispensable corregir antes del release.                    |
+
+**Evaluación heurística:**
+
+| N.° | Heurística | Hallazgo de las entrevistas | Severidad | Recomendación |
+|:---:|:-----------|:----------------------------|:---------:|:--------------|
+| 1 | **Visibilidad del estado del sistema** | Los entrevistados no reportaron problemas para entender en qué sección se encontraban ni el estado de sus acciones (registro de entradas, completado de hábitos). Sin embargo, varios usuarios (Ingrid, Jiss, Nordie) sugirieron que la plataforma debería notificar proactivamente cuando detecte niveles de estrés elevados. | 2 | Incorporar indicadores visuales en tiempo real que reflejen el estado emocional del usuario (e.g., alertas sutiles en el Dashboard cuando el score de bienestar disminuya). |
+| 2 | **Coincidencia entre el sistema y el mundo real** | Todos los participantes comprendieron rápidamente la propuesta de valor y el lenguaje utilizado. Ingrid mencionó que "todo se entiende rápido" y Jiss destacó que "la explicación es sencilla". El vocabulario empleado (diario, hábitos, analíticas) coincide con conceptos familiares para ambos segmentos. | — | No se identificaron problemas. Mantener el lenguaje cercano y accesible. |
+| 3 | **Control y libertad del usuario** | Los entrevistados navegaron con facilidad entre las secciones sin reportar dificultades para deshacer acciones o retroceder. Lucero valoró positivamente los filtros y el calendario del Diario como herramientas de control sobre la información registrada. | — | No se identificaron problemas. |
+| 4 | **Consistencia y estándares** | Los participantes de ambos segmentos encontraron la interfaz organizada y coherente. Ghorghet la describió como "profesional y bien estructurada" y Óscar como "bastante moderna". No se reportaron inconsistencias entre secciones. | — | No se identificaron problemas. Mantener la coherencia visual y de interacción entre módulos. |
+| 5 | **Prevención de errores** | No se reportaron errores durante la exploración de la plataforma. Sin embargo, las entrevistas se centraron en la navegación y exploración general, por lo que no se evaluaron flujos de entrada de datos complejos. | 1 | Validar en futuras pruebas los flujos de entrada de datos (registro de entradas del diario, creación de hábitos) para asegurar que existan mecanismos de prevención de errores. |
+| 6 | **Reconocimiento antes que recuerdo** | Los entrevistados no necesitaron instrucciones adicionales para ubicar las funcionalidades principales. Las secciones del Dashboard, Diario, Hábitos y Analíticas fueron identificadas intuitivamente. Nordie destacó que "la aplicación no se siente complicada". | — | No se identificaron problemas. |
+| 7 | **Flexibilidad y eficiencia de uso** | Todos los usuarios valoraron que la plataforma requiere poco tiempo para ser utilizada. Ghorghet destacó que "solo tome unos minutos registrar emociones" y Jiss mencionó que "no parece algo que te haga perder mucho tiempo". No obstante, Nordie sugirió que los hábitos deberían ser "todavía más automáticos" y varios entrevistados solicitaron mayor automatización. | 2 | Implementar atajos y automatizaciones como registro rápido de estado de ánimo, completado automático de hábitos recurrentes y sugerencias proactivas de la IA sin intervención del usuario. |
+| 8 | **Diseño estético y minimalista** | Esta fue una de las heurísticas mejor evaluadas. Todos los participantes destacaron la claridad y organización de la interfaz. Jiss mencionó que "no hay demasiada información y se entiende rápidamente" e Ingrid que "no está saturada de información". | — | No se identificaron problemas. El diseño minimalista es un diferenciador valorado por los usuarios. |
+| 9 | **Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores** | No se detectaron situaciones de error durante las entrevistas de validación. Los participantes completaron la exploración de la plataforma sin reportar mensajes de error ni estados inesperados. | 1 | Verificar en pruebas futuras que los mensajes de error sean claros y ofrezcan alternativas de acción al usuario. |
+| 10 | **Ayuda y documentación** | Ningún entrevistado mencionó la necesidad de ayuda o documentación adicional para comprender la plataforma, lo que indica que la interfaz es lo suficientemente intuitiva. Sin embargo, no se evaluó la existencia de una sección de ayuda o FAQ dentro de la aplicación. | 1 | Considerar la incorporación de una sección de ayuda o tooltips contextuales para usuarios nuevos, especialmente en las funcionalidades de IA y analíticas avanzadas. |
+
+**Resumen de hallazgos:**
+
+| Severidad | Cantidad | Heurísticas afectadas |
+|:---------:|:--------:|:----------------------|
+| Sin problemas | 5 | H2, H3, H4, H6, H8 |
+| Severidad 1 | 2 | H5, H9, H10 |
+| Severidad 2 | 2 | H1, H7 |
+| Severidad 3 | 0 | — |
+| Severidad 4 | 0 | — |
+
+Los resultados indican que MindFlow presenta un nivel de usabilidad satisfactorio según las heurísticas de Nielsen. Las principales oportunidades de mejora se concentran en dos áreas: (1) visibilidad proactiva del estado emocional mediante notificaciones inteligentes y (2) mayor automatización para incrementar la eficiencia de uso. Ambas áreas coinciden con las sugerencias de mejora más recurrentes identificadas en las entrevistas de validación de ambos segmentos objetivo.
+
 ## 5.4. Video About-the-Product.
 
 ---
