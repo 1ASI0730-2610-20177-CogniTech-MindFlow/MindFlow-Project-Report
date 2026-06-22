@@ -974,19 +974,27 @@ El proyecto también demostró la importancia de aplicar metodologías centradas
 
 Finalmente, el desarrollo de MindFlow evidenció la relevancia del trabajo colaborativo y la organización dentro del equipo, permitiendo distribuir responsabilidades de manera eficiente y alcanzar los objetivos planteados en cada etapa del proyecto. La integración de conocimientos técnicos, de diseño y de investigación facilitó la construcción de una solución sólida, escalable y orientada a mejorar la experiencia y el bienestar emocional de los usuarios.
 
-Como recomendación, se plantea continuar con el desarrollo e implementación de nuevas funcionalidades basadas en inteligencia artificial, priorizando la automatización y personalización de la experiencia del usuario. Además, se recomienda fortalecer las medidas de seguridad y privacidad de los datos, debido a la sensibilidad de la información emocional gestionada por la plataforma.
+### Conclusiones del Sprint 3
 
-También se sugiere realizar futuras validaciones con una mayor cantidad de usuarios y distintos perfiles demográficos, con el objetivo de obtener retroalimentación más amplia y mejorar continuamente la experiencia de uso. Finalmente, sería importante incorporar métricas de seguimiento y análisis que permitan evaluar el impacto real de la plataforma en la reducción del estrés y la mejora de hábitos de bienestar.
+**Backend completo con arquitectura DDD:** La implementación del backend con .NET 10 y 11 bounded contexts bajo Domain-Driven Design permitió construir una API RESTful robusta, modular y escalable. La separación en capas (dominio, aplicación, infraestructura e interfaces) facilitó el desarrollo paralelo y aseguró la independencia entre contextos como IAM, Journal, Habits, Chat, Analytics, Notifications, Subscriptions, Support, AiFeedback, Wellness y Reporting.
 
-Conclusiones del Entregable Actual Sprint 2
+**Integración real de Inteligencia Artificial:** La transición de datos simulados a inteligencia artificial funcional con Google Gemini representó un avance significativo. El backend ahora genera retroalimentación empática para el diario emocional, sugerencias de hábitos personalizadas, análisis de sentimiento automático, conversaciones de chat en tiempo real e insights analíticos en formato bilingüe (EN/ES). Esto valida la hipótesis central de MindFlow: que la IA puede ofrecer acompañamiento emocional personalizado y no genérico.
 
-Arquitectura Escalable: La aplicación de Domain-Driven Design en el frontend permitió construir una base modular. Separar el código en dominio, infraestructura, aplicación y presentación facilitará el mantenimiento y la futura integración con los microservicios del backend.
+**Sistema de autenticación y seguridad:** La implementación del bounded context IAM con JWT, Google OAuth, recuperación de contraseña vía SMTP, PIN de seguridad y cifrado AES-256 para las entradas del diario demuestra un compromiso con la protección de datos sensibles. Esto responde directamente a la naturaleza confidencial de la información emocional gestionada por la plataforma.
 
-Despliegue y Accesibilidad: La publicación exitosa de la primera versión en Vercel y la implementación de un diseño responsivo garantizan que la plataforma sea accesible desde cualquier dispositivo, un factor clave para fomentar el registro emocional diario.
+**Integración frontend-backend completa:** La conexión total entre el frontend en Vue.js y el backend en .NET 10 eliminó la dependencia de APIs simuladas del Sprint 2. Todos los módulos (Dashboard, Journal, Habits, Analytics, Chat, Settings, Subscriptions) operan ahora con persistencia real en MySQL y almacenamiento multimedia en Cloudinary.
 
-Simulación de Inteligencia Artificial: El desarrollo de los módulos de Diario y Dashboard logró simular la interacción en tiempo real con el motor de análisis de sentimientos, demostrando cómo la plataforma brindará retroalimentación empática inmediata al usuario.
+**Validación con usuarios satisfactoria:** Las entrevistas de validación con 6 usuarios de ambos segmentos objetivo arrojaron calificaciones entre 8 y 9 sobre 10. La evaluación según heurísticas de Nielsen confirmó que la plataforma no presenta problemas de severidad alta o catastrófica. Los entrevistados valoraron la simplicidad, organización y utilidad de las funcionalidades, validando las decisiones de diseño tomadas en sprints anteriores.
 
-Experiencia de Usuario Optimizada: La gestión centralizada del estado global permitió un flujo de datos eficiente entre los módulos de hábitos y analíticas. Esto asegura una navegación fluida que reduce la carga cognitiva, un aspecto fundamental al diseñar para personas con estrés o ansiedad.
+**Calidad y despliegue continuo:** La creación de 38 pruebas unitarias y la configuración de un pipeline CI/CD con GitHub Actions aseguran la estabilidad del código ante futuros cambios. El despliegue en Render con base de datos MySQL persistente garantiza la disponibilidad continua del backend en producción.
+
+### Recomendaciones
+
+Como recomendación, se plantea priorizar la implementación de notificaciones proactivas y recomendaciones automáticas basadas en el estado emocional del usuario, ya que esta fue la mejora más solicitada por los entrevistados de ambos segmentos. Además, se recomienda incrementar la automatización en el módulo de hábitos para reducir la fricción de uso diario.
+
+Se sugiere ampliar la cobertura de pruebas automatizadas, incorporando pruebas de integración que validen los flujos de extremo a extremo entre el frontend y el backend. También sería importante realizar pruebas de rendimiento bajo carga para asegurar la escalabilidad de los servicios de IA y analíticas.
+
+Finalmente, se recomienda realizar validaciones con una mayor cantidad de usuarios y distintos perfiles demográficos para obtener retroalimentación más amplia, así como incorporar métricas de seguimiento que permitan evaluar el impacto real de la plataforma en la reducción del estrés y la mejora de hábitos de bienestar.
 
 ---
 
