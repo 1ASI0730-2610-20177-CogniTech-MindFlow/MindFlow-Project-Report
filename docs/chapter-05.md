@@ -11,36 +11,36 @@ A continuación, se describen los productos de software empleados en el desarrol
 del trabajo a los actuales y futuros desarrolladores, asegurando una colaboración efectiva a lo largo del ciclo de vida del producto digital.
 
 **Project Management**
-- Trello – https://trello.com/<br>
+- Trello – [https://trello.com/](https://trello.com/)<br>
   Se ha utilizado Trello como herramienta principal de gestión de tareas. Esta plataforma permite visualizar el progreso de cada etapa del proyecto mediante
   tableros personalizables, facilitando la organización de pendientes, tareas en desarrollo y actividades finalizadas. Además, su interfaz intuitiva y accesibilidad
   desde cualquier navegador con una cuenta registrada la convierten en una solución ágil para el seguimiento de proyectos en equipo.
 
 **Requirements Management**
-- Google Docs – https://docs.google.com/<br>
+- Google Docs – [https://docs.google.com/](https://docs.google.com/)<br>
   Para la redacción, gestión y revisión de los requisitos del sistema se ha empleado Google Docs. Su funcionalidad de edición colaborativa en tiempo real ha
   permitido que todos los integrantes del equipo puedan aportar, comentar y revisar los documentos desde cualquier dispositivo.
 
 **Product UX/UI Design**
-- Figma – https://www.figma.com/<br>
+- Figma – [https://www.figma.com/](https://www.figma.com/)<br>
   Figma ha sido fundamental para el diseño de interfaces y la creación de prototipos interactivos. Permite que varios usuarios trabajen simultáneamente en los
   wireframes y mockups, lo que ha facilitado una comunicación más eficiente entre el equipo de diseño y desarrollo.
-- Miro https://miro.com/es/<br>
+- Miro [https://miro.com/es/](https://miro.com/es/)<br>
   Pizarra digital colaborativa utilizada para sesiones de Big Picture EventStorming y Design-Level EventStorming, facilitando la identificación de Bounded Contexts, Events, Commands y Aggregates del dominio.
-- LucidChart https://www.lucidchart.com/pages/es <br>
+- LucidChart [https://www.lucidchart.com/pages/es](https://www.lucidchart.com/pages/es) <br>
   Aplicación de diagramación colaborativa para la creación de Wireflows, User Flows, diagramas UML (Class Diagrams) y Database Diagrams de la arquitectura del software.
 
 **Software Development**
-- Landing Page y Frontend (HTML, CSS, JS) – https://www.jetbrains.com/webstorm/<br>
+- Landing Page y Frontend (HTML, CSS, JS) – [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/)<br>
   Desarrollada con HTML5, CSS3 y JavaScript. El entorno de desarrollo fue IntelliJ Webstorm por sus herramientas avanzadas de depuración y control de versiones.
 
-- JetBrains WebStorm – https://www.jetbrains.com/webstorm/
+- JetBrains WebStorm – [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/)
   Entorno de desarrollo integrado (IDE) principal para todo el proyecto. Se utiliza para centralizar la codificación tanto del frontend como del backend, optimizando la depuración y el control de versiones en el equipo.
 
-- Frontend (Vue.js) – https://vuejs.org/
+- Frontend (Vue.js) – [https://vuejs.org/](https://vuejs.org/)
   Framework de JavaScript empleado para construir la interfaz de usuario como una Single Page Application (SPA). Garantiza una experiencia interactiva, modular y reactiva.
 
-- Web Services (C# y .NET) – https://dotnet.microsoft.com/
+- Web Services (C# y .NET) – [https://dotnet.microsoft.com/](https://dotnet.microsoft.com/)
   Tecnología utilizada para el desarrollo del backend. Se emplea C# bajo la plataforma .NET para construir una API robusta, segura y escalable que gestiona la lógica de negocio y la persistencia de datos.
 
 - Servicios de IA (NLP / LLMs)
@@ -50,7 +50,7 @@ del trabajo a los actuales y futuros desarrolladores, asegurando una colaboraci�
 - Google Docs y GitHub README <br>
   La documentación del software se ha centralizado en Google Docs. El archivo README en GitHub incluye instrucciones de despliegue, estructura del repositorio y
   requerimientos técnicos.
-- Markdown https://www.markdownguide.org/ <br>
+- Markdown [https://www.markdownguide.org/](https://www.markdownguide.org/) <br>
   Lenguaje de marcado ligero para la elaboración del Project Report en el repositorio GitHub. Permite estructurar documentación con formato consistente y compatible con control de versiones.
 - Deployment & Hosting
 
@@ -74,7 +74,7 @@ Para el seguimiento y control de modificaciones en el código fuente, el equipo 
 
 Se aplica **GitFlow** como flujo de trabajo (*workflow*) de control de versiones, **Conventional Commits** para la estandarización de los mensajes de confirmación y **Semantic Versioning** para la gestión de versiones y lanzamientos (*releases*).
 
-A continuación, se detallan los repositorios que conforman la solución técnica de **MindFlow**:
+A continuación, se detallan los repositorios utilizados a lo largo del proyecto:
 
 | Producto | Repositorio |
 | :--- | :--- |
@@ -164,7 +164,7 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 #### 5.2.1.3. Sprint Backlog 1
 ![SprintBacklog](../assets/SprintBacklog.png)
 
-Enlace de Trello: https://trello.com/invite/b/69ee88a6130c90b4e5b1d5b2/ATTId18d929499f3de387496062b322b92179F3FB526/mindflow
+Enlace de Trello: [https://trello.com/invite/b/69ee88a6130c90b4e5b1d5b2/ATTId18d929499f3de387496062b322b92179F3FB526/mindflow](https://trello.com/invite/b/69ee88a6130c90b4e5b1d5b2/ATTId18d929499f3de387496062b322b92179F3FB526/mindflow)
 #### 5.2.1.4. Development Evidence for Sprint Review
 Durante el Sprint 1, el equipo utilizó GitHub como sistema de control de versiones, siguiendo el flujo de trabajo GitFlow para asegurar una integración ordenada del código. A continuación, se presenta el registro de los commits más relevantes que evidencian el desarrollo de la Landing Page y la colaboración del equipo.
 
@@ -207,9 +207,9 @@ En esta sección se presenta la evidencia de la ejecución del Sprint 1, demostr
 
 
 
-Enlace del Landing Page: https://github.com/1ASI0730-2610-20177-CogniTech-MindFlow/MindFlow-Landing-Page.git
+Enlace del Landing Page: [https://github.com/1ASI0730-2610-20177-CogniTech-MindFlow/MindFlow-Landing-Page.git](https://github.com/1ASI0730-2610-20177-CogniTech-MindFlow/MindFlow-Landing-Page.git)
 
-Evidencia de Despliegue (GitHub Pages): https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/
+Evidencia de Despliegue (GitHub Pages): [https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/](https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/)
 
 A continuación, se presenta la captura del dashboard de GitHub que confirma el despliegue exitoso (Production Deployment) de la Landing Page desde el repositorio oficial de GitHub.
 
@@ -271,7 +271,7 @@ las actividades realizadas para lograr la publicación exitosa del sitio.
 #### 5.2.2.3.Sprint Backlog 2.
 <img src="../assets/SprintBacklog2.png" alt="SprintBacklog2" height="500" width="1000">
 
-Enlace de Trello: https://trello.com/invite/b/6a07bd49bd8ca58850e4501f/ATTIbebb0ef435bfc9608428b3b7f81f3e36DE5E1F2D/mindflow-sprint2
+Enlace de Trello: [https://trello.com/invite/b/6a07bd49bd8ca58850e4501f/ATTIbebb0ef435bfc9608428b3b7f81f3e36DE5E1F2D/mindflow-sprint2](https://trello.com/invite/b/6a07bd49bd8ca58850e4501f/ATTIbebb0ef435bfc9608428b3b7f81f3e36DE5E1F2D/mindflow-sprint2)
 
 #### 5.2.2.4.Development Evidence for Sprint Review.
 Aquí se presentará el registro de commits de aplicación frontend durante el Sprint 2, evidenciando el desarrollo de funcionalidades relacionadas con la gestión de dashboard, diario(journal), habitos, analiticas, configuracion,planes y otros aspectos clave del sistema MindFlow
@@ -401,7 +401,7 @@ En esta sección se mostrará la evidencia de ejecución de la primera versión 
 
 <img src="../assets/evidence 3- sprint 2.png" alt="Deploy front 1" height="500" width="1000">
 
-Enlace: https://mindflow-frontend-cognitech-mindflow.vercel.app/
+Enlace: [https://mindflow-frontend-cognitech-mindflow.vercel.app/](https://mindflow-frontend-cognitech-mindflow.vercel.app/)
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
 ### Desarrollo del reporte
@@ -456,7 +456,7 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 
 <img src="../assets/sprint_backlog_3.png" alt="SprintBacklog3" height="500" width="1000">
 
-Enlace de Trello: https://trello.com/b/7WeOkqeo/mindflow-sprint-3
+Enlace de Trello: [https://trello.com/b/7WeOkqeo/mindflow-sprint-3](https://trello.com/b/7WeOkqeo/mindflow-sprint-3)
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
 Durante el Sprint 3, el equipo desarrolló el backend completo con .NET 10 y realizó la integración total con el frontend en Vue.js. A continuación se presentan los commits más relevantes que evidencian el desarrollo en ambos repositorios.
@@ -835,7 +835,7 @@ A continuación se presentan las preguntas diseñadas para cada segmento objetiv
 | Entrevistado | Ingrid Ledka |
 | Edad | 18 |
 | Distrito | San Isidro |
-| Link del Video | https://youtu.be/P6N2skZq-bw |
+| Link del Video | [https://youtu.be/P6N2skZq-bw](https://youtu.be/P6N2skZq-bw) |
 | Minuto de Inicio | 0:00 |
 | Duración | 03:20 |
 | Resumen | La entrevistada comprendió rápidamente la propuesta de valor de MindFlow y se identificó con la problemática del estrés académico. Destacó las intervenciones rápidas y las analíticas por ser herramientas útiles para actuar en momentos de estrés. Consideró que la aplicación es organizada y fácil de utilizar. Como mejora, sugirió que la IA pueda actuar en tiempo real y proporcionar recomendaciones automáticas según el estado emocional detectado. Calificó la plataforma con 8/10 y afirmó que la utilizaría. |
@@ -850,7 +850,7 @@ A continuación se presentan las preguntas diseñadas para cada segmento objetiv
 | Entrevistado | Jiss Zerpa |
 | Edad | 18 |
 | Distrito | La Molina |
-| Link del Video | https://youtu.be/cvWedCwngBc |
+| Link del Video | [https://youtu.be/cvWedCwngBc](https://youtu.be/cvWedCwngBc) |
 | Minuto de Inicio | 0:00 |
 | Duración | 03:15 |
 | Resumen | La participante percibió a MindFlow como una plataforma orientada al bienestar emocional y al manejo del estrés. Consideró que las funcionalidades son fáciles de comprender y destacó la simplicidad de la interfaz. Valoró especialmente la posibilidad de registrar emociones y hábitos sin dedicar demasiado tiempo. Como mejora, sugirió incorporar notificaciones y recomendaciones automáticas para brindar apoyo en momentos de estrés. Indicó que utilizaría la aplicación y le otorgó una calificación de 8/10. |
@@ -865,7 +865,7 @@ A continuación se presentan las preguntas diseñadas para cada segmento objetiv
 | Entrevistado | Lucero |
 | Edad | 19 |
 | Distrito | La Molina |
-| Link del Video | https://youtu.be/qgEe9cTHaUo |
+| Link del Video | [https://youtu.be/qgEe9cTHaUo](https://youtu.be/qgEe9cTHaUo) |
 | Minuto de Inicio | 0:00 |
 | Duración | 04:22 |
 | Resumen | La entrevistada comprendió claramente el propósito de MindFlow y destacó el uso de inteligencia artificial para detectar patrones emocionales. Mostró especial interés por el diario emocional y las analíticas, considerándolas el principal valor diferencial de la plataforma. Valoró la organización del Dashboard y las opciones relacionadas con la privacidad. Como mejora, sugirió incorporar análisis emocionales más profundos y recomendaciones personalizadas. Manifestó que utilizaría la plataforma y la calificó con 9/10. |
@@ -884,7 +884,7 @@ A continuación se presentan las preguntas diseñadas para cada segmento objetiv
 | Entrevistado | Ghorghet Baltazar |
 | Edad | 26 |
 | Distrito | San Isidro |
-| Link del Video | https://youtu.be/wJwLmqzYwRE |
+| Link del Video | [https://youtu.be/wJwLmqzYwRE](https://youtu.be/wJwLmqzYwRE) |
 | Minuto de Inicio | 0:00 |
 | Duración | 03:47 |
 | Resumen | El entrevistado percibió a MindFlow como una plataforma profesional y bien estructurada para gestionar el estrés y los patrones emocionales. Valoró la simplicidad del proceso de registro y el uso de IA para identificar patrones y sugerir intervenciones. Destacó las intervenciones rápidas, el seguimiento de hábitos y las analíticas por ser herramientas prácticas para personas con poco tiempo disponible. Como mejora, sugirió incorporar recordatorios automáticos y recomendaciones basadas en los niveles de estrés. Indicó que utilizaría la plataforma y la calificó con 8/10. |
@@ -899,7 +899,7 @@ A continuación se presentan las preguntas diseñadas para cada segmento objetiv
 | Entrevistado | Óscar Benavides |
 | Edad | 29 |
 | Distrito | Chorrillos |
-| Link del Video | https://youtu.be/G2XpKu1Ngxo |
+| Link del Video | [https://youtu.be/G2XpKu1Ngxo](https://youtu.be/G2XpKu1Ngxo) |
 | Minuto de Inicio | 0:00 |
 | Duración | 03:53 |
 | Resumen | El entrevistado destacó la apariencia moderna y organizada de MindFlow y valoró el uso de inteligencia artificial para personalizar la experiencia. Se identificó con el problema de las aplicaciones genéricas que suelen abandonarse por no adaptarse al usuario. Las secciones que más le gustaron fueron Hábitos y Analíticas, debido a su capacidad para mostrar patrones y ofrecer sugerencias. Como mejora, propuso que la IA aprenda continuamente sobre el usuario y adapte automáticamente las recomendaciones. Manifestó que utilizaría la plataforma y la calificó con 9/10. |
@@ -914,7 +914,7 @@ A continuación se presentan las preguntas diseñadas para cada segmento objetiv
 | Entrevistado | Nordie Sanabria |
 | Edad | 29 |
 | Distrito | Santiago de Surco |
-| Link del Video | https://youtu.be/IBEQl7y2CZI |
+| Link del Video | [https://youtu.be/IBEQl7y2CZI](https://youtu.be/IBEQl7y2CZI) |
 | Minuto de Inicio | 0:00 |
 | Duración | 02:46 |
 | Resumen | La entrevistada percibió a MindFlow como una solución clara y fácil de utilizar para gestionar el estrés diario. Se identificó con la problemática del estrés acumulado y valoró especialmente las intervenciones rápidas por su practicidad. Consideró que las estadísticas y observaciones generadas por IA permiten comprender mejor los patrones emocionales. Como oportunidad de mejora, sugirió incrementar la automatización y mostrar recomendaciones inteligentes de manera proactiva. Indicó que utilizaría la plataforma, la recomendaría y la calificó con 8/10. |
@@ -1004,33 +1004,42 @@ Finalmente, se recomienda realizar validaciones con una mayor cantidad de usuari
 
 # Bibliografía
 
-- ASP.NET Core Team. (s.f.). *Engineering guidelines: Coding guidelines*. GitHub. https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#coding-guidelines
+- ASP.NET Core Team. (s.f.). *Engineering guidelines: Coding guidelines*. GitHub. [https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#coding-guidelines](https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#coding-guidelines)
 
-- Driessen, V. (2010, 5 de enero). *A successful Git branching model*. nvie.com. https://nvie.com/posts/a-successful-git-branching-model/
+- Driessen, V. (2010, 5 de enero). *A successful Git branching model*. nvie.com. [https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/)
 
-- Microsoft. (s.f.). *C# coding conventions*. Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
+- Microsoft. (s.f.). *C# coding conventions*. Microsoft Learn. [https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
 
-- Nielsen Norman Group. (s.f.). *Front-end style guides*. https://www.nngroup.com/articles/front-end-style-guides/
+- Nielsen Norman Group. (s.f.). *Front-end style guides*. [https://www.nngroup.com/articles/front-end-style-guides/](https://www.nngroup.com/articles/front-end-style-guides/)
 
-- Open Practice Library. (s.f.). *Domain-Driven Design*. https://openpracticelibrary.com/blog/domain-driven-design/
+- Open Practice Library. (s.f.). *Domain-Driven Design*. [https://openpracticelibrary.com/blog/domain-driven-design/](https://openpracticelibrary.com/blog/domain-driven-design/)
 
-- Vue.js. (s.f.). *Style guide*. https://v2.vuejs.org/v2/style-guide/?redirect=true
+- Vue.js. (s.f.). *Style guide*. [https://v2.vuejs.org/v2/style-guide/?redirect=true](https://v2.vuejs.org/v2/style-guide/?redirect=true)
 
 ---
 
 # Anexos
 Recopilación de entrevistas
-- Entrevista 1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQC6LCtoZRnfR4iKU3dIHCeYATI4FuIHWP1zmVrAm3H4_R8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jFGNLe
-- Entrevista 2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQAp-_6iUOSJS4FRQuTW-F-9AdcZK5XV42aVZmzgo0PuIAw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HwtMj
-- Entrevista 3: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQDiIjKmBwlYSY162dNCHfq1AcmQjaPB0B48xM6UgMCISww?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ciHjIU
-- Entrevista 4: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQBLlsZ3G-OZSLcOUS5eF6rQARMpWE6b_f3IIphyY7o3vlI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=p0isA8
-- Entrevista 5: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQAXQKz8cFuBRYmMRiluA61vAYFJfoUS8D6IibXF6VSNjnE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qxkwbB
-- Entrevista 6: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQAu709K0qBWQZsvqeI53bCHAdB9HmsozDqHD-ua8jw6HjU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rM0yrn
+- Entrevista 1: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQC6LCtoZRnfR4iKU3dIHCeYATI4FuIHWP1zmVrAm3H4_R8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jFGNLe)
+- Entrevista 2: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQAp-_6iUOSJS4FRQuTW-F-9AdcZK5XV42aVZmzgo0PuIAw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HwtMj)
+- Entrevista 3: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQDiIjKmBwlYSY162dNCHfq1AcmQjaPB0B48xM6UgMCISww?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ciHjIU)
+- Entrevista 4: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQBLlsZ3G-OZSLcOUS5eF6rQARMpWE6b_f3IIphyY7o3vlI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=p0isA8)
+- Entrevista 5: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQAXQKz8cFuBRYmMRiluA61vAYFJfoUS8D6IibXF6VSNjnE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qxkwbB)
+- Entrevista 6: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQAu709K0qBWQZsvqeI53bCHAdB9HmsozDqHD-ua8jw6HjU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rM0yrn)
 ## Videos de Exposiciones
 
 | Entrega | Título         | Enlace                                                                                 |
 |---------|----------------|----------------------------------------------------------------------------------------|
-| AV1 | Exposición AV1 | https://drive.google.com/drive/folders/1zaVJczj7mF71U5WlXfVcNgUmt_EtWrW-?usp=drive_link |
-| TB1 | Exposición TB1 | https://drive.google.com/drive/folders/1RxrPr6JgksZUIHGFvMvERentxTJFXQix?usp=drive_link |
-| AV2 | Exposición AV2 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQB3hAEtAofjTaF-dtkRS_51AfvZkyMFLgfgQ5_oox_s9UE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=quUHNY    |
+| AV1 | Exposición AV1 | [Ver exposición](https://drive.google.com/drive/folders/1zaVJczj7mF71U5WlXfVcNgUmt_EtWrW-?usp=drive_link) |
+| TB1 | Exposición TB1 | [Ver exposición](https://drive.google.com/drive/folders/1RxrPr6JgksZUIHGFvMvERentxTJFXQix?usp=drive_link) |
+| AV2 | Exposición AV2 | [Ver exposición](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQB3hAEtAofjTaF-dtkRS_51AfvZkyMFLgfgQ5_oox_s9UE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=quUHNY) |
 | TB2 | Exposición TB2 | |
+
+## URLs Desplegadas del Proyecto
+
+A continuación, se detallan las url desplegadas del proyecto:
+
+| Producto | URL Desplegada |
+| :--- | :--- |
+| **Landing Page** | [https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/](https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/) |
+| **Frontend Web Application** | [https://mindflow-frontend-cognitech-mindflow.vercel.app/](https://mindflow-frontend-cognitech-mindflow.vercel.app/) |

@@ -4,9 +4,9 @@
 ## 4.1. Style Guidelines
 En esta sección se detallan las pautas de estilo para el diseño de la marca y la interfaz de usuario de MindFlow, asegurando una identidad visual coherente y una experiencia de usuario intuitiva.
 
-Link de Figma para la Web Application: https://www.figma.com/design/W8t3VfSTOtEugJ14qkQqzA/Web-Application?node-id=0-1&t=hD8F0b2ut0qpzpiI-1
+Link de Figma para la Web Application: [https://www.figma.com/design/W8t3VfSTOtEugJ14qkQqzA/Web-Application?node-id=0-1&t=hD8F0b2ut0qpzpiI-1](https://www.figma.com/design/W8t3VfSTOtEugJ14qkQqzA/Web-Application?node-id=0-1&t=hD8F0b2ut0qpzpiI-1)
 
-Link de Figma para la Landing Page: https://www.figma.com/design/t6wSCWYshqMoU1z2OkGxV5/Untitled?node-id=0-1&t=fRy5VIVtScC41BuW-1
+Link de Figma para la Landing Page: [https://www.figma.com/design/t6wSCWYshqMoU1z2OkGxV5/Untitled?node-id=0-1&t=fRy5VIVtScC41BuW-1](https://www.figma.com/design/t6wSCWYshqMoU1z2OkGxV5/Untitled?node-id=0-1&t=fRy5VIVtScC41BuW-1)
 ### 4.1.1. General Style Guidelines
 
 #### Typography
@@ -445,7 +445,7 @@ Para el prototipo de MindFlow se adoptaron los siguientes criterios de interacci
 
 El acceso al sistema sigue un flujo lineal de Registro → Login → Dashboard, contando con una ruta alternativa de restablecimiento de contraseña y una capa de seguridad adicional a través del bloqueo por PIN. La experiencia y el diseño visual mantienen una estricta consistencia entre la Landing Page y la aplicación web, donde los call-to-action de la página de aterrizaje redirigen fluidamente al usuario hacia el registro mediante OAuth o correo tradicional.
 ![WebAppPrototyping](../assets/Web%20Applications%20Prototyping.png)
-A continuación se presenta el flujo de interacción del prototipo elaborado en Figma: https://www.figma.com/design/iIGtOTVpNTMNgyT0om6QyY/Web-Applications-Prototyping?node-id=0-1&t=wQUWGyL6lBhFsmmT-1
+A continuación se presenta el flujo de interacción del prototipo elaborado en Figma: [https://www.figma.com/design/iIGtOTVpNTMNgyT0om6QyY/Web-Applications-Prototyping?node-id=0-1&t=wQUWGyL6lBhFsmmT-1](https://www.figma.com/design/iIGtOTVpNTMNgyT0om6QyY/Web-Applications-Prototyping?node-id=0-1&t=wQUWGyL6lBhFsmmT-1)
 
 ---
 
