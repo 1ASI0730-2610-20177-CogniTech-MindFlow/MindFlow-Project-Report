@@ -754,7 +754,38 @@ Se asignaron los recursos de la réplica con **2 vCPU** y **1 GB de memoria RAM*
 <img src="../assets/insight_frontend_sprint_3.png" height="500" width="1000">
 
 ---
+### 5.2.4. Sprint 3
 
+#### 5.2.4.1. Sprint Planning 4.
+
+| Sprint #                           | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Date                               | 2026-07-01                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Time                               | 06:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Location                           | Reunión virtual vía Discord                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Prepared By                        | Caisahuana Osores,Becker Junior                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Attendees                          | Cabrera Sotelo, Camila Celeste / Caisahuana Osores, Becker Junior / Díaz De la cruz, Sebastián Gabriel / Jáuregui Cerna, Jean Franco / Rocca Mariaca, Angel Mathias                                                                                                                                                                                                                                                                 |
+| Sprint 4 – 3 Review Summary        |                       |
+| Sprint 4 – 3 Retrospective Summary |                                      |
+| **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Sprint 4 Goal                      |  |
+| Sprint 4 Velocity                  |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Sum of Story Points                |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+#### 5.2.4.3. Sprint Backlog 4.
+
+#### 5.2.4.4. Development Evidence for Sprint Review.
+
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
 
