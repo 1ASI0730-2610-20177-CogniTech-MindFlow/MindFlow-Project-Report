@@ -1156,7 +1156,7 @@ En el siguiente video se presenta MindFlow, mostrando sus principales funcionali
 Enlace del video: [Video About-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410024_upc_edu_pe/IQDdrr7-KsmrQqZ_ZnkHzqBHAUUWfVG9GJ6bYtl6tE4jubA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=haOTfJ)
 
 ---
-# Conclusiones
+# Conclusiones 
 
 ## Conclusiones y recomendaciones
 
