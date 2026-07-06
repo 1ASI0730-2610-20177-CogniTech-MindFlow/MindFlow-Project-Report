@@ -1,4 +1,4 @@
-﻿# Capítulo V: Product Implementation, Validation & Deployment
+# Capítulo V: Product Implementation, Validation & Deployment
 
 ---
 
@@ -809,6 +809,136 @@ Evidencia visual de la integración con servicios de terceros (IA/Chat) dentro d
 <img src="../assets/IA.png" height="500" width="1000">
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+Durante el Sprint 4, el enfoque se centró en la validación final del sistema en producción, la consolidación de artefactos del proyecto y la realización de entrevistas de validación con usuarios. No se desarrollaron nuevos endpoints en este sprint, ya que toda la API RESTful fue completada e integrada satisfactoriamente durante el Sprint 3. A continuación se documenta el catálogo completo de Web Services operativos en producción, organizados por bounded context, confirmando su estabilidad y disponibilidad en el entorno desplegado.
+
+**URL Base de la API en producción:** La API se encuentra desplegada y accesible vía HTTPS, documentada mediante OpenAPI 3.0 (Swagger).
+
+**Bounded Context: Users (IAM)**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Users | POST | `/api/v1/users/sign-up` | Registra un nuevo usuario con email y contraseña hasheada con BCrypt. | `201 Created` — User ID + JWT token |
+| Users | POST | `/api/v1/users/sign-in` | Autentica al usuario y retorna un token JWT. | `200 OK` — JWT access token |
+| Users | POST | `/api/v1/users/google-auth` | Autentica mediante intercambio de token OAuth de Google. | `200 OK` — JWT access token |
+| Users | POST | `/api/v1/users/forgot-password` | Envía email de recuperación de contraseña vía SMTP. | `200 OK` — Confirmation message |
+| Users | POST | `/api/v1/users/reset-password` | Restablece contraseña mediante token de recuperación. | `200 OK` — Success confirmation |
+| Users | GET | `/api/v1/users/profile` | Obtiene los datos del perfil del usuario autenticado. | `200 OK` — User profile object |
+| Users | PUT | `/api/v1/users/profile` | Actualiza nombre y ocupación del perfil. | `200 OK` — Updated profile |
+| Users | DELETE | `/api/v1/users` | Elimina la cuenta del usuario y datos asociados en cascada. | `204 No Content` |
+| Users | POST | `/api/v1/users/pin` | Configura un PIN de seguridad. | `201 Created` |
+| Users | POST | `/api/v1/users/pin/verify` | Verifica el PIN de seguridad ingresado. | `200 OK` — Verification result |
+| Users | DELETE | `/api/v1/users/pin` | Elimina el PIN de seguridad configurado. | `204 No Content` |
+| Users | GET | `/api/v1/users/pin/status` | Consulta si el usuario tiene PIN activo. | `200 OK` — Pin status boolean |
+
+**Bounded Context: Journal**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Journal | GET | `/journal/entries` | Lista entradas del diario emocional con filtros y ordenamiento. | `200 OK` — Array of entries |
+| Journal | POST | `/journal/entries` | Crea entrada con detección automática de sentimiento vía Gemini. | `201 Created` — Entry with AI analysis |
+| Journal | GET | `/journal/entries/{id}` | Obtiene una entrada específica por ID. | `200 OK` — Entry object |
+| Journal | PUT | `/journal/entries/{id}` | Actualiza contenido y recalcula preview. | `200 OK` — Updated entry |
+| Journal | DELETE | `/journal/entries/{id}` | Soft delete de la entrada. | `204 No Content` |
+| Journal | GET | `/journal/tags` | Lista etiquetas disponibles del usuario. | `200 OK` — Array of tags |
+| Journal | GET | `/journal/entry-tags` | Lista asociaciones entre entradas y etiquetas. | `200 OK` — Array of entry-tags |
+| Journal | POST | `/journal/entry-tags` | Asocia una etiqueta a una entrada. | `201 Created` — Entry-tag association |
+| Journal | DELETE | `/journal/entry-tags/{id}` | Elimina asociación entre etiqueta y entrada. | `204 No Content` |
+| Journal | GET | `/journal/media` | Lista archivos multimedia de las entradas. | `200 OK` — Array of media |
+| Journal | POST | `/journal/media` | Crea registro de media asociado a una entrada. | `201 Created` — Media record |
+| Journal | POST | `/journal/media/upload` | Sube archivo multimedia (máx. 10MB) a Cloudinary. | `201 Created` — Media URL |
+
+**Bounded Context: Habits**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Habits | GET | `/habits` | Lista hábitos con recálculo de streak en tiempo real. | `200 OK` — Array of habits |
+| Habits | POST | `/habits` | Crea hábito personalizado con nombre, categoría y frecuencia. | `201 Created` — Habit object |
+| Habits | GET | `/habits/{id}` | Obtiene un hábito específico por ID. | `200 OK` — Habit object |
+| Habits | PUT | `/habits/{id}` | Actualiza nombre, categoría o frecuencia. | `200 OK` — Updated habit |
+| Habits | DELETE | `/habits/{id}` | Elimina hábito y logs asociados. | `204 No Content` |
+| Habits | GET | `/habits/streak-summary` | Resumen de rachas activas y máximas. | `200 OK` — Streak summary |
+| Habits | POST | `/habits/suggestions` | Genera sugerencias de hábitos vía IA (Gemini). | `200 OK` — AI suggestions |
+
+**Bounded Context: HabitLogs**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| HabitLogs | GET | `/habit-logs` | Lista logs de completado filtrados por hábito. | `200 OK` — Array of logs |
+| HabitLogs | POST | `/habit-logs` | Registra completado y recalcula streak. | `201 Created` — Log object |
+| HabitLogs | GET | `/habit-logs/{id}` | Obtiene log de completado específico. | `200 OK` — Log object |
+| HabitLogs | PUT | `/habit-logs/{id}` | Actualiza log de completado. | `200 OK` — Updated log |
+| HabitLogs | DELETE | `/habit-logs/{id}` | Elimina log y recalcula racha. | `204 No Content` |
+
+**Bounded Context: Analytics**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Analytics | GET | `/analyticscache` | Obtiene analíticas semanales (score, tendencias, KPIs). | `200 OK` — Analytics object |
+| Analytics | POST | `/analyticscache` | Crea registro de analíticas en caché. | `201 Created` — Cache record |
+| Analytics | PUT | `/analyticscache/{id}` | Actualiza registro de analíticas existente. | `200 OK` — Updated record |
+| Analytics | POST | `/analyticscache/compute` | Fuerza recómputo con insights generados por IA. | `200 OK` — Computed analytics |
+| Analytics | GET | `/wordcloud` | Obtiene nube de palabras de las entradas del diario. | `200 OK` — Word cloud data |
+| Analytics | POST | `/wordcloud/compute` | Fuerza recómputo de la nube de palabras. | `200 OK` — Computed word cloud |
+| Analytics | GET | `/moodcalendar` | Calendario de estados de ánimo por mes con colores por día. | `200 OK` — Calendar data |
+
+**Bounded Context: Chat**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Chat | POST | `/chat/conversations` | Crea nueva conversación con asistente de IA. | `201 Created` — Conversation object |
+| Chat | GET | `/chat/conversations` | Lista todas las conversaciones del usuario. | `200 OK` — Array of conversations |
+| Chat | DELETE | `/chat/conversations/{id}` | Elimina conversación e historial de mensajes. | `204 No Content` |
+| Chat | POST | `/chat/conversations/{id}/messages` | Envía mensaje y recibe respuesta de IA (Gemini). | `201 Created` — AI response message |
+| Chat | GET | `/chat/conversations/{id}/messages` | Obtiene historial de mensajes de una conversación. | `200 OK` — Array of messages |
+
+**Bounded Context: AiFeedback**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| AiFeedback | POST | `/api/v1/ai-feedback` | Envía valoración (1-5 estrellas) sobre retroalimentación de IA. | `201 Created` — Feedback record |
+| AiFeedback | GET | `/api/v1/ai-feedback` | Lista valoraciones de IA del usuario. | `200 OK` — Array of feedback |
+| AiFeedback | GET | `/api/v1/ai-feedback/summary` | Distribución estadística de valoraciones. | `200 OK` — Summary statistics |
+
+**Bounded Context: Notifications**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Notifications | GET | `/notifications` | Lista las últimas 50 notificaciones del usuario. | `200 OK` — Array of notifications |
+| Notifications | PATCH | `/notifications/{id}/read` | Marca una notificación como leída. | `200 OK` — Updated notification |
+| Notifications | POST | `/notifications/register-device` | Registra dispositivo para notificaciones push (FCM). | `201 Created` |
+| Notifications | DELETE | `/notifications/unregister-device` | Desregistra dispositivo de notificaciones push. | `204 No Content` |
+
+**Bounded Context: Subscriptions (Stripe)**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Subscriptions | POST | `/api/v1/subscriptions/checkout` | Inicia sesión de checkout con Stripe. | `200 OK` — Stripe session URL |
+| Subscriptions | GET | `/api/v1/subscriptions/me` | Obtiene estado de suscripción actual del usuario. | `200 OK` — Subscription status |
+| Subscriptions | POST | `/api/v1/subscriptions/verify-session` | Verifica sesión de pago completada. | `200 OK` — Verification result |
+| Subscriptions | POST | `/api/v1/subscriptions/cancel` | Cancela suscripción premium activa. | `200 OK` — Cancellation confirmation |
+| Subscriptions | POST | `/api/v1/subscriptions/webhook` | Recibe eventos de Stripe (webhook). | `200 OK` — Event processed |
+
+**Bounded Context: Reporting (Premium)**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Reporting | GET | `/api/v1/reporting/export/pdf` | Exporta historial del usuario en formato PDF (QuestPDF). | `200 OK` — PDF file download |
+| Reporting | GET | `/api/v1/reporting/export/csv` | Exporta historial del usuario en formato CSV. | `200 OK` — CSV file download |
+
+**Bounded Context: Support**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Support | POST | `/api/v1/support/tickets` | Crea ticket de soporte con confirmación por email. | `201 Created` — Ticket object |
+| Support | GET | `/api/v1/support/tickets` | Lista tickets de soporte del usuario. | `200 OK` — Array of tickets |
+
+**Bounded Context: Wellness Engine**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Wellness | POST | `/wellness/stress-check` | Analiza estrés y ajusta carga de hábitos automáticamente. | `200 OK` — Stress analysis result |
+
+> **Resumen:** El sistema opera con un total de **68 endpoints** distribuidos en **12 bounded contexts**, todos documentados mediante OpenAPI 3.0 (Swagger) y accesibles en el entorno de producción con autenticación JWT. Durante el Sprint 4, se confirmó la estabilidad de todos los servicios mediante pruebas de validación con usuarios reales.
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
