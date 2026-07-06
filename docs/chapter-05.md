@@ -754,38 +754,67 @@ Se asignaron los recursos de la réplica con **2 vCPU** y **1 GB de memoria RAM*
 <img src="../assets/insight_frontend_sprint_3.png" height="500" width="1000">
 
 ---
-### 5.2.4. Sprint 3
+### 5.2.4. Sprint 4
 
 #### 5.2.4.1. Sprint Planning 4.
 
-| Sprint #                           | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Date                               | 2026-07-01                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Time                               | 06:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Location                           | Reunión virtual vía Discord                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Prepared By                        | Caisahuana Osores,Becker Junior                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Attendees                          | Cabrera Sotelo, Camila Celeste / Caisahuana Osores, Becker Junior / Díaz De la cruz, Sebastián Gabriel / Jáuregui Cerna, Jean Franco / Rocca Mariaca, Angel Mathias                                                                                                                                                                                                                                                                 |
-| Sprint 4 – 3 Review Summary        |                       |
-| Sprint 4 – 3 Retrospective Summary |                                      |
-| **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Sprint 4 Goal                      |  |
-| Sprint 4 Velocity                  |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Sum of Story Points                |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Sprint #                          | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**    |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Date                              | 2026-07-01                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Time                              | 06:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Location                          | Reunión virtual vía Discord                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Prepared By                       | Caisahuana Osores,Becker Junior                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Attendees                         | Cabrera Sotelo, Camila Celeste / Caisahuana Osores, Becker Junior / Díaz De la cruz, Sebastián Gabriel / Jáuregui Cerna, Jean Franco / Rocca Mariaca, Angel Mathias                                                                                                                                                                                                                                                                 |
+| Sprint 3 Retrospective Summary |  The team worked very efficiently integrating the frontend with the backend. It was agreed that for this final sprint, the focus would be 100% on writing the final report, recording video evidence, and conducting validation interviews.  |
+| Sprint 3 Review Summary        | The programming of all Bounded Contexts was successfully completed, and the Landing Page, Web Application, and Web Services were fully deployed. The system is now operating correctly in production.                    |
+| **Sprint Goal & User Stories**    |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Sprint 4 Goal                     |Our approach is to perform the final validation of the system in production, conduct validation interviews with users, and consolidate all project artifacts (Final Report, About-the-Product Video, and About-the-Team Video). We believe this will ensure a flawless presentation. This will be confirmed once all documents and videos are uploaded and approved for TB2.|
+| Sprint 4 Velocity                 |  8 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sum of Story Points               |  8 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
+En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para el Sprint 3. Cada aspecto representa una fase crítica de la entrega, donde se designa un líder (L) responsable de la dirección del entregable y colaboradores (C) que apoyaron en su ejecución.
+
+| Team Member (Last Name, First Name) | GitHub Username | Backend API & DDD Architecture | IAM & Security (JWT) | AI Integration (Gemini & Chat) | Frontend-Backend Integration | QA, Testing & Deployment |
+| :--- | :--- |:------------------------------:|:--------------------:|:------------------------------:|:----------------------------:|:------------------------:|
+| Cabrera Sotelo, Camila Celeste | whcamm | C | C | C | **L** | C |
+| Caisahuana Osores, Becker Junior | becker693 | C | **L** | C | C | C |
+| Díaz De la cruz, Sebastián Gabriel | tipaso07 | C | C | C | C | **L** |
+| Jáuregui Cerna, Jean Franco | JFranco556 | C | C | **L** | C | C |
+| Rocca Mariaca, Angel Mathias | MRMpro13 | **L** | C | C | C | C |
+
 
 #### 5.2.4.3. Sprint Backlog 4.
 
 #### 5.2.4.4. Development Evidence for Sprint Review.
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
+En esta sección se presenta la evidencia de ejecución del Sprint 4, En esta etapa del ciclo de vida del proyecto, la ejecución se centra en demostrar la estabilidad y funcionalidad del producto terminado en su entorno de operación. A continuación, se presentan las evidencias de la integración final entre el RESTful API, el Frontend Web Application y el Landing Page.
+
+#### Landing Page
+Vista final del Landing Page mostrando la propuesta de valor y los call-to-action funcionales.
+<img src="../assets/landingpage_sprint4.png" height="500" width="1000">
+
+#### Registro de Usuarios
+Interfaz de registro integrada con el servicio de autenticación y persistencia en base de datos.
+<img src="../assets/registroUsuario.png" height="500" width="1000">
+
+#### Flujo Core
+Demostración del flujo principal de la aplicación donde el usuario interactúa con los servicios internos.
+<img src="../assets/Core.png" height="500" width="1000">
+
+#### Integración de Servicios
+Evidencia visual de la integración con servicios de terceros (IA/Chat) dentro de la interfaz.
+<img src="../assets/IA.png" height="500" width="1000">
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+---
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
 
