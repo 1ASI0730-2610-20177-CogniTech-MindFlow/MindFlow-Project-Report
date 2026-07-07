@@ -791,6 +791,30 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 Enlace de Trello: https://trello.com/b/db7ZkV0a/mindflow-sprint-4
 
 #### 5.2.4.4. Development Evidence for Sprint Review.
+Durante el Sprint 4 se llevó a cabo la consolidación técnica del backend, atendiendo los aspectos pendientes identificados al concluir la integración realizada en el Sprint 3, con el propósito de fortalecer la observabilidad, el rendimiento y la resiliencia del sistema en su entorno de producción. Para ello, se implementaron mecanismos de logging estructurado con trazabilidad por solicitud, una capa de caché distribuida, un índice optimizado para la búsqueda de contenido cifrado, un esquema de sincronización offline con resolución de conflictos, y un nuevo módulo de contenido de bienestar administrable. A continuación, se presenta el registro de commits más representativos que constituyen evidencia del desarrollo realizado en ambos repositorios del proyecto.
+
+**Repository:** 1ASI0730-2610-20177-CogniTech-MindFlow/MindFlow-Backend
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `MindFlow-Backend` | `develop` | `9d65811` | `fix: harden security and fix account deletion for users with journal entries` | Corrección de fuga de datos entre usuarios en tags/media del journal, cifrado obligatorio en producción, hasheo de tokens de recuperación y otros hardenings de seguridad previos al cierre del sprint. | 01/07/2026 |
+| `MindFlow-Backend` | `develop` | `4ad18d9` | `fix: prevent 500s from undecryptable journal rows, corrupt suggestions cache, and null sentiments` | Manejo seguro de errores para entradas del diario no desencriptables y cachés corruptos de sugerencias de hábitos. | 01/07/2026 |
+| `MindFlow-Backend` | `develop` | `10f53f0` | `feat: add structured logging with Serilog and request correlation IDs` | Implementación de logging estructurado (US51) con Serilog y correlation ID por request para trazabilidad en producción. | 05/07/2026 |
+| `MindFlow-Backend` | `develop` | `0ca307e` | `feat: add Redis distributed caching for habits and mood calendar endpoints` | Implementación de caché distribuida con Redis (US52) para los endpoints de hábitos y calendario de estados de ánimo. | 05/07/2026 |
+| `MindFlow-Backend` | `develop` | `5a4d3bc` | `feat: log Redis cache hit/miss for habits and analytics lookups` | Registro de aciertos/fallos de la caché Redis para monitoreo de hábitos y analíticas. | 05/07/2026 |
+| `MindFlow-Backend` | `develop` | `a6ab317` | `feat: replace in-memory journal search with a hashed token index` | Reemplazo de la búsqueda en memoria del diario por un índice de tokens hasheados (US53), permitiendo búsquedas sobre contenido encriptado sin desencriptar todo el histórico. | 05/07/2026 |
+| `MindFlow-Backend` | `develop` | `5a9ef46` | `feat: add offline sync endpoint with last-write-wins conflict resolution` | Endpoint de sincronización offline (US54) con resolución de conflictos last-write-wins para la caché local del cliente. | 05/07/2026 |
+| `MindFlow-Backend` | `develop` | `364984e` | `feat: add wellness content module with admin-managed exercises and user roles` | Módulo backend de contenido de bienestar (US55) con ejercicios de respiración y micro-meditaciones administrables, y roles de usuario. | 05/07/2026 |
+
+**Repository:** 1ASI0730-2610-20177-CogniTech-MindFlow/MindFlow-Frontend
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `MindFlow-Frontend` | `develop` | `5d9c0fd` | `fix: sync habit streaks with backend, harden auth 401 handling, and expand i18n coverage` | Sincronización de las rachas de hábitos con el nuevo recálculo del backend, manejo robusto de sesiones expiradas (401) y ampliación de cobertura de traducciones. | 05/07/2026 |
+| `MindFlow-Frontend` | `develop` | `4ba0b41` | `fix: allow Google OAuth popup via COOP header, fix HTTPS on journal media, redesign subscription downgrade modal, and add trace-ID surfacing on auth errors` | Corrección del popup de Google OAuth, forzado de HTTPS en media del diario y exposición del trace-ID (US51) en errores de autenticación para soporte y depuración. | 06/07/2026 |
+| `MindFlow-Frontend` | `develop` | `443ac1d` | `feat: update journal search copy and empty state for US53 full-word indexed search` | Actualización de la interfaz de búsqueda del diario y su estado vacío para reflejar el nuevo índice de búsqueda por palabra completa (US53) del backend. | 06/07/2026 |
+| `MindFlow-Frontend` | `develop` | `cdb14f5` | `feat: add offline creation and background sync for journal entries` | Creación de entradas del diario sin conexión y sincronización en segundo plano contra el nuevo endpoint de sync offline (US54). | 06/07/2026 |
+| `MindFlow-Frontend` | `develop` | `621f60b` | `feat: load wellness exercises from API and fix daily habits badge layout` | Carga de ejercicios de respiración y micro-meditaciones desde el nuevo módulo de bienestar del backend (US55) y corrección del layout del badge de hábitos diarios. | 06/07/2026 |
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 En esta sección se presenta la evidencia de ejecución del Sprint 4, En esta etapa del ciclo de vida del proyecto, la ejecución se centra en demostrar la estabilidad y funcionalidad del producto terminado en su entorno de operación. A continuación, se presentan las evidencias de la integración final entre el RESTful API, el Frontend Web Application y el Landing Page.
