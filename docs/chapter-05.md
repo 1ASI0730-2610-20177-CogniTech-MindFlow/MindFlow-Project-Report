@@ -859,6 +859,38 @@ Demostración del flujo principal de la aplicación donde el usuario interactúa
 Evidencia visual de la integración con servicios de terceros (IA/Chat) dentro de la interfaz.
 <img src="../assets/IA.png" height="500" width="1000">
 
+#### Dashboard
+Vista del Dashboard principal con el resumen semanal de ánimo, intervenciones rápidas y el listado de hábitos diarios consumiendo datos reales del backend.
+<img src="../assets/dashboard_sprint4.png" height="500" width="1000">
+
+#### Hábitos - Mis Rutinas
+Listado de hábitos del usuario con progreso diario, categoría, frecuencia y racha actual calculada en tiempo real.
+<img src="../assets/habits_sprint4.png" height="500" width="1000">
+
+#### Hábitos - Sugerencias de IA
+Sugerencias de hábitos personalizadas generadas por IA (Gemini) en base al estado emocional y las rutinas actuales del usuario.
+<img src="../assets/ia-habits_sprint4.png" height="500" width="1000">
+
+#### Hábitos - Historial
+Historial semanal de cumplimiento de hábitos, mostrando el porcentaje de días cumplidos y la racha por hábito.
+<img src="../assets/habits-streak_sprint4.png" height="500" width="1000">
+
+#### Diario
+Historial emocional del usuario con entradas del diario, calendario de estados de ánimo y filtros por categoría.
+<img src="../assets/journal_sprint4.png" height="500" width="1000">
+
+#### Analíticas - Panorama Emocional
+Índice de estabilidad, análisis generado por IA y KPIs semanales (estado de ánimo, entradas registradas, puntaje general) calculados a partir de los datos reales del usuario.
+<img src="../assets/analytics1_sprint4.png" height="500" width="1000">
+
+#### Analíticas - Tendencias y Nube de Palabras
+Nivel de actividad en sesiones, nube de palabras frecuentes, tendencia de ánimo de las últimas 4 semanas y calendario de ánimo.
+<img src="../assets/analitycs2_sprint4.png" height="500" width="1000">
+
+#### Configuración
+Perfil del usuario, estado de la suscripción, opciones de privacidad y experiencia (PIN, modo oscuro, recordatorios) y soporte técnico.
+<img src="../assets/settings_sprint4.png" height="500" width="1000">
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 Durante el Sprint 4, el enfoque se centró en la validación final del sistema en producción, la consolidación de artefactos del proyecto y la realización de entrevistas de validación con usuarios. No se desarrollaron nuevos endpoints en este sprint, ya que toda la API RESTful fue completada e integrada satisfactoriamente durante el Sprint 3. A continuación se documenta el catálogo completo de Web Services operativos en producción, organizados por bounded context, confirmando su estabilidad y disponibilidad en el entorno desplegado.
 
@@ -989,7 +1021,7 @@ Durante el Sprint 4, el enfoque se centró en la validación final del sistema e
 |---|---|---|---|---|
 | Wellness | POST | `/wellness/stress-check` | Analiza estrés y ajusta carga de hábitos automáticamente. | `200 OK` — Stress analysis result |
 
-> **Resumen:** El sistema opera con un total de **68 endpoints** distribuidos en **12 bounded contexts**, todos documentados mediante OpenAPI 3.0 (Swagger) y accesibles en el entorno de producción con autenticación JWT. Durante el Sprint 4, se confirmó la estabilidad de todos los servicios mediante pruebas de validación con usuarios reales.
+ **Resumen:** El sistema opera con un total de **68 endpoints** distribuidos en **12 bounded contexts**, todos documentados mediante OpenAPI 3.0 (Swagger) y accesibles en el entorno de producción con autenticación JWT. Durante el Sprint 4, se confirmó la estabilidad de todos los servicios mediante pruebas de validación con usuarios reales.
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
