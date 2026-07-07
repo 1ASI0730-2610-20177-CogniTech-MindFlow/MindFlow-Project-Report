@@ -488,4 +488,322 @@ En esta sección, se presentan los diagramas de clases que ilustran las principa
 
 ### 4.8.1. Database Diagrams
 
-![class diagram](../assets/Database.png)
+![class diagram](../assets/MindFlow_Database.png)  
+
+Convenciones:
+- **PK**: llave primaria.
+- **FK**: llave foránea. Se indica entre paréntesis si la relación está **enforced** (constraint real en EF Core/DB) o **lógica** (solo columna `user_id`, sin constraint declarado).
+- **Null**: indica si la columna admite valores nulos.
+
+---
+
+### Módulo IAM
+
+#### Tabla users
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único del usuario | No |
+| | email | varchar(255) `unique` | Correo electrónico del usuario, usado como login | No |
+| | name | varchar(100) | Nombre completo del usuario | Sí |
+| | occupation | varchar(100) | Ocupación u oficio declarado por el usuario | Sí |
+| | google_id | varchar(255) `unique` | Identificador de cuenta de Google (login social) | Sí |
+| | password_hash | longtext | Hash de la contraseña del usuario | No |
+| | pin_hash | varchar(255) | Hash del PIN de acceso rápido (opcional) | Sí |
+| | role | varchar(20) | Rol del usuario (`User`, `Admin`, etc.), por defecto `User` | No |
+| | created_at | datetime | Fecha y hora de creación del registro | Sí |
+| | updated_at | datetime | Fecha y hora de la última actualización | Sí |
+
+#### Tabla password_reset_tokens
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único del token | No |
+| FK (lógica) | user_id | int | Identificador del usuario dueño del token | No |
+| | token | varchar(64) `unique` | Valor del token de recuperación de contraseña | No |
+| | expires_at | datetime(6) | Fecha y hora de expiración del token | No |
+| | used | bool | Indica si el token ya fue utilizado | No |
+
+---
+
+### Módulo Habits
+
+#### Tabla habits
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único del hábito | No |
+| FK (lógica) | user_id | int | Identificador del usuario propietario del hábito | No |
+| | name | varchar(200) | Nombre del hábito | No |
+| | category | varchar(100) | Categoría del hábito (salud, productividad, etc.) | No |
+| | frequency | varchar(20) | Frecuencia de cumplimiento (diaria, semanal, etc.) | No |
+| | streak | int | Racha actual de días/periodos cumplidos consecutivos | No |
+| | status | varchar(20) | Estado del hábito (activo, pausado, etc.) | No |
+| | paused_by_ai | bool | Indica si la IA pausó automáticamente el hábito | No |
+| | created_at | datetime | Fecha y hora de creación del registro | Sí |
+| | updated_at | datetime | Fecha y hora de la última actualización | Sí |
+| | deleted_at | datetime | Fecha y hora de borrado lógico (soft delete) | Sí |
+
+#### Tabla habit_completion_logs
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único del registro de cumplimiento | No |
+| FK (enforced) | habit_id | int | Hábito al que pertenece el registro | No |
+| | habit_name | varchar(200) | Nombre del hábito al momento del registro (histórico) | No |
+| | category | varchar(100) | Categoría del hábito al momento del registro | No |
+| | date | datetime(6) | Fecha correspondiente al cumplimiento | No |
+| | completed | bool | Indica si el hábito fue completado ese día | No |
+| | completed_at | datetime(6) | Fecha y hora exacta en que se marcó como completado | Sí |
+| | created_at | datetime | Fecha y hora de creación del registro | No |
+
+#### Tabla cached_habit_suggestions
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único de la sugerencia cacheada | No |
+| FK (lógica) `unique` | user_id | int | Usuario para el cual se generaron las sugerencias (1:1) | No |
+| | suggestions_json | text | Sugerencias de hábitos generadas por IA, en formato JSON | No |
+| | generated_at | datetime | Fecha y hora en que se generaron las sugerencias | No |
+
+---
+
+### Módulo Journal
+
+#### Tabla journal_entries
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único de la entrada de diario | No |
+| FK (lógica) | user_id | int | Usuario propietario de la entrada | No |
+| | client_id | varchar(64) | Identificador generado por el cliente (para sincronización offline) | Sí |
+| | date | datetime(6) | Fecha a la que corresponde la entrada | No |
+| | title | longtext | Título de la entrada | No |
+| | content | longtext `encriptado` | Contenido de la entrada, almacenado cifrado | No |
+| | sentiment | longtext | Sentimiento detectado/asignado a la entrada | No |
+| | category | longtext | Categoría asignada a la entrada | No |
+| | has_preview | bool | Indica si la entrada tiene una vista previa disponible | No |
+| | ai_response | text | Respuesta generada por IA asociada a la entrada | Sí |
+| | created_at | datetime | Fecha y hora de creación del registro | Sí |
+| | updated_at | datetime | Fecha y hora de la última actualización | Sí |
+| | deleted_at | datetime | Fecha y hora de borrado lógico (soft delete) | Sí |
+
+Restricción única compuesta: `(user_id, client_id)`.
+
+#### Tabla tags
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único de la etiqueta | No |
+| FK (lógica) | user_id | int | Usuario propietario de la etiqueta (puede ser nulo para etiquetas globales) | Sí |
+| | name | longtext | Nombre de la etiqueta | No |
+
+#### Tabla entry_tags
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único de la relación entrada-etiqueta | No |
+| FK (enforced) | entry_id | int | Entrada de diario asociada | No |
+| FK (enforced) | tag_id | int | Etiqueta asociada | No |
+
+Restricción única compuesta: `(entry_id, tag_id)`.
+
+#### Tabla media
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único del archivo multimedia | No |
+| FK (enforced) | entry_id | int | Entrada de diario a la que pertenece el archivo | No |
+| | type | longtext | Tipo de archivo multimedia (imagen, audio, etc.) | No |
+| | url | longtext | URL de acceso al archivo | No |
+| | created_at | datetime | Fecha y hora de creación del registro | Sí |
+| | updated_at | datetime | Fecha y hora de la última actualización | Sí |
+
+#### Tabla journal_search_tokens
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único del token de búsqueda | No |
+| FK (enforced) | entry_id | int | Entrada de diario indexada | No |
+| FK (lógica) | user_id | int | Usuario propietario de la entrada indexada | No |
+| | token_hash | varchar(255) | Hash del token de búsqueda (índice invertido) | No |
+
+---
+
+### Módulo Chat
+
+#### Tabla conversations
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único de la conversación | No |
+| FK (lógica) | user_id | int | Usuario propietario de la conversación | No |
+| | title | varchar(255) | Título de la conversación | No |
+| | category | varchar(50) | Categoría de la conversación | No |
+| | created_at | datetime | Fecha y hora de creación del registro | Sí |
+| | updated_at | datetime | Fecha y hora de la última actualización | Sí |
+
+#### Tabla chat_messages
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único del mensaje | No |
+| FK (enforced) | conversation_id | int | Conversación a la que pertenece el mensaje | No |
+| | role | varchar(20) | Rol del emisor del mensaje (`user`, `assistant`, etc.) | No |
+| | content | longtext `encriptado` | Contenido del mensaje, almacenado cifrado | No |
+| | created_at | datetime | Fecha y hora de creación del registro | Sí |
+| | updated_at | datetime | Fecha y hora de la última actualización | Sí |
+
+---
+
+### Módulo Notifications
+
+#### Tabla notifications
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único de la notificación | No |
+| FK (lógica) | user_id | int | Usuario destinatario de la notificación | No |
+| | title | varchar(255) | Título de la notificación | No |
+| | body | varchar(1000) | Cuerpo/mensaje de la notificación | No |
+| | is_read | bool | Indica si la notificación fue leída | No |
+| | created_at | datetime | Fecha y hora de creación del registro | Sí |
+| | updated_at | datetime | Fecha y hora de la última actualización | Sí |
+
+#### Tabla device_tokens
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único del token de dispositivo | No |
+| FK (lógica) | user_id | int | Usuario propietario del dispositivo | No |
+| | token | varchar(512) `unique` | Token push del dispositivo (FCM/APNs) | No |
+| | platform | varchar(20) | Plataforma del dispositivo (`ios`, `android`, etc.) | No |
+| | created_at | datetime | Fecha y hora de registro del token | No |
+
+---
+
+### Módulo Subscriptions
+
+#### Tabla subscriptions
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único de la suscripción | No |
+| FK (lógica) `unique` | user_id | int | Usuario titular de la suscripción (1:1) | No |
+| | plan | varchar(20) | Plan contratado (free, premium, etc.) | No |
+| | status | varchar(20) | Estado de la suscripción (activa, cancelada, etc.) | No |
+| | stripe_customer_id | varchar(100) | Identificador del cliente en Stripe | Sí |
+| | stripe_subscription_id | varchar(100) | Identificador de la suscripción en Stripe | Sí |
+| | expires_at | datetime | Fecha y hora de expiración de la suscripción | Sí |
+| | created_at | datetime | Fecha y hora de creación del registro | Sí |
+| | updated_at | datetime | Fecha y hora de la última actualización | Sí |
+
+---
+
+### Módulo Support
+
+#### Tabla support_tickets
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único del ticket de soporte | No |
+| FK (lógica) | user_id | int | Usuario que creó el ticket | No |
+| | user_email | varchar(255) | Correo del usuario al momento de crear el ticket | No |
+| | subject | varchar(255) | Asunto del ticket | No |
+| | message | longtext | Mensaje/descripción del problema reportado | No |
+| | status | varchar(20) | Estado del ticket (abierto, cerrado, etc.) | No |
+| | created_at | datetime | Fecha y hora de creación del registro | Sí |
+| | updated_at | datetime | Fecha y hora de la última actualización | Sí |
+
+---
+
+### Módulo Wellness Content
+
+#### Tabla wellness_exercises
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único del ejercicio de bienestar | No |
+| | type | varchar(20) | Tipo de ejercicio (respiración, meditación, etc.) | No |
+| | name | varchar(200) | Nombre del ejercicio | No |
+| | description | varchar(1000) | Descripción del ejercicio | No |
+| | duration_seconds | int | Duración total del ejercicio en segundos | No |
+| | inhale_seconds | int | Duración de la fase de inhalación (ejercicios de respiración) | Sí |
+| | hold_seconds | int | Duración de la fase de retención tras inhalar | Sí |
+| | exhale_seconds | int | Duración de la fase de exhalación | Sí |
+| | hold_after_exhale_seconds | int | Duración de la retención tras exhalar | Sí |
+| | cycles | int | Cantidad de ciclos de respiración a repetir | Sí |
+| | audio_url | varchar(500) | URL del audio guía del ejercicio | Sí |
+| | is_active | bool | Indica si el ejercicio está disponible para los usuarios | No |
+| | sort_order | int | Orden de presentación del ejercicio | No |
+| | created_at | datetime | Fecha y hora de creación del registro | Sí |
+| | updated_at | datetime | Fecha y hora de la última actualización | Sí |
+
+---
+
+### Módulo AI Feedback / AI Integration
+
+#### Tabla ai_feedback_ratings
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único de la calificación | No |
+| FK (lógica) | user_id | int | Usuario que otorgó la calificación | No |
+| | content_id | int | Identificador del contenido calificado (hábito, entrada, etc.) | No |
+| | content_type | varchar(20) | Tipo de contenido calificado | No |
+| | rating | int | Calificación otorgada (numérica) | No |
+| | comment | varchar(500) | Comentario opcional sobre la calificación | Sí |
+| | created_at | datetime | Fecha y hora de creación del registro | Sí |
+| | updated_at | datetime | Fecha y hora de la última actualización | Sí |
+
+Restricción única compuesta: `(user_id, content_id, content_type)`.
+
+#### Tabla ai_metric_logs
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único del registro de métrica | No |
+| | operation | varchar(50) | Nombre de la operación de IA ejecutada | No |
+| | latency_ms | int | Latencia de la operación en milisegundos | No |
+| | success | bool | Indica si la operación finalizó exitosamente | No |
+| | prompt_length | int | Longitud del prompt enviado a la IA | No |
+| | response_length | int | Longitud de la respuesta recibida de la IA | No |
+| | error_message | varchar(500) | Mensaje de error, si la operación falló | Sí |
+| | created_at | datetime | Fecha y hora de creación del registro | No |
+
+---
+
+### Módulo Analytics
+
+#### Tabla analytics_caches
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único del caché de analíticas | No |
+| FK (lógica) | user_id | int | Usuario propietario del caché | No |
+| | week_start | datetime(6) | Fecha de inicio de la semana analizada | No |
+| | score | int | Puntaje general calculado para el periodo | No |
+| | trend_percentage | varchar(20) | Porcentaje de tendencia respecto al periodo anterior | No |
+| | start_date | datetime(6) | Fecha de inicio del rango analizado | Sí |
+| | end_date | datetime(6) | Fecha de fin del rango analizado | Sí |
+| | ai_insight | text | Insight generado por IA en base a los datos | Sí |
+| | ai_insight_localized | text | Insight generado por IA, traducido/localizado | Sí |
+| | kpis | json | Indicadores clave de desempeño, en formato JSON | Sí |
+| | fluctuation_data | json | Datos de fluctuación del periodo, en formato JSON | Sí |
+| | trend_data | json | Datos de tendencia del periodo, en formato JSON | Sí |
+| | created_at | datetime | Fecha y hora de creación del registro | Sí |
+| | updated_at | datetime | Fecha y hora de la última actualización | Sí |
+
+Restricción única compuesta: `(user_id, week_start)`.
+
+#### Tabla word_clouds
+
+| | Columna | Tipo de Dato | Descripción | Null |
+|---|---|---|---|---|
+| PK | id | int | Identificador único de la nube de palabras | No |
+| FK (lógica) `unique` | user_id | int | Usuario propietario de la nube de palabras (1:1) | No |
+| | words | json | Palabras y sus frecuencias, en formato JSON | Sí |
+| | created_at | datetime | Fecha y hora de creación del registro | Sí |
+| | updated_at | datetime | Fecha y hora de la última actualización | Sí |
+
+---
