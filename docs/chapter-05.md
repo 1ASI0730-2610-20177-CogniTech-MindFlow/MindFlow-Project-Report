@@ -553,37 +553,61 @@ Durante el Sprint 3, el equipo desarrolló el backend completo con .NET 10 y rea
 | `MindFlow-Frontend` | `main` | `faadd84` | `fix: resolve user-reported bugs, improve habits logic, and add mobile responsive design` | Resolución de bugs reportados por usuarios, mejoras en lógica de hábitos y diseño responsivo móvil. | 21/06/2026 |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
-En esta sección se presenta la evidencia de ejecución del Sprint 3, demostrando la implementación completa del backend con .NET 10 y la documentación interactiva de la API RESTful mediante Swagger (OpenAPI 3.0). Las siguientes capturas corresponden a la interfaz de Swagger UI desplegada en producción, accesible desde la URL pública del backend.
+En esta sección se presenta la evidencia de ejecución del Sprint 3, demostrando la implementación completa del backend con .NET 10 mediante pruebas funcionales realizadas con Postman. Las siguientes capturas corresponden a las peticiones HTTP ejecutadas contra la API desplegada en producción, mostrando el método, la ruta, el cuerpo de la petición y la respuesta obtenida con su respectivo código de estado.
 
-##### Swagger Evidence - AiFeedback & Analytics
-Se muestran los endpoints del bounded context **AiFeedback** (POST, GET y GET /summary para valoraciones de la IA) y **Analytics** (GET/POST /analyticscache, POST /analyticscache/compute, GET/POST /wordcloud, GET /moodcalendar) que permiten consultar el score emocional, tendencias semanales, nube de palabras y calendario de estados de ánimo.
+**Colección de Postman:** [MindFlow Backend](https://www.postman.com/cognitech-mindflow/cognitech-mindflow/folder/02zw67c/mindflow-backend?action=share&creator=56439038&ctx=documentation&active-environment=56439038-68fa291d-26b3-4cbb-8bfa-06a8fccc9124)
 
-<img src="../assets/Swagger_Evidence_1.png" alt="Swagger Evidence 1 - AiFeedback y Analytics" height="500" width="1000">
+##### Postman Evidence - Configuración del Entorno
+Se muestra la colección **MindFlow Backend** organizada por bounded context (IAM, Habits, Habit Logs, Journal, Chat, Notifications, Analytics, Subscriptions, Support, AI Feedback, Reporting y Wellness Engine), junto con el entorno `MindFlow Backend` que centraliza las variables utilizadas durante las pruebas (`base_url`, `token`, `user_email`, `habit_id`, `entry_id`, `conversation_id`, entre otras).
 
-##### Swagger Evidence - Chat & HabitLogs
-Se presentan los endpoints del bounded context **Chat** (POST/GET /chat/conversations, DELETE /chat/conversations/{id}, POST/GET /chat/conversations/{id}/messages) para conversaciones con IA en tiempo real, y **HabitLogs** (CRUD completo en /habit-logs) para el registro de completado de hábitos con recálculo automático de rachas.
+<img src="../assets/PostMan_Intruccion_Environment.png" alt="Postman Evidence - Configuración del Entorno" height="500" width="1000">
 
-<img src="../assets/Swagger_Evidence_2.png" alt="Swagger Evidence 2 - Chat y HabitLogs" height="500" width="1000">
+##### Postman Evidence - IAM (Auth / Perfil)
+Se evidencian los endpoints del bounded context **IAM**: `POST /api/v1/users/sign-up` (registro de usuario, 201 Created), `POST /api/v1/users/sign-in` (autenticación con retorno de token JWT, 200 OK), `GET /api/v1/users/profile` (consulta del perfil autenticado, 200 OK) y `POST /api/v1/users/pin` (configuración del PIN de seguridad, 200 OK).
 
-##### Swagger Evidence - Habits & Journal
-Se evidencian los endpoints del bounded context **Habits** (CRUD en /habits, GET /habits/streak-summary, POST /habits/suggestions para sugerencias de IA) y **Journal** (CRUD en /journal/entries con análisis de sentimiento automático, gestión de /journal/tags, /journal/entry-tags y /journal/media con soporte de carga de archivos multimedia).
+<img src="../assets/PostMan_sign-up.png" alt="Postman Evidence - Sign Up" height="500" width="1000">
 
-<img src="../assets/Swagger_Evidence_3.png" alt="Swagger Evidence 3 - Habits y Journal" height="500" width="1000">
+<img src="../assets/PostMan_sign-in.png" alt="Postman Evidence - Sign In" height="500" width="1000">
 
-##### Swagger Evidence - Notifications, Reporting & Subscriptions
-Se muestran los endpoints de **Notifications** (GET /notifications, PATCH /{id}/read, POST /register-device, DELETE /unregister-device para FCM), **Reporting** (GET /api/v1/reporting/export/pdf y /export/csv para exportación premium) y **Subscriptions** (POST /checkout, GET /me, POST /verify-session, POST /cancel, POST /webhook para integración con Stripe).
+<img src="../assets/PostMan_get-profile.png" alt="Postman Evidence - Get Profile" height="500" width="1000">
 
-<img src="../assets/Swagger_Evidence_4.png" alt="Swagger Evidence 4 - Notifications, Reporting y Subscriptions" height="500" width="1000">
+<img src="../assets/PostMan_set-pin.png" alt="Postman Evidence - Set Pin" height="500" width="1000">
 
-##### Swagger Evidence - Support & Users (IAM)
-Se presentan los endpoints de **Support** (POST/GET /api/v1/support/tickets para tickets de soporte con confirmación por email) y **Users** (POST /sign-up, POST /sign-in, POST /google-auth, POST /forgot-password, POST /reset-password, GET/PUT /profile, DELETE /users, POST/DELETE/POST verify/GET status de PIN) que conforman el bounded context IAM completo con autenticación JWT.
+##### Postman Evidence - Habits & Habit Logs
+Se presentan los endpoints de **Habits**: `POST /habits` (creación de hábito, 201 Created), `GET /habits?user_id=` (listado de hábitos, 200 OK), `GET /habits/streak-summary` (resumen de rachas, 200 OK) y `POST /habits/suggestions` (sugerencias de hábitos generadas por IA, 200 OK); y de **HabitLogs**: `POST /habit-logs` (registro de completado, 201 Created) y `GET /habit-logs?user_id=&habit_id=` (listado de logs, 200 OK), con recálculo automático de racha en cada operación.
 
-<img src="../assets/Swagger_Evidence_5.png" alt="Swagger Evidence 5 - Support y Users" height="500" width="1000">
+<img src="../assets/PostMan_Create-habit.png" alt="Postman Evidence - Create Habit" height="500" width="1000">
 
-##### Swagger Evidence - Wellness Engine
-Se muestra el endpoint del bounded context **Wellness** (POST /wellness/stress-check) que realiza el análisis de estrés del usuario y ajusta automáticamente la carga de hábitos cuando se detecta un nivel de ánimo bajo.
+<img src="../assets/PostMan_get-all-habits.png" alt="Postman Evidence - Get All Habits" height="500" width="1000">
 
-<img src="../assets/Swagger_Evidence_6.png" alt="Swagger Evidence 6 - Wellness Engine" height="100" width="1000">
+<img src="../assets/PostMan_Streak-Summary.png" alt="Postman Evidence - Streak Summary" height="500" width="1000">
+
+<img src="../assets/PostMan_get-ia-suggestions.png" alt="Postman Evidence - Get AI Suggestions" height="500" width="1000">
+
+<img src="../assets/PstMan-Create-habit-log.png" alt="Postman Evidence - Create Habit Log" height="500" width="1000">
+
+<img src="../assets/PostMan-Get-all-habit-log.png" alt="Postman Evidence - Get All Habit Logs" height="500" width="1000">
+
+##### Postman Evidence - Journal
+Se muestran los endpoints del bounded context **Journal**: `POST /journal/entries` (creación de entrada con detección automática de sentimiento vía Gemini, 200 OK) y `POST /journal/entries/sync` (sincronización de entradas creadas sin conexión, 200 OK).
+
+<img src="../assets/PostMan_create-entry.png" alt="Postman Evidence - Create Entry" height="500" width="1000">
+
+<img src="../assets/PostMan_Sync-entries.png" alt="Postman Evidence - Sync Entries" height="500" width="1000">
+
+##### Postman Evidence - Chat
+Se evidencian los endpoints del bounded context **Chat**: `POST /chat/conversations` (creación de conversación con el asistente de IA, 201 Created) y `POST /chat/conversations/{id}/messages` (envío de mensaje con respuesta generada por Gemini, 201 Created).
+
+<img src="../assets/PostMan_Create-conversation.png" alt="Postman Evidence - Create Conversation" height="500" width="1000">
+
+<img src="../assets/PostMan_Send-message.png" alt="Postman Evidence - Send Message" height="500" width="1000">
+
+##### Postman Evidence - Analytics
+Se presentan los endpoints del bounded context **Analytics**: `POST /analyticscache` (creación de un registro de analíticas en caché, 200 OK) y `POST /analyticscache/compute?weekStart=` (recómputo de analíticas semanales con insight generado por IA, 200 OK).
+
+<img src="../assets/PostMan_Create-Analytics-cache.png" alt="Postman Evidence - Create Analytics Cache" height="500" width="1000">
+
+<img src="../assets/PostMan_Compute-weekly-analytics.png" alt="Postman Evidence - Compute Weekly Analytics" height="500" width="1000">
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 Durante el Sprint 3 se implementó la totalidad de la API RESTful del backend de MindFlow con .NET 10, documentada mediante OpenAPI 3.0 (Swagger). A continuación se presenta el catálogo completo de los endpoints desarrollados, organizados por bounded context.
