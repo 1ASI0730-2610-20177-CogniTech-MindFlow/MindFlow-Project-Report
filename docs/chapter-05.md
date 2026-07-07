@@ -1026,6 +1026,20 @@ Durante el Sprint 4, el enfoque se centró en la validación final del sistema e
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
+### Desarrollo del Backend
+
+#### TB2
+<img src="../assets/insight_backend_sprint_4.png" height="500" width="1000">
+
+### Desarrollo del Frontend
+
+#### TB2
+<img src="../assets/insight_frontend_sprint_4.png" height="500" width="1000">
+
+### Desarrollo del Landing Page
+
+#### TB2
+<img src="../assets/insight_landing_sprint_4.png" height="500" width="1000">
 
 ---
 ## 5.3. Validation Interviews.
