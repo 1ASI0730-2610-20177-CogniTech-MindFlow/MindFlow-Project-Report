@@ -1025,6 +1025,32 @@ Durante el Sprint 4, el enfoque se centró en la validación final del sistema e
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
+Durante el Sprint 4 con el objetivo de habilitar un sistema de almacenamiento en memoria para el backend, se configuró una instancia de Redis utilizando Railway.
+
+##### Creación de la base de datos Redis
+
+Se accedió a Railway y se creó un nuevo servicio de tipo Redis, el cual será utilizado por la aplicación como servidor de caché y almacenamiento temporal de datos.
+
+<img src="../assets/sprint4Deployment01.jpg" alt="sprint4Deployment01 - Creación de la base de datos Redis" height="500" width="1000">
+
+##### Despliegue de la instancia
+
+Una vez creada la base de datos, Railway realizó el primer despliegue (deployment) del servicio. Al finalizar el proceso, la instancia quedó en estado Online/Active, indicando que Redis estaba listo para recibir conexiones.
+
+<img src="../assets/sprint4Deployment02.jpg" alt="sprint4Deployment02 - Despliegue de la instancia" height="500" width="1000">
+
+##### Obtención de la cadena de conexión
+
+Con el servicio ya desplegado, se abrió la opción Connect y se copió la Connection URL proporcionada por Railway. Esta URL contiene la información necesaria para que otras aplicaciones puedan conectarse al servidor Redis.
+
+<img src="../assets/sprint4Deployment03.jpg" alt="sprint4Deployment03 - Obtención de la cadena de conexión" height="500" width="1000">
+
+##### Configuración del backend
+
+Finalmente, la cadena de conexión se agregó como una variable de entorno del backend (ConnectionStrings__Redis). De esta manera, la aplicación puede conectarse a Redis sin almacenar información sensible directamente en el código fuente, facilitando además la configuración entre distintos entornos de ejecución.
+
+<img src="../assets/sprint4Deployment04.jpg" alt="sprint4Deployment04 - Configuración del backend" height="500" width="1000">
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 ### Desarrollo del Backend
 
