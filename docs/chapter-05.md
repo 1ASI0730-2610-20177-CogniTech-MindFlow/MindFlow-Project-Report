@@ -150,7 +150,7 @@ realizado para el Sprint 1.
 | **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                               |
 | Sprint 1 Goal | Our approach focuses on strengthening MindFlow's digital presence by launching its initial landing page. We believe this will effectively communicate our value proposition to university students and young professionals. This will be validated once the site is published on GitHub Pages, integrating strategic sections and calls to action targeted to both audiences. |
 | Sprint 1 Velocity | 18                                                                                                                                                                                                                                                                                                                                                                            |
-| Sum of Story Points | 20                                                                                                                                                                                                                                                                                                                                                                            
+| Sum of Story Points | 20 |
 #### 5.2.1.2. Aspect Leaders and Collaborators
 En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para el Sprint 1. Cada aspecto representa una fase crítica de la entrega, donde se designa un líder (L) responsable de la dirección del entregable y colaboradores (C) que apoyaron en su ejecución, cumpliendo con el objetivo de proporcionar liderazgo conjunto y un entorno colaborativo.
 
@@ -223,7 +223,7 @@ A continuación, se presenta la captura del dashboard de GitHub que confirma el 
 Para el presente Sprint 1, el alcance se centró exclusivamente en la implementación y despliegue del Landing Page (sitio web estático). Por lo tanto, no se han desarrollado servicios RESTful API en esta etapa. La documentación detallada de los endpoints mediante OpenAPI (Swagger) se incluirá en los informes correspondientes a los siguientes Sprints, una vez iniciada la fase de implementación de los Web Services.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
-Durante el Sprint 1, se realizó el despliegue de la Landing Page de VITAL CARE
+Durante el Sprint 1, se realizó el despliegue de la Landing Page de MindFlow
 utilizando GitHub Pages como plataforma de hosting. A continuación se describen
 las actividades realizadas para lograr la publicación exitosa del sitio.
 
@@ -254,8 +254,8 @@ las actividades realizadas para lograr la publicación exitosa del sitio.
 | Sprint 2 – 1 Review Summary        | The previous sprint laid a solid foundation for the initial structure. However, the team noticed some integration challenges that delayed the final delivery. The Product Owner provided valuable feedback regarding the user interface clarity, which we will address immediately.                                                                               |
 | Sprint 2 – 1 Retrospective Summary | The team recognizes that communication during the integration phase needs improvement to avoid bottlenecks. The feedback received has been instrumental in adjusting our focus. We are committed to maintaining a cleaner architecture and better modularization moving forward to ensure high quality. |
 | **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                         |
-| Sprint 1 Goal                      | Our focus is on strengthening the MindFlow digital experience through the development of the Analytics and Dashboard modules. We believe this will effectively provide users with a clear, responsive, and secure interface to track their emotional progress and daily habits.                                          |
-| Sprint 1 Velocity                  | 78                                                                                                                                                                                                                                                                                                      |
+| Sprint 2 Goal                      | Our focus is on strengthening the MindFlow digital experience through the development of the Analytics and Dashboard modules. We believe this will effectively provide users with a clear, responsive, and secure interface to track their emotional progress and daily habits.                                          |
+| Sprint 2 Velocity                  | 78                                                                                                                                                                                                                                                                                                      |
 | Sum of Story Points                | 24                                                                                                                                                                                                                                                                                                      |
 
 
@@ -798,7 +798,7 @@ Se asignaron los recursos de la réplica con **2 vCPU** y **1 GB de memoria RAM*
 | Sum of Story Points               |  27 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
-En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para el Sprint 3. Cada aspecto representa una fase crítica de la entrega, donde se designa un líder (L) responsable de la dirección del entregable y colaboradores (C) que apoyaron en su ejecución.
+En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para el Sprint 4. Cada aspecto representa una fase crítica de la entrega, donde se designa un líder (L) responsable de la dirección del entregable y colaboradores (C) que apoyaron en su ejecución.
 
 | Team Member (Last Name, First Name) | GitHub Username | Backend API & DDD Architecture | IAM & Security (JWT) | AI Integration (Gemini & Chat) | Frontend-Backend Integration | QA, Testing & Deployment |
 | :--- | :--- |:------------------------------:|:--------------------:|:------------------------------:|:----------------------------:|:------------------------:|
@@ -812,7 +812,7 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 #### 5.2.4.3. Sprint Backlog 4.
 <img src="../assets/Sprint_backlog_4.png" alt="SprintBacklog4" height="500" width="1000">
 
-Enlace de Trello: https://trello.com/b/db7ZkV0a/mindflow-sprint-4
+Enlace de Trello: [https://trello.com/b/db7ZkV0a/mindflow-sprint-4](https://trello.com/b/db7ZkV0a/mindflow-sprint-4)
 
 #### 5.2.4.4. Development Evidence for Sprint Review.
 Durante el Sprint 4 se llevó a cabo la consolidación técnica del backend, atendiendo los aspectos pendientes identificados al concluir la integración realizada en el Sprint 3, con el propósito de fortalecer la observabilidad, el rendimiento y la resiliencia del sistema en su entorno de producción. Para ello, se implementaron mecanismos de logging estructurado con trazabilidad por solicitud, una capa de caché distribuida, un índice optimizado para la búsqueda de contenido cifrado, un esquema de sincronización offline con resolución de conflictos, y un nuevo módulo de contenido de bienestar administrable. A continuación, se presenta el registro de commits más representativos que constituyen evidencia del desarrollo realizado en ambos repositorios del proyecto.
@@ -894,7 +894,7 @@ Perfil del usuario, estado de la suscripción, opciones de privacidad y experien
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 Durante el Sprint 4, el enfoque se centró en la validación final del sistema en producción, la consolidación de artefactos del proyecto y la realización de entrevistas de validación con usuarios. No se desarrollaron nuevos endpoints en este sprint, ya que toda la API RESTful fue completada e integrada satisfactoriamente durante el Sprint 3. A continuación se documenta el catálogo completo de Web Services operativos en producción, organizados por bounded context, confirmando su estabilidad y disponibilidad en el entorno desplegado.
 
-**URL Base de la API en producción:** La API se encuentra desplegada y accesible vía HTTPS, documentada mediante OpenAPI 3.0 (Swagger).
+**URL Base de la API en producción:** [https://mindflow-backend-mlbg.onrender.com](https://mindflow-backend-mlbg.onrender.com) — La API se encuentra desplegada y accesible vía HTTPS, documentada mediante OpenAPI 3.0 (Swagger).
 
 **Bounded Context: Users (IAM)**
 
@@ -1356,3 +1356,4 @@ A continuación, se detallan las url desplegadas del proyecto:
 | :--- | :--- |
 | **Landing Page** | [https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/](https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/) |
 | **Frontend Web Application** | [https://mindflow-frontend-cognitech-mindflow.vercel.app/](https://mindflow-frontend-cognitech-mindflow.vercel.app/) |
+| **Web Services (Backend API)** | [https://mindflow-backend-mlbg.onrender.com](https://mindflow-backend-mlbg.onrender.com) |
