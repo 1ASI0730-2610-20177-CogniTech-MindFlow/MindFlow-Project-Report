@@ -72,9 +72,10 @@ MindFlow
 ## Desarrollo del reporte
 
 ---
-AV2:
-<img src="../assets/insight_frontend_sprint_3.png" height="500" width="1000">
 
+TF:
+
+![insight_report_TF](assets/insight_report_TF.png)
 
 ---
 
