@@ -1319,6 +1319,14 @@ También se recomienda realizar validaciones con una mayor cantidad de usuarios 
 
 Finalmente, de cara a una eventual continuidad del proyecto más allá del ciclo académico, se recomienda evaluar la incorporación de un modelo de monetización sostenible acorde a los planes de suscripción ya diseñados, así como planificar la escalabilidad de la infraestructura (base de datos, caché y servicios de IA) en función del crecimiento real de la base de usuarios.
 
+## Video About-the-Team.
+
+En el siguiente video el equipo de MindFlow se presenta, compartiendo los roles asumidos durante el proyecto y la experiencia de trabajo colaborativo a lo largo de los distintos sprints.
+
+Enlace del video: [Video About-the-Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQAWQS_Tya2cR5pOk1QKDYsUAZHtN10IhjxQ17Wz0YLpHF4?e=oaiwPa)
+
+![AboutTheTeam](../assets/abouttheteam.png)
+
 ---
 
 # Bibliografía
@@ -1352,7 +1360,7 @@ Recopilación de entrevistas
 | AV1 | Exposición AV1 | [Ver exposición](https://drive.google.com/drive/folders/1zaVJczj7mF71U5WlXfVcNgUmt_EtWrW-?usp=drive_link) |
 | TB1 | Exposición TB1 | [Ver exposición](https://drive.google.com/drive/folders/1RxrPr6JgksZUIHGFvMvERentxTJFXQix?usp=drive_link) |
 | AV2 | Exposición AV2 | [Ver exposición](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQB3hAEtAofjTaF-dtkRS_51AfvZkyMFLgfgQ5_oox_s9UE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=quUHNY) |
-| TB2 | Exposición TB2 | |
+| TB2 | Exposición TB2 | [Ver exposición](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQDdaadrgzkqSZTydxjfJiQZAThKxJHhHiBZLHXkb3wYBGk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qLQyTL) |
 
 ## URLs Desplegadas del Proyecto
 
