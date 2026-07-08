@@ -401,7 +401,7 @@ En esta sección se mostrará la evidencia de ejecución de la primera versión 
 
 <img src="../assets/evidence 3- sprint 2.png" alt="Deploy front 1" height="500" width="1000">
 
-Enlace: [https://mindflow-frontend-cognitech-mindflow.vercel.app/](https://mindflow-frontend-cognitech-mindflow.vercel.app/)
+Enlace: [https://mindflow-frontend-ten.vercel.app/](https://mindflow-frontend-ten.vercel.app/)
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
 ### Desarrollo del reporte
@@ -1369,5 +1369,5 @@ A continuación, se detallan las url desplegadas del proyecto:
 | Producto | URL Desplegada |
 | :--- | :--- |
 | **Landing Page** | [https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/](https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/) |
-| **Frontend Web Application** | [https://mindflow-frontend-cognitech-mindflow.vercel.app/](https://mindflow-frontend-cognitech-mindflow.vercel.app/) |
+| **Frontend Web Application** | [https://mindflow-frontend-ten.vercel.app/](https://mindflow-frontend-ten.vercel.app/) |
 | **Web Services (Backend API)** | [https://mindflow-backend-mlbg.onrender.com](https://mindflow-backend-mlbg.onrender.com) |
