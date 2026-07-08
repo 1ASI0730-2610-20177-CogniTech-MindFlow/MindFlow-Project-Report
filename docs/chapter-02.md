@@ -43,7 +43,7 @@ Estas soluciones representan enfoques parciales del problema, lo que evidencia u
     <td colspan="3"></td>
     <td align="center">
       <b>MindFlow</b><br>
-      <img src="../assets/MindFlow_logo.png" alt="MindFlow" height="80">
+      <img src="../assets/MindFlow_icon.png" alt="MindFlow" height="80">
     </td>
     <td align="center">
       <b>Daylio</b><br>
