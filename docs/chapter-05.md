@@ -843,6 +843,13 @@ Durante el Sprint 4 se llevó a cabo la consolidación técnica del backend, ate
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 En esta sección se presenta la evidencia de ejecución del Sprint 4, En esta etapa del ciclo de vida del proyecto, la ejecución se centra en demostrar la estabilidad y funcionalidad del producto terminado en su entorno de operación. A continuación, se presentan las evidencias de la integración final entre el RESTful API, el Frontend Web Application y el Landing Page.
 
+##### Acceso a la demo del Frontend
+
+Para validar el funcionamiento de la aplicación, se puede ingresar al frontend desplegado utilizando las siguientes credenciales de demostración:
+
+- **Usuario:** demo.completo2026@mindflow.com
+- **Contraseña:** Demo1234!
+
 #### Landing Page
 Vista final del Landing Page mostrando la propuesta de valor y los call-to-action funcionales.
 <img src="../assets/landingpage_sprint4.png" height="500" width="1000">
