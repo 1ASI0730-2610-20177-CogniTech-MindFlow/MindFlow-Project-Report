@@ -1,4 +1,4 @@
-﻿# Capítulo V: Product Implementation, Validation & Deployment
+# Capítulo V: Product Implementation, Validation & Deployment
 
 ---
 
@@ -11,36 +11,36 @@ A continuación, se describen los productos de software empleados en el desarrol
 del trabajo a los actuales y futuros desarrolladores, asegurando una colaboración efectiva a lo largo del ciclo de vida del producto digital.
 
 **Project Management**
-- Trello – https://trello.com/<br>
+- Trello – [https://trello.com/](https://trello.com/)<br>
   Se ha utilizado Trello como herramienta principal de gestión de tareas. Esta plataforma permite visualizar el progreso de cada etapa del proyecto mediante
   tableros personalizables, facilitando la organización de pendientes, tareas en desarrollo y actividades finalizadas. Además, su interfaz intuitiva y accesibilidad
   desde cualquier navegador con una cuenta registrada la convierten en una solución ágil para el seguimiento de proyectos en equipo.
 
 **Requirements Management**
-- Google Docs – https://docs.google.com/<br>
+- Google Docs – [https://docs.google.com/](https://docs.google.com/)<br>
   Para la redacción, gestión y revisión de los requisitos del sistema se ha empleado Google Docs. Su funcionalidad de edición colaborativa en tiempo real ha
   permitido que todos los integrantes del equipo puedan aportar, comentar y revisar los documentos desde cualquier dispositivo.
 
 **Product UX/UI Design**
-- Figma – https://www.figma.com/<br>
+- Figma – [https://www.figma.com/](https://www.figma.com/)<br>
   Figma ha sido fundamental para el diseño de interfaces y la creación de prototipos interactivos. Permite que varios usuarios trabajen simultáneamente en los
   wireframes y mockups, lo que ha facilitado una comunicación más eficiente entre el equipo de diseño y desarrollo.
-- Miro https://miro.com/es/<br>
+- Miro [https://miro.com/es/](https://miro.com/es/)<br>
   Pizarra digital colaborativa utilizada para sesiones de Big Picture EventStorming y Design-Level EventStorming, facilitando la identificación de Bounded Contexts, Events, Commands y Aggregates del dominio.
-- LucidChart https://www.lucidchart.com/pages/es <br>
+- LucidChart [https://www.lucidchart.com/pages/es](https://www.lucidchart.com/pages/es) <br>
   Aplicación de diagramación colaborativa para la creación de Wireflows, User Flows, diagramas UML (Class Diagrams) y Database Diagrams de la arquitectura del software.
 
 **Software Development**
-- Landing Page y Frontend (HTML, CSS, JS) – https://www.jetbrains.com/webstorm/<br>
+- Landing Page y Frontend (HTML, CSS, JS) – [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/)<br>
   Desarrollada con HTML5, CSS3 y JavaScript. El entorno de desarrollo fue IntelliJ Webstorm por sus herramientas avanzadas de depuración y control de versiones.
 
-- JetBrains WebStorm – https://www.jetbrains.com/webstorm/
+- JetBrains WebStorm – [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/)
   Entorno de desarrollo integrado (IDE) principal para todo el proyecto. Se utiliza para centralizar la codificación tanto del frontend como del backend, optimizando la depuración y el control de versiones en el equipo.
 
-- Frontend (Vue.js) – https://vuejs.org/
+- Frontend (Vue.js) – [https://vuejs.org/](https://vuejs.org/)
   Framework de JavaScript empleado para construir la interfaz de usuario como una Single Page Application (SPA). Garantiza una experiencia interactiva, modular y reactiva.
 
-- Web Services (C# y .NET) – https://dotnet.microsoft.com/
+- Web Services (C# y .NET) – [https://dotnet.microsoft.com/](https://dotnet.microsoft.com/)
   Tecnología utilizada para el desarrollo del backend. Se emplea C# bajo la plataforma .NET para construir una API robusta, segura y escalable que gestiona la lógica de negocio y la persistencia de datos.
 
 - Servicios de IA (NLP / LLMs)
@@ -50,7 +50,7 @@ del trabajo a los actuales y futuros desarrolladores, asegurando una colaboraci�
 - Google Docs y GitHub README <br>
   La documentación del software se ha centralizado en Google Docs. El archivo README en GitHub incluye instrucciones de despliegue, estructura del repositorio y
   requerimientos técnicos.
-- Markdown https://www.markdownguide.org/ <br>
+- Markdown [https://www.markdownguide.org/](https://www.markdownguide.org/) <br>
   Lenguaje de marcado ligero para la elaboración del Project Report en el repositorio GitHub. Permite estructurar documentación con formato consistente y compatible con control de versiones.
 - Deployment & Hosting
 
@@ -74,7 +74,7 @@ Para el seguimiento y control de modificaciones en el código fuente, el equipo 
 
 Se aplica **GitFlow** como flujo de trabajo (*workflow*) de control de versiones, **Conventional Commits** para la estandarización de los mensajes de confirmación y **Semantic Versioning** para la gestión de versiones y lanzamientos (*releases*).
 
-A continuación, se detallan los repositorios que conforman la solución técnica de **MindFlow**:
+A continuación, se detallan los repositorios utilizados a lo largo del proyecto:
 
 | Producto | Repositorio |
 | :--- | :--- |
@@ -150,7 +150,7 @@ realizado para el Sprint 1.
 | **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                               |
 | Sprint 1 Goal | Our approach focuses on strengthening MindFlow's digital presence by launching its initial landing page. We believe this will effectively communicate our value proposition to university students and young professionals. This will be validated once the site is published on GitHub Pages, integrating strategic sections and calls to action targeted to both audiences. |
 | Sprint 1 Velocity | 18                                                                                                                                                                                                                                                                                                                                                                            |
-| Sum of Story Points | 20                                                                                                                                                                                                                                                                                                                                                                            
+| Sum of Story Points | 20 |
 #### 5.2.1.2. Aspect Leaders and Collaborators
 En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para el Sprint 1. Cada aspecto representa una fase crítica de la entrega, donde se designa un líder (L) responsable de la dirección del entregable y colaboradores (C) que apoyaron en su ejecución, cumpliendo con el objetivo de proporcionar liderazgo conjunto y un entorno colaborativo.
 
@@ -164,7 +164,7 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 #### 5.2.1.3. Sprint Backlog 1
 ![SprintBacklog](../assets/SprintBacklog.png)
 
-Enlace de Trello: https://trello.com/invite/b/69ee88a6130c90b4e5b1d5b2/ATTId18d929499f3de387496062b322b92179F3FB526/mindflow
+Enlace de Trello: [https://trello.com/invite/b/69ee88a6130c90b4e5b1d5b2/ATTId18d929499f3de387496062b322b92179F3FB526/mindflow](https://trello.com/invite/b/69ee88a6130c90b4e5b1d5b2/ATTId18d929499f3de387496062b322b92179F3FB526/mindflow)
 #### 5.2.1.4. Development Evidence for Sprint Review
 Durante el Sprint 1, el equipo utilizó GitHub como sistema de control de versiones, siguiendo el flujo de trabajo GitFlow para asegurar una integración ordenada del código. A continuación, se presenta el registro de los commits más relevantes que evidencian el desarrollo de la Landing Page y la colaboración del equipo.
 
@@ -207,9 +207,9 @@ En esta sección se presenta la evidencia de la ejecución del Sprint 1, demostr
 
 
 
-Enlace del Landing Page: https://github.com/1ASI0730-2610-20177-CogniTech-MindFlow/MindFlow-Landing-Page.git
+Enlace del Landing Page: [https://github.com/1ASI0730-2610-20177-CogniTech-MindFlow/MindFlow-Landing-Page.git](https://github.com/1ASI0730-2610-20177-CogniTech-MindFlow/MindFlow-Landing-Page.git)
 
-Evidencia de Despliegue (GitHub Pages): https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/
+Evidencia de Despliegue (GitHub Pages): [https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/](https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/)
 
 A continuación, se presenta la captura del dashboard de GitHub que confirma el despliegue exitoso (Production Deployment) de la Landing Page desde el repositorio oficial de GitHub.
 
@@ -223,7 +223,7 @@ A continuación, se presenta la captura del dashboard de GitHub que confirma el 
 Para el presente Sprint 1, el alcance se centró exclusivamente en la implementación y despliegue del Landing Page (sitio web estático). Por lo tanto, no se han desarrollado servicios RESTful API en esta etapa. La documentación detallada de los endpoints mediante OpenAPI (Swagger) se incluirá en los informes correspondientes a los siguientes Sprints, una vez iniciada la fase de implementación de los Web Services.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
-Durante el Sprint 1, se realizó el despliegue de la Landing Page de VITAL CARE
+Durante el Sprint 1, se realizó el despliegue de la Landing Page de MindFlow
 utilizando GitHub Pages como plataforma de hosting. A continuación se describen
 las actividades realizadas para lograr la publicación exitosa del sitio.
 
@@ -254,8 +254,8 @@ las actividades realizadas para lograr la publicación exitosa del sitio.
 | Sprint 2 – 1 Review Summary        | The previous sprint laid a solid foundation for the initial structure. However, the team noticed some integration challenges that delayed the final delivery. The Product Owner provided valuable feedback regarding the user interface clarity, which we will address immediately.                                                                               |
 | Sprint 2 – 1 Retrospective Summary | The team recognizes that communication during the integration phase needs improvement to avoid bottlenecks. The feedback received has been instrumental in adjusting our focus. We are committed to maintaining a cleaner architecture and better modularization moving forward to ensure high quality. |
 | **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                         |
-| Sprint 1 Goal                      | Our focus is on strengthening the MindFlow digital experience through the development of the Analytics and Dashboard modules. We believe this will effectively provide users with a clear, responsive, and secure interface to track their emotional progress and daily habits.                                          |
-| Sprint 1 Velocity                  | 78                                                                                                                                                                                                                                                                                                      |
+| Sprint 2 Goal                      | Our focus is on strengthening the MindFlow digital experience through the development of the Analytics and Dashboard modules. We believe this will effectively provide users with a clear, responsive, and secure interface to track their emotional progress and daily habits.                                          |
+| Sprint 2 Velocity                  | 78                                                                                                                                                                                                                                                                                                      |
 | Sum of Story Points                | 24                                                                                                                                                                                                                                                                                                      |
 
 
@@ -271,7 +271,7 @@ las actividades realizadas para lograr la publicación exitosa del sitio.
 #### 5.2.2.3.Sprint Backlog 2.
 <img src="../assets/SprintBacklog2.png" alt="SprintBacklog2" height="500" width="1000">
 
-Enlace de Trello: https://trello.com/invite/b/6a07bd49bd8ca58850e4501f/ATTIbebb0ef435bfc9608428b3b7f81f3e36DE5E1F2D/mindflow-sprint2
+Enlace de Trello: [https://trello.com/invite/b/6a07bd49bd8ca58850e4501f/ATTIbebb0ef435bfc9608428b3b7f81f3e36DE5E1F2D/mindflow-sprint2](https://trello.com/invite/b/6a07bd49bd8ca58850e4501f/ATTIbebb0ef435bfc9608428b3b7f81f3e36DE5E1F2D/mindflow-sprint2)
 
 #### 5.2.2.4.Development Evidence for Sprint Review.
 Aquí se presentará el registro de commits de aplicación frontend durante el Sprint 2, evidenciando el desarrollo de funcionalidades relacionadas con la gestión de dashboard, diario(journal), habitos, analiticas, configuracion,planes y otros aspectos clave del sistema MindFlow
@@ -401,7 +401,7 @@ En esta sección se mostrará la evidencia de ejecución de la primera versión 
 
 <img src="../assets/evidence 3- sprint 2.png" alt="Deploy front 1" height="500" width="1000">
 
-Enlace: https://mindflow-frontend-cognitech-mindflow.vercel.app/
+Enlace: [https://mindflow-frontend-cognitech-mindflow.vercel.app/](https://mindflow-frontend-cognitech-mindflow.vercel.app/)
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
 ### Desarrollo del reporte
@@ -456,7 +456,7 @@ En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para e
 
 <img src="../assets/sprint_backlog_3.png" alt="SprintBacklog3" height="500" width="1000">
 
-Enlace de Trello: https://trello.com/b/7WeOkqeo/mindflow-sprint-3
+Enlace de Trello: [https://trello.com/b/7WeOkqeo/mindflow-sprint-3](https://trello.com/b/7WeOkqeo/mindflow-sprint-3)
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
 Durante el Sprint 3, el equipo desarrolló el backend completo con .NET 10 y realizó la integración total con el frontend en Vue.js. A continuación se presentan los commits más relevantes que evidencian el desarrollo en ambos repositorios.
@@ -553,37 +553,61 @@ Durante el Sprint 3, el equipo desarrolló el backend completo con .NET 10 y rea
 | `MindFlow-Frontend` | `main` | `faadd84` | `fix: resolve user-reported bugs, improve habits logic, and add mobile responsive design` | Resolución de bugs reportados por usuarios, mejoras en lógica de hábitos y diseño responsivo móvil. | 21/06/2026 |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
-En esta sección se presenta la evidencia de ejecución del Sprint 3, demostrando la implementación completa del backend con .NET 10 y la documentación interactiva de la API RESTful mediante Swagger (OpenAPI 3.0). Las siguientes capturas corresponden a la interfaz de Swagger UI desplegada en producción, accesible desde la URL pública del backend.
+En esta sección se presenta la evidencia de ejecución del Sprint 3, demostrando la implementación completa del backend con .NET 10 mediante pruebas funcionales realizadas con Postman. Las siguientes capturas corresponden a las peticiones HTTP ejecutadas contra la API desplegada en producción, mostrando el método, la ruta, el cuerpo de la petición y la respuesta obtenida con su respectivo código de estado.
 
-##### Swagger Evidence - AiFeedback & Analytics
-Se muestran los endpoints del bounded context **AiFeedback** (POST, GET y GET /summary para valoraciones de la IA) y **Analytics** (GET/POST /analyticscache, POST /analyticscache/compute, GET/POST /wordcloud, GET /moodcalendar) que permiten consultar el score emocional, tendencias semanales, nube de palabras y calendario de estados de ánimo.
+**Colección de Postman:** [MindFlow Backend](https://www.postman.com/cognitech-mindflow/cognitech-mindflow/folder/02zw67c/mindflow-backend?action=share&creator=56439038&ctx=documentation&active-environment=56439038-68fa291d-26b3-4cbb-8bfa-06a8fccc9124)
 
-<img src="../assets/Swagger_Evidence_1.png" alt="Swagger Evidence 1 - AiFeedback y Analytics" height="500" width="1000">
+##### Postman Evidence - Configuración del Entorno
+Se muestra la colección **MindFlow Backend** organizada por bounded context (IAM, Habits, Habit Logs, Journal, Chat, Notifications, Analytics, Subscriptions, Support, AI Feedback, Reporting y Wellness Engine), junto con el entorno `MindFlow Backend` que centraliza las variables utilizadas durante las pruebas (`base_url`, `token`, `user_email`, `habit_id`, `entry_id`, `conversation_id`, entre otras).
 
-##### Swagger Evidence - Chat & HabitLogs
-Se presentan los endpoints del bounded context **Chat** (POST/GET /chat/conversations, DELETE /chat/conversations/{id}, POST/GET /chat/conversations/{id}/messages) para conversaciones con IA en tiempo real, y **HabitLogs** (CRUD completo en /habit-logs) para el registro de completado de hábitos con recálculo automático de rachas.
+<img src="../assets/PostMan_Intruccion_Environment.png" alt="Postman Evidence - Configuración del Entorno" height="500" width="1000">
 
-<img src="../assets/Swagger_Evidence_2.png" alt="Swagger Evidence 2 - Chat y HabitLogs" height="500" width="1000">
+##### Postman Evidence - IAM (Auth / Perfil)
+Se evidencian los endpoints del bounded context **IAM**: `POST /api/v1/users/sign-up` (registro de usuario, 201 Created), `POST /api/v1/users/sign-in` (autenticación con retorno de token JWT, 200 OK), `GET /api/v1/users/profile` (consulta del perfil autenticado, 200 OK) y `POST /api/v1/users/pin` (configuración del PIN de seguridad, 200 OK).
 
-##### Swagger Evidence - Habits & Journal
-Se evidencian los endpoints del bounded context **Habits** (CRUD en /habits, GET /habits/streak-summary, POST /habits/suggestions para sugerencias de IA) y **Journal** (CRUD en /journal/entries con análisis de sentimiento automático, gestión de /journal/tags, /journal/entry-tags y /journal/media con soporte de carga de archivos multimedia).
+<img src="../assets/PostMan_sign-up.png" alt="Postman Evidence - Sign Up" height="500" width="1000">
 
-<img src="../assets/Swagger_Evidence_3.png" alt="Swagger Evidence 3 - Habits y Journal" height="500" width="1000">
+<img src="../assets/PostMan_sign-in.png" alt="Postman Evidence - Sign In" height="500" width="1000">
 
-##### Swagger Evidence - Notifications, Reporting & Subscriptions
-Se muestran los endpoints de **Notifications** (GET /notifications, PATCH /{id}/read, POST /register-device, DELETE /unregister-device para FCM), **Reporting** (GET /api/v1/reporting/export/pdf y /export/csv para exportación premium) y **Subscriptions** (POST /checkout, GET /me, POST /verify-session, POST /cancel, POST /webhook para integración con Stripe).
+<img src="../assets/PostMan_get-profile.png" alt="Postman Evidence - Get Profile" height="500" width="1000">
 
-<img src="../assets/Swagger_Evidence_4.png" alt="Swagger Evidence 4 - Notifications, Reporting y Subscriptions" height="500" width="1000">
+<img src="../assets/PostMan_set-pin.png" alt="Postman Evidence - Set Pin" height="500" width="1000">
 
-##### Swagger Evidence - Support & Users (IAM)
-Se presentan los endpoints de **Support** (POST/GET /api/v1/support/tickets para tickets de soporte con confirmación por email) y **Users** (POST /sign-up, POST /sign-in, POST /google-auth, POST /forgot-password, POST /reset-password, GET/PUT /profile, DELETE /users, POST/DELETE/POST verify/GET status de PIN) que conforman el bounded context IAM completo con autenticación JWT.
+##### Postman Evidence - Habits & Habit Logs
+Se presentan los endpoints de **Habits**: `POST /habits` (creación de hábito, 201 Created), `GET /habits?user_id=` (listado de hábitos, 200 OK), `GET /habits/streak-summary` (resumen de rachas, 200 OK) y `POST /habits/suggestions` (sugerencias de hábitos generadas por IA, 200 OK); y de **HabitLogs**: `POST /habit-logs` (registro de completado, 201 Created) y `GET /habit-logs?user_id=&habit_id=` (listado de logs, 200 OK), con recálculo automático de racha en cada operación.
 
-<img src="../assets/Swagger_Evidence_5.png" alt="Swagger Evidence 5 - Support y Users" height="500" width="1000">
+<img src="../assets/PostMan_Create-habit.png" alt="Postman Evidence - Create Habit" height="500" width="1000">
 
-##### Swagger Evidence - Wellness Engine
-Se muestra el endpoint del bounded context **Wellness** (POST /wellness/stress-check) que realiza el análisis de estrés del usuario y ajusta automáticamente la carga de hábitos cuando se detecta un nivel de ánimo bajo.
+<img src="../assets/PostMan_get-all-habits.png" alt="Postman Evidence - Get All Habits" height="500" width="1000">
 
-<img src="../assets/Swagger_Evidence_6.png" alt="Swagger Evidence 6 - Wellness Engine" height="100" width="1000">
+<img src="../assets/PostMan_Streak-Summary.png" alt="Postman Evidence - Streak Summary" height="500" width="1000">
+
+<img src="../assets/PostMan_get-ia-suggestions.png" alt="Postman Evidence - Get AI Suggestions" height="500" width="1000">
+
+<img src="../assets/PstMan-Create-habit-log.png" alt="Postman Evidence - Create Habit Log" height="500" width="1000">
+
+<img src="../assets/PostMan-Get-all-habit-log.png" alt="Postman Evidence - Get All Habit Logs" height="500" width="1000">
+
+##### Postman Evidence - Journal
+Se muestran los endpoints del bounded context **Journal**: `POST /journal/entries` (creación de entrada con detección automática de sentimiento vía Gemini, 200 OK) y `POST /journal/entries/sync` (sincronización de entradas creadas sin conexión, 200 OK).
+
+<img src="../assets/PostMan_create-entry.png" alt="Postman Evidence - Create Entry" height="500" width="1000">
+
+<img src="../assets/PostMan_Sync-entries.png" alt="Postman Evidence - Sync Entries" height="500" width="1000">
+
+##### Postman Evidence - Chat
+Se evidencian los endpoints del bounded context **Chat**: `POST /chat/conversations` (creación de conversación con el asistente de IA, 201 Created) y `POST /chat/conversations/{id}/messages` (envío de mensaje con respuesta generada por Gemini, 201 Created).
+
+<img src="../assets/PostMan_Create-conversation.png" alt="Postman Evidence - Create Conversation" height="500" width="1000">
+
+<img src="../assets/PostMan_Send-message.png" alt="Postman Evidence - Send Message" height="500" width="1000">
+
+##### Postman Evidence - Analytics
+Se presentan los endpoints del bounded context **Analytics**: `POST /analyticscache` (creación de un registro de analíticas en caché, 200 OK) y `POST /analyticscache/compute?weekStart=` (recómputo de analíticas semanales con insight generado por IA, 200 OK).
+
+<img src="../assets/PostMan_Create-Analytics-cache.png" alt="Postman Evidence - Create Analytics Cache" height="500" width="1000">
+
+<img src="../assets/PostMan_Compute-weekly-analytics.png" alt="Postman Evidence - Compute Weekly Analytics" height="500" width="1000">
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 Durante el Sprint 3 se implementó la totalidad de la API RESTful del backend de MindFlow con .NET 10, documentada mediante OpenAPI 3.0 (Swagger). A continuación se presenta el catálogo completo de los endpoints desarrollados, organizados por bounded context.
@@ -754,7 +778,296 @@ Se asignaron los recursos de la réplica con **2 vCPU** y **1 GB de memoria RAM*
 <img src="../assets/insight_frontend_sprint_3.png" height="500" width="1000">
 
 ---
+### 5.2.4. Sprint 4
 
+#### 5.2.4.1. Sprint Planning 4.
+
+| Sprint #                          | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**    |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Date                              | 2026-07-01                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Time                              | 06:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Location                          | Reunión virtual vía Discord                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Prepared By                       | Caisahuana Osores,Becker Junior                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Attendees                         | Cabrera Sotelo, Camila Celeste / Caisahuana Osores, Becker Junior / Díaz De la cruz, Sebastián Gabriel / Jáuregui Cerna, Jean Franco / Rocca Mariaca, Angel Mathias                                                                                                                                                                                                                                                                 |
+| Sprint 3 Retrospective Summary |  The team worked very efficiently integrating the frontend with the backend. It was agreed that for this final sprint, the focus would be 100% on writing the final report, recording video evidence, and conducting validation interviews.  |
+| Sprint 3 Review Summary        | The programming of all Bounded Contexts was successfully completed, and the Landing Page, Web Application, and Web Services were fully deployed. The system is now operating correctly in production.                    |
+| **Sprint Goal & User Stories**    |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Sprint 4 Goal                     |Our approach is to close the remaining technical debt of the backend (structured logging, distributed caching, indexed search, offline sync and the wellness content module), perform the final validation of the system in production, conduct validation interviews with users, and consolidate all project artifacts (Final Report, About-the-Product Video, and About-the-Team Video). We believe this will ensure a flawless presentation. This will be confirmed once all documents and videos are uploaded and approved for TB2.|
+| Sprint 4 Velocity                 |  27 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sum of Story Points               |  27 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+En esta sección se detalla la matriz de liderazgo y colaboración (LACX) para el Sprint 4. Cada aspecto representa una fase crítica de la entrega, donde se designa un líder (L) responsable de la dirección del entregable y colaboradores (C) que apoyaron en su ejecución.
+
+| Team Member (Last Name, First Name) | GitHub Username | Backend API & DDD Architecture | IAM & Security (JWT) | AI Integration (Gemini & Chat) | Frontend-Backend Integration | QA, Testing & Deployment |
+| :--- | :--- |:------------------------------:|:--------------------:|:------------------------------:|:----------------------------:|:------------------------:|
+| Cabrera Sotelo, Camila Celeste | whcamm | C | C | C | **L** | C |
+| Caisahuana Osores, Becker Junior | becker693 | C | **L** | C | C | C |
+| Díaz De la cruz, Sebastián Gabriel | tipaso07 | C | C | C | C | **L** |
+| Jáuregui Cerna, Jean Franco | JFranco556 | C | C | **L** | C | C |
+| Rocca Mariaca, Angel Mathias | MRMpro13 | **L** | C | C | C | C |
+
+
+#### 5.2.4.3. Sprint Backlog 4.
+<img src="../assets/Sprint_backlog_4.png" alt="SprintBacklog4" height="500" width="1000">
+
+Enlace de Trello: [https://trello.com/b/db7ZkV0a/mindflow-sprint-4](https://trello.com/b/db7ZkV0a/mindflow-sprint-4)
+
+#### 5.2.4.4. Development Evidence for Sprint Review.
+Durante el Sprint 4 se llevó a cabo la consolidación técnica del backend, atendiendo los aspectos pendientes identificados al concluir la integración realizada en el Sprint 3, con el propósito de fortalecer la observabilidad, el rendimiento y la resiliencia del sistema en su entorno de producción. Para ello, se implementaron mecanismos de logging estructurado con trazabilidad por solicitud, una capa de caché distribuida, un índice optimizado para la búsqueda de contenido cifrado, un esquema de sincronización offline con resolución de conflictos, y un nuevo módulo de contenido de bienestar administrable. A continuación, se presenta el registro de commits más representativos que constituyen evidencia del desarrollo realizado en ambos repositorios del proyecto.
+
+**Repository:** 1ASI0730-2610-20177-CogniTech-MindFlow/MindFlow-Backend
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `MindFlow-Backend` | `develop` | `9d65811` | `fix: harden security and fix account deletion for users with journal entries` | Corrección de fuga de datos entre usuarios en tags/media del journal, cifrado obligatorio en producción, hasheo de tokens de recuperación y otros hardenings de seguridad previos al cierre del sprint. | 01/07/2026 |
+| `MindFlow-Backend` | `develop` | `4ad18d9` | `fix: prevent 500s from undecryptable journal rows, corrupt suggestions cache, and null sentiments` | Manejo seguro de errores para entradas del diario no desencriptables y cachés corruptos de sugerencias de hábitos. | 01/07/2026 |
+| `MindFlow-Backend` | `develop` | `10f53f0` | `feat: add structured logging with Serilog and request correlation IDs` | Implementación de logging estructurado (US51) con Serilog y correlation ID por request para trazabilidad en producción. | 05/07/2026 |
+| `MindFlow-Backend` | `develop` | `0ca307e` | `feat: add Redis distributed caching for habits and mood calendar endpoints` | Implementación de caché distribuida con Redis (US52) para los endpoints de hábitos y calendario de estados de ánimo. | 05/07/2026 |
+| `MindFlow-Backend` | `develop` | `5a4d3bc` | `feat: log Redis cache hit/miss for habits and analytics lookups` | Registro de aciertos/fallos de la caché Redis para monitoreo de hábitos y analíticas. | 05/07/2026 |
+| `MindFlow-Backend` | `develop` | `a6ab317` | `feat: replace in-memory journal search with a hashed token index` | Reemplazo de la búsqueda en memoria del diario por un índice de tokens hasheados (US53), permitiendo búsquedas sobre contenido encriptado sin desencriptar todo el histórico. | 05/07/2026 |
+| `MindFlow-Backend` | `develop` | `5a9ef46` | `feat: add offline sync endpoint with last-write-wins conflict resolution` | Endpoint de sincronización offline (US54) con resolución de conflictos last-write-wins para la caché local del cliente. | 05/07/2026 |
+| `MindFlow-Backend` | `develop` | `364984e` | `feat: add wellness content module with admin-managed exercises and user roles` | Módulo backend de contenido de bienestar (US55) con ejercicios de respiración y micro-meditaciones administrables, y roles de usuario. | 05/07/2026 |
+
+**Repository:** 1ASI0730-2610-20177-CogniTech-MindFlow/MindFlow-Frontend
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `MindFlow-Frontend` | `develop` | `5d9c0fd` | `fix: sync habit streaks with backend, harden auth 401 handling, and expand i18n coverage` | Sincronización de las rachas de hábitos con el nuevo recálculo del backend, manejo robusto de sesiones expiradas (401) y ampliación de cobertura de traducciones. | 05/07/2026 |
+| `MindFlow-Frontend` | `develop` | `4ba0b41` | `fix: allow Google OAuth popup via COOP header, fix HTTPS on journal media, redesign subscription downgrade modal, and add trace-ID surfacing on auth errors` | Corrección del popup de Google OAuth, forzado de HTTPS en media del diario y exposición del trace-ID (US51) en errores de autenticación para soporte y depuración. | 06/07/2026 |
+| `MindFlow-Frontend` | `develop` | `443ac1d` | `feat: update journal search copy and empty state for US53 full-word indexed search` | Actualización de la interfaz de búsqueda del diario y su estado vacío para reflejar el nuevo índice de búsqueda por palabra completa (US53) del backend. | 06/07/2026 |
+| `MindFlow-Frontend` | `develop` | `cdb14f5` | `feat: add offline creation and background sync for journal entries` | Creación de entradas del diario sin conexión y sincronización en segundo plano contra el nuevo endpoint de sync offline (US54). | 06/07/2026 |
+| `MindFlow-Frontend` | `develop` | `621f60b` | `feat: load wellness exercises from API and fix daily habits badge layout` | Carga de ejercicios de respiración y micro-meditaciones desde el nuevo módulo de bienestar del backend (US55) y corrección del layout del badge de hábitos diarios. | 06/07/2026 |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+En esta sección se presenta la evidencia de ejecución del Sprint 4, En esta etapa del ciclo de vida del proyecto, la ejecución se centra en demostrar la estabilidad y funcionalidad del producto terminado en su entorno de operación. A continuación, se presentan las evidencias de la integración final entre el RESTful API, el Frontend Web Application y el Landing Page.
+
+#### Landing Page
+Vista final del Landing Page mostrando la propuesta de valor y los call-to-action funcionales.
+<img src="../assets/landingpage_sprint4.png" height="500" width="1000">
+
+#### Registro de Usuarios
+Interfaz de registro integrada con el servicio de autenticación y persistencia en base de datos.
+<img src="../assets/registroUsuario.png" height="500" width="1000">
+
+#### Flujo Core
+Demostración del flujo principal de la aplicación donde el usuario interactúa con los servicios internos.
+<img src="../assets/Core.png" height="500" width="1000">
+
+#### Integración de Servicios
+Evidencia visual de la integración con servicios de terceros (IA/Chat) dentro de la interfaz.
+<img src="../assets/IA.png" height="500" width="1000">
+
+#### Dashboard
+Vista del Dashboard principal con el resumen semanal de ánimo, intervenciones rápidas y el listado de hábitos diarios consumiendo datos reales del backend.
+<img src="../assets/dashboard_sprint4.png" height="500" width="1000">
+
+#### Hábitos - Mis Rutinas
+Listado de hábitos del usuario con progreso diario, categoría, frecuencia y racha actual calculada en tiempo real.
+<img src="../assets/habits_sprint4.png" height="500" width="1000">
+
+#### Hábitos - Sugerencias de IA
+Sugerencias de hábitos personalizadas generadas por IA (Gemini) en base al estado emocional y las rutinas actuales del usuario.
+<img src="../assets/ia-habits_sprint4.png" height="500" width="1000">
+
+#### Hábitos - Historial
+Historial semanal de cumplimiento de hábitos, mostrando el porcentaje de días cumplidos y la racha por hábito.
+<img src="../assets/habits-streak_sprint4.png" height="500" width="1000">
+
+#### Diario
+Historial emocional del usuario con entradas del diario, calendario de estados de ánimo y filtros por categoría.
+<img src="../assets/journal_sprint4.png" height="500" width="1000">
+
+#### Analíticas - Panorama Emocional
+Índice de estabilidad, análisis generado por IA y KPIs semanales (estado de ánimo, entradas registradas, puntaje general) calculados a partir de los datos reales del usuario.
+<img src="../assets/analytics1_sprint4.png" height="500" width="1000">
+
+#### Analíticas - Tendencias y Nube de Palabras
+Nivel de actividad en sesiones, nube de palabras frecuentes, tendencia de ánimo de las últimas 4 semanas y calendario de ánimo.
+<img src="../assets/analitycs2_sprint4.png" height="500" width="1000">
+
+#### Configuración
+Perfil del usuario, estado de la suscripción, opciones de privacidad y experiencia (PIN, modo oscuro, recordatorios) y soporte técnico.
+<img src="../assets/settings_sprint4.png" height="500" width="1000">
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+Durante el Sprint 4, el enfoque se centró en la validación final del sistema en producción, la consolidación de artefactos del proyecto y la realización de entrevistas de validación con usuarios. No se desarrollaron nuevos endpoints en este sprint, ya que toda la API RESTful fue completada e integrada satisfactoriamente durante el Sprint 3. A continuación se documenta el catálogo completo de Web Services operativos en producción, organizados por bounded context, confirmando su estabilidad y disponibilidad en el entorno desplegado.
+
+**URL Base de la API en producción:** [https://mindflow-backend-mlbg.onrender.com](https://mindflow-backend-mlbg.onrender.com) — La API se encuentra desplegada y accesible vía HTTPS, documentada mediante OpenAPI 3.0 (Swagger).
+
+**Bounded Context: Users (IAM)**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Users | POST | `/api/v1/users/sign-up` | Registra un nuevo usuario con email y contraseña hasheada con BCrypt. | `201 Created` — User ID + JWT token |
+| Users | POST | `/api/v1/users/sign-in` | Autentica al usuario y retorna un token JWT. | `200 OK` — JWT access token |
+| Users | POST | `/api/v1/users/google-auth` | Autentica mediante intercambio de token OAuth de Google. | `200 OK` — JWT access token |
+| Users | POST | `/api/v1/users/forgot-password` | Envía email de recuperación de contraseña vía SMTP. | `200 OK` — Confirmation message |
+| Users | POST | `/api/v1/users/reset-password` | Restablece contraseña mediante token de recuperación. | `200 OK` — Success confirmation |
+| Users | GET | `/api/v1/users/profile` | Obtiene los datos del perfil del usuario autenticado. | `200 OK` — User profile object |
+| Users | PUT | `/api/v1/users/profile` | Actualiza nombre y ocupación del perfil. | `200 OK` — Updated profile |
+| Users | DELETE | `/api/v1/users` | Elimina la cuenta del usuario y datos asociados en cascada. | `204 No Content` |
+| Users | POST | `/api/v1/users/pin` | Configura un PIN de seguridad. | `201 Created` |
+| Users | POST | `/api/v1/users/pin/verify` | Verifica el PIN de seguridad ingresado. | `200 OK` — Verification result |
+| Users | DELETE | `/api/v1/users/pin` | Elimina el PIN de seguridad configurado. | `204 No Content` |
+| Users | GET | `/api/v1/users/pin/status` | Consulta si el usuario tiene PIN activo. | `200 OK` — Pin status boolean |
+
+**Bounded Context: Journal**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Journal | GET | `/journal/entries` | Lista entradas del diario emocional con filtros y ordenamiento. | `200 OK` — Array of entries |
+| Journal | POST | `/journal/entries` | Crea entrada con detección automática de sentimiento vía Gemini. | `201 Created` — Entry with AI analysis |
+| Journal | GET | `/journal/entries/{id}` | Obtiene una entrada específica por ID. | `200 OK` — Entry object |
+| Journal | PUT | `/journal/entries/{id}` | Actualiza contenido y recalcula preview. | `200 OK` — Updated entry |
+| Journal | DELETE | `/journal/entries/{id}` | Soft delete de la entrada. | `204 No Content` |
+| Journal | GET | `/journal/tags` | Lista etiquetas disponibles del usuario. | `200 OK` — Array of tags |
+| Journal | GET | `/journal/entry-tags` | Lista asociaciones entre entradas y etiquetas. | `200 OK` — Array of entry-tags |
+| Journal | POST | `/journal/entry-tags` | Asocia una etiqueta a una entrada. | `201 Created` — Entry-tag association |
+| Journal | DELETE | `/journal/entry-tags/{id}` | Elimina asociación entre etiqueta y entrada. | `204 No Content` |
+| Journal | GET | `/journal/media` | Lista archivos multimedia de las entradas. | `200 OK` — Array of media |
+| Journal | POST | `/journal/media` | Crea registro de media asociado a una entrada. | `201 Created` — Media record |
+| Journal | POST | `/journal/media/upload` | Sube archivo multimedia (máx. 10MB) a Cloudinary. | `201 Created` — Media URL |
+
+**Bounded Context: Habits**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Habits | GET | `/habits` | Lista hábitos con recálculo de streak en tiempo real. | `200 OK` — Array of habits |
+| Habits | POST | `/habits` | Crea hábito personalizado con nombre, categoría y frecuencia. | `201 Created` — Habit object |
+| Habits | GET | `/habits/{id}` | Obtiene un hábito específico por ID. | `200 OK` — Habit object |
+| Habits | PUT | `/habits/{id}` | Actualiza nombre, categoría o frecuencia. | `200 OK` — Updated habit |
+| Habits | DELETE | `/habits/{id}` | Elimina hábito y logs asociados. | `204 No Content` |
+| Habits | GET | `/habits/streak-summary` | Resumen de rachas activas y máximas. | `200 OK` — Streak summary |
+| Habits | POST | `/habits/suggestions` | Genera sugerencias de hábitos vía IA (Gemini). | `200 OK` — AI suggestions |
+
+**Bounded Context: HabitLogs**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| HabitLogs | GET | `/habit-logs` | Lista logs de completado filtrados por hábito. | `200 OK` — Array of logs |
+| HabitLogs | POST | `/habit-logs` | Registra completado y recalcula streak. | `201 Created` — Log object |
+| HabitLogs | GET | `/habit-logs/{id}` | Obtiene log de completado específico. | `200 OK` — Log object |
+| HabitLogs | PUT | `/habit-logs/{id}` | Actualiza log de completado. | `200 OK` — Updated log |
+| HabitLogs | DELETE | `/habit-logs/{id}` | Elimina log y recalcula racha. | `204 No Content` |
+
+**Bounded Context: Analytics**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Analytics | GET | `/analyticscache` | Obtiene analíticas semanales (score, tendencias, KPIs). | `200 OK` — Analytics object |
+| Analytics | POST | `/analyticscache` | Crea registro de analíticas en caché. | `201 Created` — Cache record |
+| Analytics | PUT | `/analyticscache/{id}` | Actualiza registro de analíticas existente. | `200 OK` — Updated record |
+| Analytics | POST | `/analyticscache/compute` | Fuerza recómputo con insights generados por IA. | `200 OK` — Computed analytics |
+| Analytics | GET | `/wordcloud` | Obtiene nube de palabras de las entradas del diario. | `200 OK` — Word cloud data |
+| Analytics | POST | `/wordcloud/compute` | Fuerza recómputo de la nube de palabras. | `200 OK` — Computed word cloud |
+| Analytics | GET | `/moodcalendar` | Calendario de estados de ánimo por mes con colores por día. | `200 OK` — Calendar data |
+
+**Bounded Context: Chat**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Chat | POST | `/chat/conversations` | Crea nueva conversación con asistente de IA. | `201 Created` — Conversation object |
+| Chat | GET | `/chat/conversations` | Lista todas las conversaciones del usuario. | `200 OK` — Array of conversations |
+| Chat | DELETE | `/chat/conversations/{id}` | Elimina conversación e historial de mensajes. | `204 No Content` |
+| Chat | POST | `/chat/conversations/{id}/messages` | Envía mensaje y recibe respuesta de IA (Gemini). | `201 Created` — AI response message |
+| Chat | GET | `/chat/conversations/{id}/messages` | Obtiene historial de mensajes de una conversación. | `200 OK` — Array of messages |
+
+**Bounded Context: AiFeedback**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| AiFeedback | POST | `/api/v1/ai-feedback` | Envía valoración (1-5 estrellas) sobre retroalimentación de IA. | `201 Created` — Feedback record |
+| AiFeedback | GET | `/api/v1/ai-feedback` | Lista valoraciones de IA del usuario. | `200 OK` — Array of feedback |
+| AiFeedback | GET | `/api/v1/ai-feedback/summary` | Distribución estadística de valoraciones. | `200 OK` — Summary statistics |
+
+**Bounded Context: Notifications**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Notifications | GET | `/notifications` | Lista las últimas 50 notificaciones del usuario. | `200 OK` — Array of notifications |
+| Notifications | PATCH | `/notifications/{id}/read` | Marca una notificación como leída. | `200 OK` — Updated notification |
+| Notifications | POST | `/notifications/register-device` | Registra dispositivo para notificaciones push (FCM). | `201 Created` |
+| Notifications | DELETE | `/notifications/unregister-device` | Desregistra dispositivo de notificaciones push. | `204 No Content` |
+
+**Bounded Context: Subscriptions (Stripe)**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Subscriptions | POST | `/api/v1/subscriptions/checkout` | Inicia sesión de checkout con Stripe. | `200 OK` — Stripe session URL |
+| Subscriptions | GET | `/api/v1/subscriptions/me` | Obtiene estado de suscripción actual del usuario. | `200 OK` — Subscription status |
+| Subscriptions | POST | `/api/v1/subscriptions/verify-session` | Verifica sesión de pago completada. | `200 OK` — Verification result |
+| Subscriptions | POST | `/api/v1/subscriptions/cancel` | Cancela suscripción premium activa. | `200 OK` — Cancellation confirmation |
+| Subscriptions | POST | `/api/v1/subscriptions/webhook` | Recibe eventos de Stripe (webhook). | `200 OK` — Event processed |
+
+**Bounded Context: Reporting (Premium)**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Reporting | GET | `/api/v1/reporting/export/pdf` | Exporta historial del usuario en formato PDF (QuestPDF). | `200 OK` — PDF file download |
+| Reporting | GET | `/api/v1/reporting/export/csv` | Exporta historial del usuario en formato CSV. | `200 OK` — CSV file download |
+
+**Bounded Context: Support**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Support | POST | `/api/v1/support/tickets` | Crea ticket de soporte con confirmación por email. | `201 Created` — Ticket object |
+| Support | GET | `/api/v1/support/tickets` | Lista tickets de soporte del usuario. | `200 OK` — Array of tickets |
+
+**Bounded Context: Wellness Engine**
+
+| Service Module | HTTP Method | Endpoint Path | Action Implemented | Response Summary |
+|---|---|---|---|---|
+| Wellness | POST | `/wellness/stress-check` | Analiza estrés y ajusta carga de hábitos automáticamente. | `200 OK` — Stress analysis result |
+
+ **Resumen:** El sistema opera con un total de **68 endpoints** distribuidos en **12 bounded contexts**, todos documentados mediante OpenAPI 3.0 (Swagger) y accesibles en el entorno de producción con autenticación JWT. Durante el Sprint 4, se confirmó la estabilidad de todos los servicios mediante pruebas de validación con usuarios reales.
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 4 con el objetivo de habilitar un sistema de almacenamiento en memoria para el backend, se configuró una instancia de Redis utilizando Railway.
+
+##### Creación de la base de datos Redis
+
+Se accedió a Railway y se creó un nuevo servicio de tipo Redis, el cual será utilizado por la aplicación como servidor de caché y almacenamiento temporal de datos.
+
+<img src="../assets/sprint4Deployment01.jpg" alt="sprint4Deployment01 - Creación de la base de datos Redis" height="500" width="1000">
+
+##### Despliegue de la instancia
+
+Una vez creada la base de datos, Railway realizó el primer despliegue (deployment) del servicio. Al finalizar el proceso, la instancia quedó en estado Online/Active, indicando que Redis estaba listo para recibir conexiones.
+
+<img src="../assets/sprint4Deployment02.jpg" alt="sprint4Deployment02 - Despliegue de la instancia" height="500" width="1000">
+
+##### Obtención de la cadena de conexión
+
+Con el servicio ya desplegado, se abrió la opción Connect y se copió la Connection URL proporcionada por Railway. Esta URL contiene la información necesaria para que otras aplicaciones puedan conectarse al servidor Redis.
+
+<img src="../assets/sprint4Deployment03.jpg" alt="sprint4Deployment03 - Obtención de la cadena de conexión" height="500" width="1000">
+
+##### Configuración del backend
+
+Finalmente, la cadena de conexión se agregó como una variable de entorno del backend (ConnectionStrings__Redis). De esta manera, la aplicación puede conectarse a Redis sin almacenar información sensible directamente en el código fuente, facilitando además la configuración entre distintos entornos de ejecución.
+
+<img src="../assets/sprint4Deployment04.jpg" alt="sprint4Deployment04 - Configuración del backend" height="500" width="1000">
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+### Desarrollo del Backend
+
+#### TB2
+<img src="../assets/insight_backend_sprint_4.png" height="500" width="1000">
+
+### Desarrollo del Frontend
+
+#### TB2
+<img src="../assets/insight_frontend_sprint_4.png" height="500" width="1000">
+
+### Desarrollo del Landing Page
+
+#### TB2
+<img src="../assets/insight_landing_sprint_4.png" height="500" width="1000">
+
+---
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
 
@@ -835,7 +1148,7 @@ A continuación se presentan las preguntas diseñadas para cada segmento objetiv
 | Entrevistado | Ingrid Ledka |
 | Edad | 18 |
 | Distrito | San Isidro |
-| Link del Video | https://youtu.be/P6N2skZq-bw |
+| Link del Video | [https://youtu.be/P6N2skZq-bw](https://youtu.be/P6N2skZq-bw) |
 | Minuto de Inicio | 0:00 |
 | Duración | 03:20 |
 | Resumen | La entrevistada comprendió rápidamente la propuesta de valor de MindFlow y se identificó con la problemática del estrés académico. Destacó las intervenciones rápidas y las analíticas por ser herramientas útiles para actuar en momentos de estrés. Consideró que la aplicación es organizada y fácil de utilizar. Como mejora, sugirió que la IA pueda actuar en tiempo real y proporcionar recomendaciones automáticas según el estado emocional detectado. Calificó la plataforma con 8/10 y afirmó que la utilizaría. |
@@ -850,7 +1163,7 @@ A continuación se presentan las preguntas diseñadas para cada segmento objetiv
 | Entrevistado | Jiss Zerpa |
 | Edad | 18 |
 | Distrito | La Molina |
-| Link del Video | https://youtu.be/cvWedCwngBc |
+| Link del Video | [https://youtu.be/cvWedCwngBc](https://youtu.be/cvWedCwngBc) |
 | Minuto de Inicio | 0:00 |
 | Duración | 03:15 |
 | Resumen | La participante percibió a MindFlow como una plataforma orientada al bienestar emocional y al manejo del estrés. Consideró que las funcionalidades son fáciles de comprender y destacó la simplicidad de la interfaz. Valoró especialmente la posibilidad de registrar emociones y hábitos sin dedicar demasiado tiempo. Como mejora, sugirió incorporar notificaciones y recomendaciones automáticas para brindar apoyo en momentos de estrés. Indicó que utilizaría la aplicación y le otorgó una calificación de 8/10. |
@@ -865,7 +1178,7 @@ A continuación se presentan las preguntas diseñadas para cada segmento objetiv
 | Entrevistado | Lucero |
 | Edad | 19 |
 | Distrito | La Molina |
-| Link del Video | https://youtu.be/qgEe9cTHaUo |
+| Link del Video | [https://youtu.be/qgEe9cTHaUo](https://youtu.be/qgEe9cTHaUo) |
 | Minuto de Inicio | 0:00 |
 | Duración | 04:22 |
 | Resumen | La entrevistada comprendió claramente el propósito de MindFlow y destacó el uso de inteligencia artificial para detectar patrones emocionales. Mostró especial interés por el diario emocional y las analíticas, considerándolas el principal valor diferencial de la plataforma. Valoró la organización del Dashboard y las opciones relacionadas con la privacidad. Como mejora, sugirió incorporar análisis emocionales más profundos y recomendaciones personalizadas. Manifestó que utilizaría la plataforma y la calificó con 9/10. |
@@ -884,7 +1197,7 @@ A continuación se presentan las preguntas diseñadas para cada segmento objetiv
 | Entrevistado | Ghorghet Baltazar |
 | Edad | 26 |
 | Distrito | San Isidro |
-| Link del Video | https://youtu.be/wJwLmqzYwRE |
+| Link del Video | [https://youtu.be/wJwLmqzYwRE](https://youtu.be/wJwLmqzYwRE) |
 | Minuto de Inicio | 0:00 |
 | Duración | 03:47 |
 | Resumen | El entrevistado percibió a MindFlow como una plataforma profesional y bien estructurada para gestionar el estrés y los patrones emocionales. Valoró la simplicidad del proceso de registro y el uso de IA para identificar patrones y sugerir intervenciones. Destacó las intervenciones rápidas, el seguimiento de hábitos y las analíticas por ser herramientas prácticas para personas con poco tiempo disponible. Como mejora, sugirió incorporar recordatorios automáticos y recomendaciones basadas en los niveles de estrés. Indicó que utilizaría la plataforma y la calificó con 8/10. |
@@ -899,7 +1212,7 @@ A continuación se presentan las preguntas diseñadas para cada segmento objetiv
 | Entrevistado | Óscar Benavides |
 | Edad | 29 |
 | Distrito | Chorrillos |
-| Link del Video | https://youtu.be/G2XpKu1Ngxo |
+| Link del Video | [https://youtu.be/G2XpKu1Ngxo](https://youtu.be/G2XpKu1Ngxo) |
 | Minuto de Inicio | 0:00 |
 | Duración | 03:53 |
 | Resumen | El entrevistado destacó la apariencia moderna y organizada de MindFlow y valoró el uso de inteligencia artificial para personalizar la experiencia. Se identificó con el problema de las aplicaciones genéricas que suelen abandonarse por no adaptarse al usuario. Las secciones que más le gustaron fueron Hábitos y Analíticas, debido a su capacidad para mostrar patrones y ofrecer sugerencias. Como mejora, propuso que la IA aprenda continuamente sobre el usuario y adapte automáticamente las recomendaciones. Manifestó que utilizaría la plataforma y la calificó con 9/10. |
@@ -914,7 +1227,7 @@ A continuación se presentan las preguntas diseñadas para cada segmento objetiv
 | Entrevistado | Nordie Sanabria |
 | Edad | 29 |
 | Distrito | Santiago de Surco |
-| Link del Video | https://youtu.be/IBEQl7y2CZI |
+| Link del Video | [https://youtu.be/IBEQl7y2CZI](https://youtu.be/IBEQl7y2CZI) |
 | Minuto de Inicio | 0:00 |
 | Duración | 02:46 |
 | Resumen | La entrevistada percibió a MindFlow como una solución clara y fácil de utilizar para gestionar el estrés diario. Se identificó con la problemática del estrés acumulado y valoró especialmente las intervenciones rápidas por su practicidad. Consideró que las estadísticas y observaciones generadas por IA permiten comprender mejor los patrones emocionales. Como oportunidad de mejora, sugirió incrementar la automatización y mostrar recomendaciones inteligentes de manera proactiva. Indicó que utilizaría la plataforma, la recomendaría y la calificó con 8/10. |
@@ -965,8 +1278,10 @@ En el siguiente video se presenta MindFlow, mostrando sus principales funcionali
 
 Enlace del video: [Video About-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410024_upc_edu_pe/IQDdrr7-KsmrQqZ_ZnkHzqBHAUUWfVG9GJ6bYtl6tE4jubA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=haOTfJ)
 
+![AboutTheProduct](../assets/abouttheproduct.png)
+
 ---
-# Conclusiones
+# Conclusiones 
 
 ## Conclusiones y recomendaciones
 
@@ -978,59 +1293,81 @@ El proyecto también demostró la importancia de aplicar metodologías centradas
 
 Finalmente, el desarrollo de MindFlow evidenció la relevancia del trabajo colaborativo y la organización dentro del equipo, permitiendo distribuir responsabilidades de manera eficiente y alcanzar los objetivos planteados en cada etapa del proyecto. La integración de conocimientos técnicos, de diseño y de investigación facilitó la construcción de una solución sólida, escalable y orientada a mejorar la experiencia y el bienestar emocional de los usuarios.
 
-### Conclusiones del Sprint 3
+### Conclusiones del Proyecto
 
-**Backend completo con arquitectura DDD:** La implementación del backend con .NET 10 y 11 bounded contexts bajo Domain-Driven Design permitió construir una API RESTful robusta, modular y escalable. La separación en capas (dominio, aplicación, infraestructura e interfaces) facilitó el desarrollo paralelo y aseguró la independencia entre contextos como IAM, Journal, Habits, Chat, Analytics, Notifications, Subscriptions, Support, AiFeedback, Wellness y Reporting.
+**Landing Page como validación temprana de la propuesta de valor:** El despliegue del Landing Page en GitHub Pages durante el Sprint 1 permitió comunicar la propuesta de valor de MindFlow a estudiantes universitarios y profesionales jóvenes desde una etapa temprana del proyecto, sentando las bases para las secciones de problemática, funcionalidades y llamados a la acción que luego guiaron el diseño de la aplicación web.
 
-**Integración real de Inteligencia Artificial:** La transición de datos simulados a inteligencia artificial funcional con Google Gemini representó un avance significativo. El backend ahora genera retroalimentación empática para el diario emocional, sugerencias de hábitos personalizadas, análisis de sentimiento automático, conversaciones de chat en tiempo real e insights analíticos en formato bilingüe (EN/ES). Esto valida la hipótesis central de MindFlow: que la IA puede ofrecer acompañamiento emocional personalizado y no genérico.
+**Frontend modular y experiencia de usuario coherente:** El desarrollo del Frontend con Vue.js, organizado en módulos de Dashboard, Journal, Habits, Analytics, Chat, Settings y Subscriptions, permitió construir una interfaz reactiva, responsiva y con soporte multilenguaje (EN/ES) y modo oscuro. La aplicación de metodologías centradas en el usuario en etapas previas (Lean UX, User Personas, Empathy Mapping, EventStorming) se tradujo directamente en una navegación intuitiva, validada posteriormente por los propios usuarios.
 
-**Sistema de autenticación y seguridad:** La implementación del bounded context IAM con JWT, Google OAuth, recuperación de contraseña vía SMTP, PIN de seguridad y cifrado AES-256 para las entradas del diario demuestra un compromiso con la protección de datos sensibles. Esto responde directamente a la naturaleza confidencial de la información emocional gestionada por la plataforma.
+**Backend robusto con arquitectura DDD e Inteligencia Artificial real:** La implementación del backend con .NET y 11 bounded contexts bajo Domain-Driven Design (IAM, Journal, Habits, Chat, Analytics, Notifications, Subscriptions, Support, AiFeedback, Wellness y Reporting) permitió construir una API RESTful robusta, modular y escalable, con un total de 68 endpoints documentados mediante OpenAPI 3.0. Sobre esta base, la transición de datos simulados a inteligencia artificial funcional con Google Gemini permitió ofrecer retroalimentación empática, sugerencias de hábitos personalizadas, análisis de sentimiento automático y conversaciones de chat en tiempo real, validando la hipótesis central del proyecto: que la IA puede ofrecer acompañamiento emocional personalizado y no genérico.
 
-**Integración frontend-backend completa:** La conexión total entre el frontend en Vue.js y el backend en .NET 10 eliminó la dependencia de APIs simuladas del Sprint 2. Todos los módulos (Dashboard, Journal, Habits, Analytics, Chat, Settings, Subscriptions) operan ahora con persistencia real en MySQL y almacenamiento multimedia en Cloudinary.
+**Seguridad, observabilidad y resiliencia consolidadas:** A lo largo del proyecto se fortaleció progresivamente la protección de datos sensibles mediante JWT, Google OAuth, PIN de seguridad y cifrado AES-256 para las entradas del diario, corrigiendo además hallazgos de seguridad como fugas de datos entre usuarios y aplicando el hasheo de tokens de recuperación. En las etapas finales se incorporaron logging estructurado con Serilog y correlation ID, una capa de caché distribuida con Redis, un índice de búsqueda sobre contenido cifrado y un esquema de sincronización offline, dotando a la plataforma de la trazabilidad, el rendimiento y la tolerancia a fallos necesarios para operar de forma estable en producción.
 
-**Validación con usuarios satisfactoria:** Las entrevistas de validación con 6 usuarios de ambos segmentos objetivo arrojaron calificaciones entre 8 y 9 sobre 10. La evaluación según heurísticas de Nielsen confirmó que la plataforma no presenta problemas de severidad alta o catastrófica. Los entrevistados valoraron la simplicidad, organización y utilidad de las funcionalidades, validando las decisiones de diseño tomadas en sprints anteriores.
+**Integración total y despliegue en producción:** La conexión completa entre el Frontend en Vue.js y el Backend en .NET eliminó la dependencia de APIs simuladas, mientras que la configuración de un pipeline CI/CD con GitHub Actions y el despliegue final de los tres componentes del sistema (Landing Page en GitHub Pages, Frontend en Vercel y Web Services en Render con MySQL persistente) garantizan la disponibilidad continua de MindFlow como un producto real y operativo.
 
-**Calidad y despliegue continuo:** La creación de 38 pruebas unitarias y la configuración de un pipeline CI/CD con GitHub Actions aseguran la estabilidad del código ante futuros cambios. El despliegue en Render con base de datos MySQL persistente garantiza la disponibilidad continua del backend en producción.
+**Validación con usuarios satisfactoria:** Las entrevistas de validación realizadas con 6 usuarios de ambos segmentos objetivo arrojaron calificaciones entre 8 y 9 sobre 10. La evaluación según heurísticas de Nielsen confirmó que la plataforma no presenta problemas de severidad 3 (mayor) ni 4 (crítica): 5 de las 10 heurísticas no reportaron hallazgos, y las restantes solo presentaron observaciones menores, referidas principalmente a notificaciones proactivas y mayor automatización. Esto valida, con usuarios reales, las decisiones de investigación, diseño y desarrollo tomadas a lo largo de todo el proyecto.
+
+**Trabajo colaborativo y gestión ágil del equipo:** El uso sostenido de Trello, GitFlow, Conventional Commits y las matrices de liderazgo y colaboración (LACX) a lo largo de los cuatro sprints permitió distribuir responsabilidades de manera eficiente, mantener un historial de desarrollo trazable y alcanzar los objetivos planteados en cada etapa, culminando con la entrega completa de todos los entregables comprometidos (informe final, video About-the-Product y entrevistas de validación).
 
 ### Recomendaciones
 
-Como recomendación, se plantea priorizar la implementación de notificaciones proactivas y recomendaciones automáticas basadas en el estado emocional del usuario, ya que esta fue la mejora más solicitada por los entrevistados de ambos segmentos. Además, se recomienda incrementar la automatización en el módulo de hábitos para reducir la fricción de uso diario.
+Como recomendación principal, se plantea priorizar la implementación de notificaciones proactivas y recomendaciones automáticas basadas en el estado emocional del usuario, ya que esta fue la mejora más solicitada por los entrevistados de ambos segmentos y quedó fuera del alcance técnico cubierto en los sprints desarrollados. Además, se recomienda incrementar la automatización en el módulo de hábitos para reducir la fricción de uso diario.
 
-Se sugiere ampliar la cobertura de pruebas automatizadas, incorporando pruebas de integración que validen los flujos de extremo a extremo entre el frontend y el backend. También sería importante realizar pruebas de rendimiento bajo carga para asegurar la escalabilidad de los servicios de IA y analíticas.
+Se sugiere ampliar la cobertura de pruebas automatizadas, incorporando pruebas de integración que validen los flujos de extremo a extremo entre el Frontend y el Backend, así como pruebas de rendimiento y carga sobre la caché Redis y el índice de búsqueda del diario para confirmar su comportamiento bajo un volumen mayor de usuarios concurrentes.
 
-Finalmente, se recomienda realizar validaciones con una mayor cantidad de usuarios y distintos perfiles demográficos para obtener retroalimentación más amplia, así como incorporar métricas de seguimiento que permitan evaluar el impacto real de la plataforma en la reducción del estrés y la mejora de hábitos de bienestar.
+También se recomienda realizar validaciones con una mayor cantidad de usuarios y distintos perfiles demográficos más allá de los 6 entrevistados de este ciclo, así como incorporar métricas de seguimiento en producción (adopción del módulo de bienestar, tasa de uso de la sincronización offline, latencia de los endpoints cacheados) que permitan evaluar el impacto real de la plataforma en la reducción del estrés y la mejora de hábitos de bienestar.
+
+Finalmente, de cara a una eventual continuidad del proyecto más allá del ciclo académico, se recomienda evaluar la incorporación de un modelo de monetización sostenible acorde a los planes de suscripción ya diseñados, así como planificar la escalabilidad de la infraestructura (base de datos, caché y servicios de IA) en función del crecimiento real de la base de usuarios.
+
+## Video About-the-Team.
+
+En el siguiente video el equipo de MindFlow se presenta, compartiendo los roles asumidos durante el proyecto y la experiencia de trabajo colaborativo a lo largo de los distintos sprints.
+
+Enlace del video: [Video About-the-Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQAWQS_Tya2cR5pOk1QKDYsUAZHtN10IhjxQ17Wz0YLpHF4?e=oaiwPa)
+
+![AboutTheTeam](../assets/abouttheteam.png)
 
 ---
 
 # Bibliografía
 
-- ASP.NET Core Team. (s.f.). *Engineering guidelines: Coding guidelines*. GitHub. https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#coding-guidelines
+- ASP.NET Core Team. (s.f.). *Engineering guidelines: Coding guidelines*. GitHub. [https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#coding-guidelines](https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#coding-guidelines)
 
-- Driessen, V. (2010, 5 de enero). *A successful Git branching model*. nvie.com. https://nvie.com/posts/a-successful-git-branching-model/
+- Driessen, V. (2010, 5 de enero). *A successful Git branching model*. nvie.com. [https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/)
 
-- Microsoft. (s.f.). *C# coding conventions*. Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
+- Microsoft. (s.f.). *C# coding conventions*. Microsoft Learn. [https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
 
-- Nielsen Norman Group. (s.f.). *Front-end style guides*. https://www.nngroup.com/articles/front-end-style-guides/
+- Nielsen Norman Group. (s.f.). *Front-end style guides*. [https://www.nngroup.com/articles/front-end-style-guides/](https://www.nngroup.com/articles/front-end-style-guides/)
 
-- Open Practice Library. (s.f.). *Domain-Driven Design*. https://openpracticelibrary.com/blog/domain-driven-design/
+- Open Practice Library. (s.f.). *Domain-Driven Design*. [https://openpracticelibrary.com/blog/domain-driven-design/](https://openpracticelibrary.com/blog/domain-driven-design/)
 
-- Vue.js. (s.f.). *Style guide*. https://v2.vuejs.org/v2/style-guide/?redirect=true
+- Vue.js. (s.f.). *Style guide*. [https://v2.vuejs.org/v2/style-guide/?redirect=true](https://v2.vuejs.org/v2/style-guide/?redirect=true)
 
 ---
 
 # Anexos
 Recopilación de entrevistas
-- Entrevista 1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQC6LCtoZRnfR4iKU3dIHCeYATI4FuIHWP1zmVrAm3H4_R8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jFGNLe
-- Entrevista 2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQAp-_6iUOSJS4FRQuTW-F-9AdcZK5XV42aVZmzgo0PuIAw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HwtMj
-- Entrevista 3: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQDiIjKmBwlYSY162dNCHfq1AcmQjaPB0B48xM6UgMCISww?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ciHjIU
-- Entrevista 4: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQBLlsZ3G-OZSLcOUS5eF6rQARMpWE6b_f3IIphyY7o3vlI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=p0isA8
-- Entrevista 5: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQAXQKz8cFuBRYmMRiluA61vAYFJfoUS8D6IibXF6VSNjnE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qxkwbB
-- Entrevista 6: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQAu709K0qBWQZsvqeI53bCHAdB9HmsozDqHD-ua8jw6HjU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rM0yrn
+- Entrevista 1: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQC6LCtoZRnfR4iKU3dIHCeYATI4FuIHWP1zmVrAm3H4_R8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jFGNLe)
+- Entrevista 2: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQAp-_6iUOSJS4FRQuTW-F-9AdcZK5XV42aVZmzgo0PuIAw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HwtMj)
+- Entrevista 3: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQDiIjKmBwlYSY162dNCHfq1AcmQjaPB0B48xM6UgMCISww?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ciHjIU)
+- Entrevista 4: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQBLlsZ3G-OZSLcOUS5eF6rQARMpWE6b_f3IIphyY7o3vlI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=p0isA8)
+- Entrevista 5: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQAXQKz8cFuBRYmMRiluA61vAYFJfoUS8D6IibXF6VSNjnE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qxkwbB)
+- Entrevista 6: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQAu709K0qBWQZsvqeI53bCHAdB9HmsozDqHD-ua8jw6HjU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rM0yrn)
 ## Videos de Exposiciones
 
 | Entrega | Título         | Enlace                                                                                 |
 |---------|----------------|----------------------------------------------------------------------------------------|
-| AV1 | Exposición AV1 | https://drive.google.com/drive/folders/1zaVJczj7mF71U5WlXfVcNgUmt_EtWrW-?usp=drive_link |
-| TB1 | Exposición TB1 | https://drive.google.com/drive/folders/1RxrPr6JgksZUIHGFvMvERentxTJFXQix?usp=drive_link |
-| AV2 | Exposición AV2 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQB3hAEtAofjTaF-dtkRS_51AfvZkyMFLgfgQ5_oox_s9UE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=quUHNY    |
-| TB2 | Exposición TB2 | |
+| AV1 | Exposición AV1 | [Ver exposición](https://drive.google.com/drive/folders/1zaVJczj7mF71U5WlXfVcNgUmt_EtWrW-?usp=drive_link) |
+| TB1 | Exposición TB1 | [Ver exposición](https://drive.google.com/drive/folders/1RxrPr6JgksZUIHGFvMvERentxTJFXQix?usp=drive_link) |
+| AV2 | Exposición AV2 | [Ver exposición](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQB3hAEtAofjTaF-dtkRS_51AfvZkyMFLgfgQ5_oox_s9UE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=quUHNY) |
+| TB2 | Exposición TB2 | [Ver exposición](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410421_upc_edu_pe/IQDdaadrgzkqSZTydxjfJiQZAThKxJHhHiBZLHXkb3wYBGk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qLQyTL) |
+
+## URLs Desplegadas del Proyecto
+
+A continuación, se detallan las url desplegadas del proyecto:
+
+| Producto | URL Desplegada |
+| :--- | :--- |
+| **Landing Page** | [https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/](https://1asi0730-2610-20177-cognitech-mindflow.github.io/MindFlow-Landing-Page/) |
+| **Frontend Web Application** | [https://mindflow-frontend-cognitech-mindflow.vercel.app/](https://mindflow-frontend-cognitech-mindflow.vercel.app/) |
+| **Web Services (Backend API)** | [https://mindflow-backend-mlbg.onrender.com](https://mindflow-backend-mlbg.onrender.com) |
