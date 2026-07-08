@@ -1281,7 +1281,7 @@ Enlace del video: [Video About-the-Product](https://upcedupe-my.sharepoint.com/:
 ![AboutTheProduct](../assets/abouttheproduct.png)
 
 ---
-# Conclusiones 
+# Conclusiones
 
 ## Conclusiones y recomendaciones
 
